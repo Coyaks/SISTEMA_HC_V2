@@ -2,8 +2,8 @@
 @import 'style-input-google.css';
 
 :root {
-    --first-color: #1A73E8;
-    --input-color: #80868B;
+    --color-primary: #1A73E8;
+    --color-secundary: #80868B;
     --border-color: rgba(0, 0, 0, 0.3);
     /* input size */
     --normal-font-size: 1rem;
@@ -20,18 +20,14 @@
     color: #ffff00 !important;
 }
 
-/* //input style */
-.modal .form-control {
-    border-color: #e3e3e3;
-    border-radius: 0;
-    box-shadow: none;
-    font-size: 15px;
-    background-color: #fff;
-    color: #333 !important;
+.solicitud-card .titulos{
+    background-color: #1a125d !important;
+    color: #ffff;
+    padding: 5px;
 }
 
 input,
-select,
+select,textarea
 .input-group-prepend {
     border: 1px solid rgba(0, 0, 0, .3) !important;
 }
@@ -41,6 +37,15 @@ body {
     font-size: var(--normal-font-size);
 }
 
+.title-style {
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: var(--color-primary);
+    text-transform: uppercase;
+}
+.bold{
+    font-weight: bold;
+}
 /* texto validacion size */
 form .row span {
     font-size: 14px;
@@ -85,7 +90,15 @@ table thead {
     top: -14px;
     right: -14px;
 }
+.border-fielset{
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #ccc;
+}
 
+.pointer{
+    cursor: pointer;
+}
 
 /* BTN TOOGLE  */
 .toggle-flip input[type="checkbox"] {

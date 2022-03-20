@@ -7,7 +7,7 @@ class Usuario extends Model{
 
     protected $table='usuarios';
     // protected $primaryKey='id';
-    protected $allowedFields=['nombre','apellidos','email','password','idRol','estado','created_at','updated_at'];
+    protected $allowedFields=['nombre','apellidos','email','password','idRol','idArea','estado','created_at','updated_at'];
 
     public function tablaDB(){
         $builder=$this->db->table($this->table);
@@ -31,7 +31,7 @@ class Usuario extends Model{
 
 	public function fetchRoles(){
 		//$data=$this->db->table($this->table);
-		$sql=$this->db->query("SELECT id,nombre FROM roles");
+		$sql=$this->db->query("SELECT id,nombre,estado FROM roles");
 		return $sql->getResult();
 	}
 	public function fetchAreas(){

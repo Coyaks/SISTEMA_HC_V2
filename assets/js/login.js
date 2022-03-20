@@ -12,8 +12,20 @@ $(document).ready(function () {
             //dataType: "JSON",
             success: function (r) {
                 hideLoading()
-                if(r=='ok'){
+                if(r=='admin'){
                     window.location.href='dashboard'
+                }else if(r=='paciente'){
+                    window.location.href='paciente'
+                }else if(r=='mesa'){
+                    window.location.href='mesapartes'
+                }else if(r=='fedateo'){
+                    window.location.href='fedateo'
+                }else if(r=='admision'){
+                    window.location.href='admision'
+                }else if(r=='enfermeria'){
+                    window.location.href='enfermeria'
+                }else if(r=='medico'){
+                    window.location.href='medico'
                 }else{
                     Alert.error(r)
                 }
@@ -34,6 +46,9 @@ $(document).ready(function () {
         $('#formRegister').trigger('reset');
     }
 
+    // REGISTRO DE USUARIO
+    // REGISTRO DE USUARIO
+    // REGISTRO DE USUARIO
     $('#formRegister').submit(function (e) { 
         e.preventDefault();
         let dataForm=$(this).serialize();
@@ -57,4 +72,43 @@ $(document).ready(function () {
             }
         });
     });
+
+     //return array
+    function buscarDNI(){
+        $('.btnBuscarDni').click(function (e) { 
+            e.preventDefault();
+            let num_doc=$('#num_doc').val();
+            api_dni(num_doc)
+        });
+    }
+    buscarDNI()
+
+    $('.btnVerificarHc').click(function (e) { 
+        e.preventDefault();
+        let num_hc=$('#num_hc').val();
+        $.ajax({
+            type: 'POST',
+            url: 'LoginController/verificarNunHc',
+            //data: $(this).serialize(),
+            data: {
+                num_hc:num_hc
+            },
+            dataType: 'JSON',
+            success: function (r) {
+                // console.log("aaaasss: ",r)
+                // return false;
+                if(r!=''){//existe
+                    $('#nombre').val(r[0].nombres_comp);
+                    $('#apellidos').val(r[0].apellidos_comp);
+                    $('#num_doc').val(r[0].num_doc);
+                    $('#tipo_doc').val(r[0].tipo_doc);
+                    $('.btnRegister').removeAttr('disabled');
+                }else{
+                    alert("Codigo no válido")
+                }
+            }
+        });
+    });
+
+
 });

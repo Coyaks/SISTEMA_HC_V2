@@ -6,6 +6,11 @@ use App\Models\Login;
 
 class LoginController extends BaseController
 {
+    public function __construct()
+    {
+        $this->db = \Config\Database::connect();
+    }
+
     public function index()
     {
         return view('login/login');
@@ -38,12 +43,29 @@ class LoginController extends BaseController
                     'nombreApellidos' => $resultadoUsuario[0]['nombre'] . ' ' . $resultadoUsuario[0]['apellidos'],
                     'email' => $resultadoUsuario[0]['email'],
                     'idRol' => $resultadoUsuario[0]['idRol'],
+                    'idArea' => $resultadoUsuario[0]['idArea'],
                     'logeado'  => true
                 ];
                 // $session = session();
                 // $session->set($dataSession);
                 session()->set($dataSession);
-                $msg_salida = 'ok';
+                //$msg_salida = 'ok';
+                if($resultadoUsuario[0]['idRol']==1){//admin
+                    $msg_salida = 'admin';
+                }else if($resultadoUsuario[0]['idRol']==8){
+                    $msg_salida = 'paciente';
+                }else if($resultadoUsuario[0]['idRol']==7){
+                    $msg_salida = 'mesa';
+                }else if($resultadoUsuario[0]['idRol']==4){
+                    $msg_salida = 'fedateo';
+                }else if($resultadoUsuario[0]['idRol']==2){
+                    $msg_salida = 'admision';
+                }else if($resultadoUsuario[0]['idRol']==6){
+                    $msg_salida = 'enfermeria';
+                }else if($resultadoUsuario[0]['idRol']==5){
+                    $msg_salida = 'medico';
+                }
+
             } else {
                 $msg_salida = 'Password incorrecto!';
             }
@@ -59,12 +81,28 @@ class LoginController extends BaseController
             'nombre'      =>  $this->request->getVar('nombre'),
             'apellidos'      =>  $this->request->getVar('apellidos'),
             'email'       =>  $this->request->getVar('email'),
-            'password'    =>  $this->request->getVar('password')
+            'password'    =>  $this->request->getVar('password'),
+            'password'    =>  $this->request->getVar('password'),
+            'tipo_doc'    =>  $this->request->getVar('tipo_doc'),
+            'num_doc'    =>  $this->request->getVar('num_doc'),
+            //perfil como paciente
+            'idRol'    =>  8,
+            'estado'    =>  1
         ]);
         //$message = 'Registrado Correctamente!';
         $message = '<div class="alert alert-success" role="alert">
                     Registrado Correctamente!
                     </div>';
+
+        $datosUser=$this->db->table('usuarios')->select('id,num_doc')->orderBy('id','DESC')->limit(1)->get()->getResultArray();
+        $idUser=$datosUser[0]['id'];
+        $dniUser=$datosUser[0]['num_doc'];
+
+        //update tabla HC
+        //$updateIdPaciente=$this->db->table('historia_clinica')->where('num_doc',$dniUser)->update('idUsuario',$idUser);
+        $updateIdPaciente=$this->db->table('historia_clinica')->where('num_doc',$dniUser)->update([
+            'idUsuario'=>$idUser
+        ]);
 
         $output=[
             'rta'=>'ok',
@@ -79,5 +117,19 @@ class LoginController extends BaseController
         $session = session();
         $session->destroy();
         return redirect()->to(base_url('/'));
+    }
+
+    public function verificarNunHc()
+    {
+        $num_hc = $this->request->getPost('num_hc');
+        $qb = $this->db->table('historia_clinica')->where('num',$num_hc)->get()->getResultArray();
+        $rta='';
+        if(!empty($qb)){//existe
+            $rta="ok";
+            echo json_encode($qb);
+        }else{
+            echo json_encode('');
+        }
+        
     }
 }

@@ -4,9 +4,10 @@ namespace App\Controllers;
 
 use App\Models\Usuario;
 
-use monken\TablesIgniter;
-
 class UsuarioController extends BaseController{
+    public function __construct(){
+        $this->db= \Config\Database::connect();
+    }
 
     public function index(){
         $arrayRoles=$this->fetchRoles();
@@ -14,16 +15,41 @@ class UsuarioController extends BaseController{
     }
 
     function fetch_all(){
-        $crudModel = new Usuario();
+        // Mi primer query builder  JOIN:)
+        $qb=$this->db->table('usuarios u');
+        $qb->select('u.id, u.nombre, u.apellidos, u.email, u.password, r.nombre as idRol, u.estado');
+        $qb->join('roles r','u.idRol = r.id');
+        $data=$qb->get()->getResultArray();
+        $output=array();
+        foreach($data as $row){
+            
+            $estado='';
+            if($row['estado']==1){//activo
+                $estado='<span class="badge badge-success">Activo</span>';
+            }else{
+                $estado='<span class="badge badge-danger">Inactivo</span>';
+            }
 
-        $data_table = new TablesIgniter();
+            $options='<div class="text-center">
+            <button type="button" name="edit" class="btn btn-warning btn-sm edit" data-id="'.$row['id'].'" title="Editar"><i class="fas fa-edit"></i></button>
 
-        $data_table->setTable($crudModel->tablaDB())
-            ->setDefaultOrder("id", "DESC") //Order by DESC
-            ->setSearch(["nombre","apellidos", "email", "password"])
-            ->setOrder(["id", "nombre","apellidos","email", "password"])
-            ->setOutput(["id", "nombre","apellidos", "email", "password", $crudModel->acciones()]);
-        return $data_table->getDatatable();
+            <button type="button" class="btn btn-danger btn-sm delete" data-id="'.$row['id'].'" title="Eliminar"><i class="fas fa-trash-alt"></i></button>
+            </div>';
+
+            $sub_array=[
+                'id'=>$row['id'],
+                'nombre'=>$row['nombre'],
+                'apellidos'=>$row['apellidos'],
+                'email'=>$row['email'],
+                'idRol'=>$row['idRol'],
+                'estado'=>$estado,
+                'options'=>$options
+            ];
+
+            $output[]=$sub_array;
+        }
+
+        echo json_encode($output, JSON_UNESCAPED_UNICODE);
     }
 
     function action(){
@@ -84,6 +110,7 @@ class UsuarioController extends BaseController{
                         'email'       =>  $this->request->getVar('email'),
                         'password'    =>  $this->request->getVar('password'),
                         'idRol'    =>  $this->request->getVar('rol'),
+                        'idArea'    =>  $this->request->getVar('area'),
                         'estado'    =>  $this->request->getVar('estado'),
                     ]);
                     $message = 'Guardado Correctamente!';

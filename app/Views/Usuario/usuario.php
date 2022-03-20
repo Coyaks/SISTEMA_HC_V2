@@ -35,7 +35,8 @@ Usuarios
                         <th>Nombre</th>
                         <th>Apellidos</th>
                         <th>Email</th>
-                        <th>Password</th>
+                        <th>Puesto</th>
+                        <th>Estado</th>
                         <th>Acciones</th>
                     </tr>
                 </thead>
@@ -87,12 +88,11 @@ Usuarios
                         <div class="col-lg-6">
                             <div class="form-group">
                                 <label for="">Password <span class="text-danger">*</span></label>
-                                <input type="text" class="form-control" name="password" id="password" placeholder="">
+                                <input type="password" class="form-control" name="password" id="password" placeholder="">
                                 <span id="password_error" class="text-danger"></span>
                             </div>
                         </div>
                     </div>
-
                     
                     <div class="row">
                         <div class="col-lg-4">
@@ -102,9 +102,11 @@ Usuarios
                                     <option value="">-- Seleccione --</option>
                                     <?php
                                         foreach ($roles as $rol) {
-                                            ?>
+                                            if($rol->estado==1){
+                                                ?>
                                                 <option value="<?= $rol->id?>"><?= $rol->nombre?></option>
                                             <?php
+                                            }
                                         }
                                     ?>
                                 </select>
@@ -151,5 +153,5 @@ Usuarios
 <?= $this->endSection() ?>
 
 <?= $this->section('js') ?>
-<script src="<?= base_url('assets/js/mainCrudUsuario.js') ?>"></script>
+<script src="<?= base_url('assets/js/usuarios.js') ?>"></script>
 <?= $this->endSection() ?>

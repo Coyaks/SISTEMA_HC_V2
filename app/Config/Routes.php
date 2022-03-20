@@ -32,6 +32,8 @@ $routes->setAutoRoute(true);
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
 
+$session=session(); //INICIALIZAMOS LA SESSION PARA TODOAS LAS RUTAS
+
 //MIS RUTAS
 $routes->get('/', 'LoginController::index');
 $routes->get('/usuario', 'UsuarioController::index');
@@ -39,6 +41,26 @@ $routes->get('/roles', 'RolController::index');
 $routes->get('/permisos', 'PermisosController::index');
 $routes->get('/dashboard', 'DashboardController::index');
 $routes->get('/logout', 'LoginController::logout');
+
+//PACIENTE
+//$routes->get('/paciente', 'PacienteController::index');
+//RUTAS AGRUPADAS
+//$routes->get('/paciente', 'PacienteController::index');
+
+$routes->group('paciente',[],function($routes){
+    
+    //$routes->get('/', 'PacienteController::index');
+    $routes->get('/', 'PacienteController::solicitud_copia_hc');
+    $routes->get('solicitud_copia_hc', 'PacienteController::solicitud_copia_hc');
+    $routes->get('visualizacion_copia_hc', 'PacienteController::visualizacion_copia_hc');
+});
+
+$routes->get('/mesapartes', 'MesaController::index');
+$routes->get('/fedateo', 'FedateoController::index');
+$routes->get('/admision', 'AdmisionController::index');
+$routes->get('/reporte', 'AdmisionController::generacionReporteHC');
+$routes->get('/enfermeria', 'EnfermeriaController::index');
+$routes->get('/medico', 'MedicoController::index');
 
 $routes->get('/test', 'TestController::index');
 // $routes->get('/hola', 'UsuarioController::index');

@@ -27,9 +27,9 @@
     <!-- <link href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.2/mdb.min.css" rel="stylesheet" /> -->
 
     <!-- SWEETALERT2 JS -->
-    <script src="node_modules/sweetalert2/dist/sweetalert2.min.js"></script>
+    <script src="<?= base_url('node_modules/sweetalert2/dist/sweetalert2.min.js') ?>"></script>
     <!-- SWEET ALERT2 CSS -->
-    <link rel="stylesheet" href="node_modules/sweetalert2/dist/sweetalert2.min.css">
+    <link rel="stylesheet" href="<?= base_url('node_modules/sweetalert2/dist/sweetalert2.min.css') ?>">
     <!-- iCheck -->
     <link rel="stylesheet" href="<?= base_url('/assets/adminlte') ?>/plugins/icheck-bootstrap/icheck-bootstrap.min.css">
     <!-- JQVMap -->
@@ -43,12 +43,16 @@
     <!-- summernote -->
     <link rel="stylesheet" href="<?= base_url('/assets/adminlte') ?>/plugins/summernote/summernote-bs4.min.css">
 
-    <link rel="stylesheet" href="assets/css/main-style-admin.css">
+    <link rel="stylesheet" href="<?= base_url('assets/css/main-style-admin.css') ?>">
+
 
     <?= $this->renderSection('css') ?>
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">
+    <?php
+    $session = session();
+    ?>
     <div class="wrapper">
         <!-- Navbar -->
         <nav class="main-header navbar navbar-expand navbar-white navbar-light">
@@ -83,34 +87,6 @@
                     </div>
                 </li>
 
-
-                <!-- Notifications Dropdown Menu -->
-                <li class="nav-item dropdown">
-                    <a class="nav-link" data-toggle="dropdown" href="#">
-                        <i class="far fa-bell"></i>
-                        <span class="badge badge-warning navbar-badge">15</span>
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
-                        <span class="dropdown-item dropdown-header">15 Notifications</span>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-envelope mr-2"></i> 4 new messages
-                            <span class="float-right text-muted text-sm">3 mins</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-users mr-2"></i> 8 friend requests
-                            <span class="float-right text-muted text-sm">12 hours</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item">
-                            <i class="fas fa-file mr-2"></i> 3 new reports
-                            <span class="float-right text-muted text-sm">2 days</span>
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
-                    </div>
-                </li>
                 <li class="nav-item">
                     <a class="nav-link" data-widget="fullscreen" href="#" role="button">
                         <i class="fas fa-expand-arrows-alt"></i>
@@ -137,38 +113,25 @@
         </nav>
         <!-- /.navbar -->
 
-        <!-- Main Sidebar Container -->
+        <!-- Main Sidebar Container inicio SIDEBAR-->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="index3.html" class="brand-link">
-                <img src="<?= base_url('/assets/adminlte') ?>/dist/img/AdminLTELogo.png" alt="AdminLTE Logo" class="brand-image img-circle elevation-3" style="opacity: .8">
-                <span class="brand-text font-weight-light">AdminLTE 3</span>
+            <a href="index3.html" class="brand-link text-center">
+                <img src="<?= base_url('assets/img/logo.png') ?>" alt="Logo" class="brand-text img-circle elevation-3" style="width:50px">
             </a>
 
             <!-- MENU LATERAL | Sidebar -->
             <div class="sidebar">
                 <!-- Sidebar user panel (optional) -->
-                <div class="user-panel mt-3 pb-3 mb-3 d-flex">
+                <div class="user-panel mt-3 pb-3 mb-3 d-flex text-white">
                     <div class="image">
-                        <img src="<?= base_url('/assets/adminlte') ?>/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
+                        <span class="material-icons" style="font-size:53px">
+                            account_circle
+                        </span>
                     </div>
                     <div class="info">
-                        <!-- utilizar variable session -->
-                        <a href="#" class="d-block"><?= session('nombreApellidos') ?></a>
-                        <!-- if moderno -->
-
-                    </div>
-                </div>
-
-                <!-- SidebarSearch Form -->
-                <div class="form-inline">
-                    <div class="input-group" data-widget="sidebar-search">
-                        <input class="form-control form-control-sidebar" type="search" placeholder="Search" aria-label="Search">
-                        <div class="input-group-append">
-                            <button class="btn btn-sidebar">
-                                <i class="fas fa-search fa-fw"></i>
-                            </button>
-                        </div>
+                        <a href="#" class="d-block m-0 p-0"><?= session('nombreApellidos') ?></a>
+                        <span><small><?= session('email') ?></small></span>
                     </div>
                 </div>
 
@@ -177,160 +140,172 @@
                     <!-- lista general -->
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- MODULO DASHBOARD -->
-                        <li class="nav-item active">
-                            <a href="<?= base_url('dashboard') ?>" class="nav-link">
-                                <i class="nav-icon fas fa-tachometer-alt"></i>
-                                <p>
-                                    Dashboard
-                                </p>
-                            </a>
-                        </li>
+                        <?php
+                        if ($_SESSION['idRol'] == 1) {
+                        ?>
+                            <li class="nav-item active">
+                                <a href="<?= base_url('dashboard') ?>" class="nav-link">
+                                    <i class="nav-icon fas fa-tachometer-alt"></i>
+                                    <p>
+                                        Dashboard
+                                    </p>
+                                </a>
+                            </li>
+                        <?php
+                        }
+                        ?>
+
 
                         <!-- MODULO DE ADMINISTRACION USUARIOS -->
-                        <li class="nav-item menu-<?= (current_url() == base_url('usuario') || current_url() == base_url('roles') || current_url() == base_url('permisos')) ? 'open' : 'close' ?>">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-user-friends"></i>
-                                <p>
-                                    Administración
-                                    <i class="fas fa-angle-left right"></i>
-                                    <span class="badge badge-info right">2</span>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item ml-4">
-                                    <a href="<?= base_url('usuario') ?>" class="nav-link <?= (current_url() == base_url('usuario')) ? 'menu-item-active' : '' ?>">
-                                        <i class="far fa-circle nav-icon"></i>
-                                        <p>Usuarios</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item ml-4">
-                                    <a href="<?= base_url('roles') ?>" class="nav-link <?= (current_url() == base_url('roles')) ? 'menu-item-active' : '' ?>">
-                                    <i class="far fa-circle nav-icon"></i>
-                                        <p>Puestos</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item ml-4">
-                                    <a href="<?= base_url('permisos') ?>" class="nav-link <?= (current_url() == base_url('permisos')) ? 'menu-item-active' : '' ?>">
-                                    <i class="far fa-circle nav-icon"></i>
-                                        <p>Permisos</p>
-                                    </a>
-                                </li>
+                        <?php
+                        if ($_SESSION['idRol'] == 1) {
+                        ?>
+                            <li class="nav-item menu-<?= (current_url() == base_url('usuario') || current_url() == base_url('roles') || current_url() == base_url('permisos')) ? 'open' : 'close' ?>">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fas fa-user-friends"></i>
+                                    <p>
+                                        Administración
+                                        <i class="fas fa-angle-left right"></i>
+                                        <span class="badge badge-info right">3</span>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item ml-4">
+                                        <a href="<?= base_url('usuario') ?>" class="nav-link <?= (current_url() == base_url('usuario')) ? 'menu-item-active' : '' ?>">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Usuarios</p>
+                                        </a>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ml-4">
+                                        <a href="<?= base_url('roles') ?>" class="nav-link <?= (current_url() == base_url('roles')) ? 'menu-item-active' : '' ?>">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Puestos</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ml-4">
+                                        <a href="<?= base_url('permisos') ?>" class="nav-link <?= (current_url() == base_url('permisos')) ? 'menu-item-active' : '' ?>">
+                                            <i class="far fa-circle nav-icon"></i>
+                                            <p>Permisos</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        <?php
+                        }
+                        ?>
 
-                                <li class="nav-item ml-4">
-                                    <a href="pages/layout/top-nav.html" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
-                                        <p>Administración general</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item ml-4">
-                                    <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
-                                    <i class="far fa-circle nav-icon"></i>
-                                        <p>Backups</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
+                        <!-- Vista de paciente -->
+                        <?php
+                        if ($_SESSION['idRol'] == 8 || $_SESSION['idRol'] == 1) { //eS PACIENTE
+                        ?>
+                            <li class="nav-item menu-<?= (current_url() == base_url('paciente/solicitud_copia_hc') || current_url() == base_url('paciente/visualizacion_copia_hc')) ? 'open' : 'close' ?>">
+                                <a href="#" class="nav-link">
+                                    <i class="nav-icon fas fa-user"></i>
+                                    <p>
+                                        Paciente
+                                        <i class="fas fa-angle-left right"></i>
+                                        <span class="badge badge-info right">2</span>
+                                    </p>
+                                </a>
+                                <ul class="nav nav-treeview">
+                                    <li class="nav-item ml-4">
+                                        <a href="<?= base_url('paciente/solicitud_copia_hc') ?>" class="nav-link <?= (current_url() == base_url('paciente/solicitud_copia_hc')) ? 'menu-item-active' : '' ?>">
+                                            <p>Solicitud Copia HC</p>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item ml-4">
+                                        <a href="<?= base_url('paciente/visualizacion_copia_hc') ?>" class="nav-link <?= (current_url() == base_url('paciente/visualizacion_copia_hc')) ? 'menu-item-active' : '' ?>">
+                                            <p>Visualización Copia HC</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        <?php
+                        }
+                        ?>
 
+                        <?php
+                        if ($_SESSION['idRol'] == 2 || $_SESSION['idRol'] == 1) {
+                        ?>
+                            <li class="nav-item">
+                                <a href="<?php echo base_url('/admision') ?>" class="nav-link <?= (current_url() == base_url('admision')) ? 'menu-item-active' : '' ?>">
+                                    <i class="nav-icon fas fa-clinic-medical"></i>
+                                    <p>
+                                        HC Admisión
+                                    </p>
+                                </a>
+                            </li>
 
-                        <!-- Clientes -->
+                        <?php
+                        }
+                        ?>
+                        <?php
+                        if ($_SESSION['idRol'] == 7 || $_SESSION['idRol'] == 1) {
+                        ?>
+                            <li class="nav-item">
+                                <a href="<?php echo base_url('/mesapartes') ?>" class="nav-link <?= (current_url() == base_url('mesapartes')) ? 'menu-item-active' : '' ?>">
+                                    <i class="nav-icon fas fa-clipboard-list"></i>
+                                    <p>
+                                        Bandeja Mesa Partes
+                                    </p>
+                                </a>
+                            </li>
+
+                        <?php
+                        }
+                        ?>
+
+                        <?php
+                        if ($_SESSION['idRol'] == 4 || $_SESSION['idRol'] == 1) {
+                        ?>
+                            <li class="nav-item">
+                                <a href="<?php echo base_url('/fedateo') ?>" class="nav-link <?= (current_url() == base_url('fedateo')) ? 'menu-item-active' : '' ?>">
+                                    <i class="nav-icon fas fa-clipboard-list"></i>
+                                    <p>
+                                        Bandeja Fedateo
+                                    </p>
+                                </a>
+                            </li>
+
+                        <?php
+                        }
+                        ?>
+
+                        <?php
+                        if ($_SESSION['idRol'] == 6 || $_SESSION['idRol'] == 1) {
+                        ?>
+                            <li class="nav-item">
+                                <a href="<?php echo base_url('/enfermeria') ?>" class="nav-link <?= (current_url() == base_url('enfermeria')) ? 'menu-item-active' : '' ?>">
+                                    <i class="nav-icon fas fa-clipboard-list"></i>
+                                    <p>
+                                        Bandeja Enfermería
+                                    </p>
+                                </a>
+                            </li>
+
+                        <?php
+                        }
+                        ?>
+
+                        <?php
+                        if ($_SESSION['idRol'] == 6 || $_SESSION['idRol'] == 1) {
+                        ?>
+                            <li class="nav-item">
+                                <a href="<?php echo base_url('/medico') ?>" class="nav-link <?= (current_url() == base_url('medico')) ? 'menu-item-active' : '' ?>">
+                                    <i class="nav-icon fas fa-clipboard-list"></i>
+                                    <p>
+                                        Bandeja Médico
+                                    </p>
+                                </a>
+                            </li>
+
+                        <?php
+                        }
+                        ?>
+
                         <li class="nav-item">
-                            <a href="<?= base_url('usuario') ?>" class="nav-link">
-                                <i class="far fa-clipboard-user nav-icon"></i>
-                                <p>
-                                    Clientes
-                                </p>
-                            </a>
-                        </li>
-
-                        <!-- PRODUCTOS -->
-                        <li class="nav-item menu-<?= (current_url() == base_url('usuario') || current_url() == base_url('roles')) ? 'open' : 'close' ?>">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon fa fa-shopping-bag"></i>
-                                <p>
-                                    Productos
-                                    <i class="fas fa-angle-left right"></i>
-                                    <span class="badge badge-info right">2</span>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item ml-4">
-                                    <a href="<?= base_url('usuario') ?>" class="nav-link <?= (current_url() == base_url('usuario')) ? 'menu-item-active' : '' ?>">
-                                        <p>Inventario</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item ml-4">
-                                    <a href="<?= base_url('rol') ?>" class="nav-link <?= (current_url() == base_url('rol')) ? 'menu-item-active' : '' ?>">
-                                        <p>Categorías</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <!-- COMPRAS -->
-                        <li class="nav-item">
-                            <a href="<?= base_url('usuario') ?>" class="nav-link">
-                                <i class="nav-icon fa fa-shopping-bag"></i>
-                                <p>
-                                    Compras
-                                </p>
-                            </a>
-                        </li>
-
-                        <!-- VENTAS -->
-                        <li class="nav-item">
-                            <a href="<?= base_url('usuario') ?>" class="nav-link">
-                                <i class="nav-icon fa fa-shopping-bag"></i>
-                                <p>
-                                    Ventas
-                                </p>
-                            </a>
-                        </li>
-
-                        <!-- PROVEEDORES -->
-                        <li class="nav-item">
-                            <a href="<?= base_url('usuario') ?>" class="nav-link">
-                                <i class="nav-icon fa fa-shopping-bag"></i>
-                                <p>
-                                    Proveedores
-                                </p>
-                            </a>
-                        </li>
-                        <!-- CONTROL DE CAJA CHICA -->
-                        <li class="nav-item">
-                            <a href="<?= base_url('usuario') ?>" class="nav-link">
-                                <i class="nav-icon fa fa-shopping-bag"></i>
-                                <p>
-                                    Control de Caja Chica
-                                </p>
-                            </a>
-                        </li>
-
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
-                                <i class="nav-icon far fa-file-pdf nav-icon"></i>
-                                <p>
-                                    Reportes
-                                    <i class="fas fa-angle-left right"></i>
-                                    <span class="badge badge-info right">6</span>
-                                </p>
-                            </a>
-                            <ul class="nav nav-treeview">
-                                <li class="nav-item ml-4">
-                                    <a href="pages/layout/top-nav.html" class="nav-link">
-                                        <p>Ventas</p>
-                                    </a>
-                                </li>
-                                <li class="nav-item ml-4">
-                                    <a href="pages/layout/top-nav-sidebar.html" class="nav-link">
-                                        <p>Compras</p>
-                                    </a>
-                                </li>
-                            </ul>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#" class="nav-link">
+                            <a href="<?php echo base_url('/logout') ?>" class="nav-link">
                                 <i class="nav-icon fas fa-sign-out "></i>
                                 <p>
                                     Cerrar sesión
@@ -385,15 +360,11 @@
     <script src="<?= base_url('/assets/adminlte') ?>/plugins/overlayScrollbars/js/jquery.overlayScrollbars.min.js"></script>
     <!-- AdminLTE App -->
     <script src="<?= base_url('/assets/adminlte') ?>/dist/js/adminlte.js"></script>
-    <!-- AdminLTE for demo purposes -->
-    <script src="<?= base_url('/assets/adminlte') ?>/dist/js/demo.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
     <script src="<?= base_url('/assets/adminlte') ?>/dist/js/pages/dashboard.js"></script>
 
     <!-- CORE FUNCIONES JAVASCRIPT REUTILIZABLE -->
-    <script src="assets/js/core.js"></script>
-
-
+    <script src="<?= base_url('assets/js/core.js') ?>"></script>
 
     <!-- === Material Design Web JS === -->
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>

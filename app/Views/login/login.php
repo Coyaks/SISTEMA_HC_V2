@@ -13,8 +13,8 @@
     <!-- MATERIAL ICONS FULL -->
     <link href="https://fonts.googleapis.com/css?family=Material+Icons|Material+Icons+Outlined|Material+Icons+Two+Tone|Material+Icons+Round|Material+Icons+Sharp" rel="stylesheet" />
 
-    <!-- B5 CSS -->
-    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+    <!-- Font Awesome 5 PRO-->
+    <link rel="stylesheet" href="https://kit-pro.fontawesome.com/releases/v5.15.4/css/pro.min.css">
 
     <!-- B4 CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
@@ -44,7 +44,7 @@
             <form id="formLogin">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <img src="<?php echo base_url('assets/img/skoy_color.png') ?>" alt="Logo" id="logoSkoy">
+                        <img src="<?php echo media('img/logo.png') ?>" alt="Logo" id="logoSkoy">
                     </div>
                 </div>
                 <div class="row">
@@ -85,7 +85,7 @@
                             <!-- Password -->
                             <input type="password" class="mdc-text-field__input toggle-password" id="password" name="password" autocomplete="off">
                             <!-- ICON EYE -->
-                            <span id="icon-view-pass2">
+                            <span class="icon-view-pass2">
                                 <span class="material-icons-outlined mdc-text-field__icon mdc-text-field__icon--trailing">
                                     visibility_off
                                 </span>
@@ -103,9 +103,6 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <button type="submit" class="btn btnLogin w-100 rounded-pill">Iniciar Sesión</button>
-                        <!-- <p class="mt-2 text-center link-custom">¿No tiene una cuenta? <span class="text-primario pointer" id="btnRegister">Abrir cuenta</span>
-                        </p> -->
-
                         <p class="mt-2 text-center link-custom">¿No tiene una cuenta? <span class="text-primario pointer" id="btnRegister">Crear cuenta como paciente</span>
                         </p>
                     </div>
@@ -126,14 +123,14 @@
     <script>
         //Logica para show y hiden del icon 'ojo' input password
         $(document).ready(function() {
-            $('#icon-view-pass2').click(function(e) {
+            $('.icon-view-pass2').click(function(e) {
                 let input_type = $('.toggle-password').attr('type');
                 if (input_type == 'password') {
                     $('.toggle-password').attr('type', 'text');
-                    $('#icon-view-pass2 span').text('visibility');
+                    $('.icon-view-pass2 span').text('visibility');
                 } else {
                     $('.toggle-password').attr('type', 'password');
-                    $('#icon-view-pass2 span').text('visibility_off');
+                    $('.icon-view-pass2 span').text('visibility_off');
                 }
             });
         });

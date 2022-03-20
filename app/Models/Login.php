@@ -6,7 +6,7 @@ use CodeIgniter\Model;
 class Login extends Model{
     protected $table = 'usuarios';
     //protected $primaryKey='id';
-    protected $allowedFields=['nombre','apellidos','email','password']; 
+    protected $allowedFields=['nombre','apellidos','email','password','tipo_doc','num_doc','idRol','estado']; 
     // Uncomment below if you want add primary key
     // protected $primaryKey = 'id';
     public function buscarUsuarioPorEmail($email){

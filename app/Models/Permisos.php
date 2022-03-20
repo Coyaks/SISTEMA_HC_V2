@@ -13,8 +13,4 @@ class Permisos extends Model{
 	// "$allowedFields" -> que campos quiero que se inserten y actualicen
     protected $allowedFields=['idRol','idModulo','c','r','u','d'];
 
-    public function getTableDB(){
-		
-    }
-
 }

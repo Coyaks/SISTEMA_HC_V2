@@ -40,7 +40,10 @@ const api_dni = (dni) => {
                 let nombres = data.nombres
                 let apellidos = data.apellidoPaterno + " " + data.apellidoMaterno;
                 if (nombres != null) {
-                    console.error(nombres + " " + apellidos)
+                    console.log(nombres + " " + apellidos)
+                    $('#nombre').val(nombres);
+                    $('#apellidos').val(apellidos);
+                    $('#nombre').attr('autofocus', 'true');
                 } else {
                     alert("DNI no existe")
                 }
@@ -73,11 +76,6 @@ const api_ruc = (ruc) => {
 }
 
 
-$(document).ready(function () {
-
-});
-
-
 /**
  * Alert
  */
@@ -100,10 +98,20 @@ class Alert {
             title: message
         })
     }
-    static success2() {
+    static success2(message = '') {
         Swal.fire({
             icon: 'success',
-            text: 'Guardado Correctamente!',
+            //ext: 'Guardado Correctamente!',
+            text: message || 'Guardado Correctamente!'
+        })
+    }
+    static success3(message) {
+        Swal.fire({
+            position: 'bottom-end',
+            icon: 'success',
+            title: message,
+            showConfirmButton: false,
+            timer: 3000
         })
     }
     static error(message = '') {
@@ -153,4 +161,13 @@ function showLoading(){
 }
 function hideLoading(){
     $('#divLoading').css('display', 'none');
+}
+
+function base_url(valor) {
+    //captura solo https + dominio principal
+    let url=window.location.origin
+    return url+'/'+valor
+}
+function carpeta_proy() {
+    return "SISTEMA_HC/sistema_hc_v2/"
 }

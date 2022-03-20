@@ -1,55 +1,53 @@
 $(document).ready(function () {
 
-    $('#tablaUsuario').DataTable({
-        language: {
-            "url": "assets/libs/spanish_datatables.json"
+    let dataTables=$('#tablaUsuario').DataTable({
+        "aServerSide": true,
+        "aProcessing": true,
+        "responsive": true,
+        "language": {
+            "url": "assets/libs/spanish_datatables.json",
+            searchPlaceholder: "Cualquier columna..."
         },
-        "order": [],
-        "serverSide": true,
-        "processing": true,
         "ajax": {
-            url: "UsuarioController/fetch_all",
-            type: "POST"
+            "url": "UsuarioController/fetch_all",
+            "dataSrc": "" //Obligatorio
         },
+        //"searching": false,
+        "columns": [{
+                "data": "id"
+            },
+            {
+                "data": "nombre"
+            },
+            {
+                "data": "apellidos"
+            },
+            {
+                "data": "email"
+            },
+            {
+                "data": "idRol"
+            },
+            {
+                "data": "estado"
+            },
+            {
+                "data": "options"
+            }
+        ],
         // custom cantidad filas (yo lo puse)
         "lengthMenu": [
             [5, 10, 50, -1],
-            [5, 10, 50, "All"]
+            [5, 10, 50, "Todos"]
         ],
         //Botones para exportar
         dom: "B<'row'<'col-sm-12 col-md-6 mt-2'l><'col-sm-12 col-md-6'f>>" +
             "<'row'<'col-sm-12'tr>>" +
             "<'row'<'col-sm-12 col-md-5'i><'col-sm-12 col-md-7'p>>",
-        buttons: [{
-                "extend": 'copyHtml5',
-                "text": "<i class='far fa-copy'></i> Copiar",
-                "titleAttr": "Copiar",
-                "className": "btn btn-secondary mr-2",
-            },
-            {
-                "extend": 'excelHtml5',
-                "text": "<span class='text-white'><i class='fas fa-file-excel'></i> Excel</span>",
-                "titleAttr": "Exportar a Excel",
-                "className": "btn btn-success-b5 mr-2",
-            },
-            {
-                "extend": 'pdfHtml5',
-                "text": "<i class='fas fa-file-pdf'></i> PDF",
-                "titleAttr": "Exportar a PDF",
-                "className": "btn btn-danger mr-2",
-            },
-            {
-                "extend": 'csvHtml5',
-                "text": "<i class='fas fa-file-csv'></i> CSV",
-                "titleAttr": "Exportar a CSV",
-                "className": "btn btn-info mr-2",
-            },
-            {
-                "extend": 'print',
-                "text": "<i class='fas fa-print'></i> Imprimir",
-                "titleAttr": "Imprimir archivo",
-                "className": "btn btn-secondary",
-            }
+        buttons: buttonsArray,
+
+        "order": [
+            [0, "desc"]
         ]
     });
 
@@ -127,7 +125,7 @@ $(document).ready(function () {
                     $('#rol_error').text(data.rol_error);
                 } else {
                     $('#modalUsuario').modal('hide');
-                    $('#tablaUsuario').DataTable().ajax.reload();
+                    dataTables.ajax.reload();
 
                     // Toast custom
                     Alert.success(data.message)
@@ -193,7 +191,7 @@ $(document).ready(function () {
                     },
                     success: function (data) {
                         if (data == 1) {
-                            $('#tablaUsuario').DataTable().ajax.reload();
+                            dataTables.ajax.reload();
                             Alert.success('Se eliminó correctamente!')
                         }
                     }
