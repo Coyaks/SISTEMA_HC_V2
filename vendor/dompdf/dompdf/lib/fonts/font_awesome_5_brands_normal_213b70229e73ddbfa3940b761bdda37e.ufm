@@ -1,0 +1,40 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Brands Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Brands Regular-5.15.4
+FullName Font Awesome 5 Brands Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Brands-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Brands
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Brands Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -12 -127 1254 879
+StartCharMetrics 15
+U 61825 ; WX 875 ; N trello ; G 3
+U 63355 ; WX 1000 ; N atlassian ; G 4
+U 63373 ; WX 1000 ; N confluence ; G 5
+U 63376 ; WX 1250 ; N dhl ; G 6
+U 63383 ; WX 1250 ; N fedex ; G 7
+U 63407 ; WX 875 ; N intercom ; G 8
+U 63408 ; WX 875 ; N invision ; G 9
+U 63409 ; WX 969 ; N jira ; G 10
+U 63411 ; WX 1250 ; N mendeley ; G 11
+U 63419 ; WX 795 ; N raspberry-pi ; G 12
+U 63455 ; WX 969 ; N ubuntu ; G 13
+U 63459 ; WX 969 ; N yarn ; G 14
+EndCharMetrics
+EndFontMetrics

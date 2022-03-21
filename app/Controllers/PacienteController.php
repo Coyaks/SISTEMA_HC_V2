@@ -204,7 +204,9 @@ class PacienteController extends BaseController
             'distrito'       =>  $this->request->getVar('distrito'),
             'sustento'       =>  $this->request->getVar('sustento'),
             'dni_path'    =>  $new_name_dni,
-            'idUsuario'    =>  $_SESSION['idUsuario']
+            'idUsuario'    =>  $_SESSION['idUsuario'],
+            'estado_mesa'    =>  -1,
+            
 
         ];
         $qb=$this->db->table('solicitud_hc');   
@@ -226,13 +228,20 @@ class PacienteController extends BaseController
     //     echo json_encode($data);
     // }
 
+    // function fetchDatosPaciente(){
+    //     $userMe=$_SESSION['idUsuario'];
+    //     $qb=$this->db->table('historia_clinica');
+    //     $qb->where('idUsuario',$userMe);
+    //     $data=$qb->get()->getResultArray();
+    //     echo json_encode($data);
+    // }
     function fetchDatosPaciente(){
         $userMe=$_SESSION['idUsuario'];
-        $qb=$this->db->table('historia_clinica');
-        $qb->where('idUsuario',$userMe);
+        $qb=$this->db->table('historia_clinica h');
+        $qb->select('h.*,u.email');
+        $qb->join('usuarios u', 'u.id=h.idUsuario');
+        $qb->where('h.idUsuario',$userMe);
         $data=$qb->get()->getResultArray();
-        dep($data);
-        exit;
         echo json_encode($data);
     }
     function buscarPacienteCodigo(){

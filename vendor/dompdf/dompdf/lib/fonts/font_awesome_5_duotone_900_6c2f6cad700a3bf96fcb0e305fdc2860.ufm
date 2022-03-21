@@ -1,0 +1,103 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -10 -129 1252 881
+StartCharMetrics 153
+U 61501 ; WX 1125 ; N video-primary ; G 3
+U 61548 ; WX 1125 ; N leaf-primary ; G 4
+U 61574 ; WX 1125 ; N comments-primary ; G 5
+U 61682 ; WX 1000 ; N suitcase-primary ; G 6
+U 61709 ; WX 1000 ; N quote-left-primary ; G 7
+U 61710 ; WX 1000 ; N quote-right-primary ; G 8
+U 61831 ; WX 1000 ; N archive-primary ; G 9
+U 62133 ; WX 1250 ; N handshake-primary ; G 10
+U 62185 ; WX 875 ; N usd-square-primary ; G 11
+U 62206 ; WX 1000 ; N poo-primary ; G 12
+U 62429 ; WX 1250 ; N phone-slash-primary ; G 13
+U 62587 ; WX 1125 ; N hand-holding-box-primary ; G 14
+U 62588 ; WX 1250 ; N hand-receiving-primary ; G 15
+U 62616 ; WX 1000 ; N blanket-primary ; G 16
+U 62618 ; WX 875 ; N box-alt-primary ; G 17
+U 62619 ; WX 875 ; N box-fragile-primary ; G 18
+U 62621 ; WX 875 ; N box-heart-primary ; G 19
+U 62623 ; WX 875 ; N box-up-primary ; G 20
+U 62624 ; WX 875 ; N box-usd-primary ; G 21
+U 62625 ; WX 1125 ; N boxes-alt-primary ; G 22
+U 62626 ; WX 1000 ; N comment-alt-check-primary ; G 23
+U 62627 ; WX 1000 ; N comment-alt-dots-primary ; G 24
+U 62628 ; WX 1000 ; N comment-alt-edit-primary ; G 25
+U 62629 ; WX 1000 ; N comment-alt-exclamation-primary ; G 26
+U 62630 ; WX 1000 ; N comment-alt-lines-primary ; G 27
+U 62631 ; WX 1000 ; N comment-alt-minus-primary ; G 28
+U 62632 ; WX 1000 ; N comment-alt-plus-primary ; G 29
+U 62633 ; WX 1250 ; N comment-alt-slash-primary ; G 30
+U 62634 ; WX 1000 ; N comment-alt-smile-primary ; G 31
+U 62635 ; WX 1000 ; N comment-alt-times-primary ; G 32
+U 62636 ; WX 1000 ; N comment-check-primary ; G 33
+U 62637 ; WX 1000 ; N comment-dots-primary ; G 34
+U 62638 ; WX 1000 ; N comment-edit-primary ; G 35
+U 62639 ; WX 1000 ; N comment-exclamation-primary ; G 36
+U 62640 ; WX 1000 ; N comment-lines-primary ; G 37
+U 62641 ; WX 1000 ; N comment-minus-primary ; G 38
+U 62642 ; WX 1000 ; N comment-plus-primary ; G 39
+U 62643 ; WX 1250 ; N comment-slash-primary ; G 40
+U 62644 ; WX 1000 ; N comment-smile-primary ; G 41
+U 62645 ; WX 1000 ; N comment-times-primary ; G 42
+U 62646 ; WX 1125 ; N comments-alt-primary ; G 43
+U 62647 ; WX 1250 ; N container-storage-primary ; G 44
+U 62648 ; WX 1250 ; N couch-primary ; G 45
+U 62649 ; WX 1000 ; N donate-primary ; G 46
+U 62651 ; WX 563 ; N fragile-primary ; G 47
+U 62652 ; WX 875 ; N hand-heart-primary ; G 48
+U 62653 ; WX 1125 ; N hand-holding-primary ; G 49
+U 62654 ; WX 1125 ; N hand-holding-heart-primary ; G 50
+U 62655 ; WX 1125 ; N hand-holding-seedling-primary ; G 51
+U 62658 ; WX 1250 ; N hands-primary ; G 52
+U 62659 ; WX 1250 ; N hands-heart-primary ; G 53
+U 62660 ; WX 1250 ; N hands-helping-primary ; G 54
+U 62661 ; WX 1250 ; N hands-usd-primary ; G 55
+U 62662 ; WX 1250 ; N handshake-alt-primary ; G 56
+U 62664 ; WX 875 ; N heart-square-primary ; G 57
+U 62667 ; WX 1125 ; N leaf-heart-primary ; G 58
+U 62668 ; WX 1000 ; N loveseat-primary ; G 59
+U 62669 ; WX 1000 ; N parachute-box-primary ; G 60
+U 62670 ; WX 1250 ; N people-carry-primary ; G 61
+U 62671 ; WX 750 ; N person-carry-primary ; G 62
+U 62672 ; WX 1000 ; N person-dolly-primary ; G 63
+U 62673 ; WX 1000 ; N person-dolly-empty-primary ; G 64
+U 62674 ; WX 1000 ; N phone-plus-primary ; G 65
+U 62676 ; WX 750 ; N ramp-loading-primary ; G 66
+U 62678 ; WX 875 ; N ribbon-primary ; G 67
+U 62680 ; WX 1000 ; N seedling-primary ; G 68
+U 62681 ; WX 1000 ; N sign-primary ; G 69
+U 62683 ; WX 1250 ; N tape-primary ; G 70
+U 62684 ; WX 1250 ; N truck-container-primary ; G 71
+U 62685 ; WX 1250 ; N truck-couch-primary ; G 72
+U 62686 ; WX 1250 ; N truck-loading-primary ; G 73
+U 62687 ; WX 1250 ; N truck-moving-primary ; G 74
+U 62688 ; WX 1250 ; N truck-ramp-primary ; G 75
+U 62689 ; WX 1125 ; N video-plus-primary ; G 76
+U 62690 ; WX 1250 ; N video-slash-primary ; G 77
+EndCharMetrics
+EndFontMetrics

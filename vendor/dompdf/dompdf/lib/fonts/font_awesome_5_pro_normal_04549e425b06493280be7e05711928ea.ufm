@@ -1,0 +1,91 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Pro Regular-5.15.4
+FullName Font Awesome 5 Pro Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Pro Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -21 -133 1268 883
+StartCharMetrics 66
+U 61547 ; WX 1000 ; N gift ; G 3
+U 62903 ; WX 1250 ; N signature ; G 4
+U 63357 ; WX 1000 ; N baby-carriage ; G 5
+U 63359 ; WX 1250 ; N bells ; G 6
+U 63361 ; WX 1000 ; N blog ; G 7
+U 63362 ; WX 1000 ; N boot ; G 8
+U 63368 ; WX 1000 ; N cash-register ; G 9
+U 63370 ; WX 1250 ; N chart-network ; G 10
+U 63371 ; WX 1000 ; N chimney ; G 11
+U 63372 ; WX 1000 ; N compress-arrows-alt ; G 12
+U 63374 ; WX 1000 ; N deer ; G 13
+U 63375 ; WX 1125 ; N deer-rudolph ; G 14
+U 63378 ; WX 875 ; N dreidel ; G 15
+U 63379 ; WX 1125 ; N dumpster ; G 16
+U 63380 ; WX 1250 ; N dumpster-fire ; G 17
+U 63381 ; WX 1250 ; N ear-muffs ; G 18
+U 63382 ; WX 1000 ; N ethernet ; G 19
+U 63386 ; WX 1250 ; N fireplace ; G 20
+U 63387 ; WX 750 ; N frosty-head ; G 21
+U 63388 ; WX 1250 ; N gifts ; G 22
+U 63389 ; WX 875 ; N gingerbread-man ; G 23
+U 63390 ; WX 500 ; N glass-champagne ; G 24
+U 63391 ; WX 1250 ; N glass-cheers ; G 25
+U 63392 ; WX 1000 ; N glass-whiskey ; G 26
+U 63393 ; WX 1000 ; N glass-whiskey-rocks ; G 27
+U 63395 ; WX 875 ; N globe-snow ; G 28
+U 63396 ; WX 875 ; N grip-lines ; G 29
+U 63399 ; WX 1250 ; N hat-santa ; G 30
+U 63400 ; WX 1000 ; N hat-winter ; G 31
+U 63402 ; WX 875 ; N holly-berry ; G 32
+U 63404 ; WX 1125 ; N ice-skate ; G 33
+U 63405 ; WX 1000 ; N icicles ; G 34
+U 63406 ; WX 1250 ; N igloo ; G 35
+U 63412 ; WX 1125 ; N mistletoe ; G 36
+U 63413 ; WX 875 ; N mitten ; G 37
+U 63414 ; WX 1000 ; N mug-hot ; G 38
+U 63416 ; WX 750 ; N ornament ; G 39
+U 63421 ; WX 1250 ; N restroom ; G 40
+U 63422 ; WX 1250 ; N rv ; G 41
+U 63425 ; WX 1000 ; N scarf ; G 42
+U 63426 ; WX 875 ; N sd-card ; G 43
+U 63427 ; WX 1000 ; N shovel-snow ; G 44
+U 63429 ; WX 875 ; N skating ; G 45
+U 63431 ; WX 1000 ; N ski-jump ; G 46
+U 63432 ; WX 1000 ; N ski-lift ; G 47
+U 63433 ; WX 1000 ; N skiing ; G 48
+U 63434 ; WX 1125 ; N skiing-nordic ; G 49
+U 63435 ; WX 1000 ; N sledding ; G 50
+U 63436 ; WX 1250 ; N sleigh ; G 51
+U 63437 ; WX 1000 ; N sms ; G 52
+U 63438 ; WX 1000 ; N snowboarding ; G 53
+U 63439 ; WX 1250 ; N snowflakes ; G 54
+U 63440 ; WX 1000 ; N snowman ; G 55
+U 63441 ; WX 1250 ; N snowmobile ; G 56
+U 63442 ; WX 1250 ; N snowplow ; G 57
+U 63444 ; WX 1000 ; N star-christmas ; G 58
+U 63447 ; WX 750 ; N tenge ; G 59
+U 63448 ; WX 750 ; N toilet ; G 60
+U 63450 ; WX 1000 ; N tram ; G 61
+U 63451 ; WX 1000 ; N tree-christmas ; G 62
+U 63452 ; WX 1000 ; N tree-decorated ; G 63
+U 63454 ; WX 1250 ; N truck-plow ; G 64
+U 63458 ; WX 875 ; N wreath ; G 65
+EndCharMetrics
+EndFontMetrics

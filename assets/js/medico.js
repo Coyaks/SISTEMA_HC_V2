@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    let dataTables = $('#tablaBandejaSoliPendientes').DataTable({
+    let dataTables = $('#tablaMedico').DataTable({
         "aServerSide": true,
         "aProcessing": true,
         "responsive": true,
@@ -8,7 +8,7 @@ $(document).ready(function () {
             searchPlaceholder: "Cualquier columna..."
         },
         "ajax": {
-            "url": "MesaController/fetch_all",
+            "url": "MedicoController/fetch_all",
             "dataSrc": "" //Obligatorio
         },
         //"searching": false,
@@ -22,13 +22,22 @@ $(document).ready(function () {
                 "data": "apellidos"
             },
             {
-                "data": "num_doc"
+                "data": "edad"
+            },
+            {
+                "data": "num"
+            },
+            {
+                "data": "anotacion_enfermera"
+            },
+            {
+                "data": "anotacion_medico"
             },
             {
                 "data": "created_at"
             },
             {
-                "data": "estado_mesa"
+                "data": "etapa"
             },
             {
                 "data": "options"
@@ -53,34 +62,37 @@ $(document).ready(function () {
     // UPDATE
     $(document).on('click', '.edit', function () {
         var id = $(this).data('id');
-        $('#modalMesapartes').modal('show')
+        $('#modalMedico').modal('show')
         $('#hidden_id').val(id);
         
     });
 
-    $('.row-observacion').hide()
-    $('#estado_mesa').change(function (e) { 
+
+    $('#formMedico').submit(function (e) { 
         e.preventDefault();
-        let estado_mesa=$(this).val();
-        if(estado_mesa==0){
-            $('.row-observacion').show()
-        }else{
-            $('.row-observacion').hide()
+        let anotaciones=$('#anotaciones').val();
+        let hidden_id=$('#hidden_id').val();
+        console.log('aaa: ',$('#etapa2').is(':checked'))
+        
+        let etapa2=0;
+
+        if($('#etapa2').is(':checked')){
+            etapa2=1
         }
-    });
-
-    $('#formMesapartes').submit(function (e) { 
-        e.preventDefault();
-
         $.ajax({
-            url: "MesaController/updateMesa",
+            url: "MedicoController/saveAnotaciones",
             method: "POST",
-            data: $(this).serialize(),
-            //dataType: "JSON",
+            data: {
+                anotaciones:anotaciones,
+                etapa2:etapa2,
+                hidden_id:hidden_id
+            },
+            dataType: "JSON",
             success: function (data) {
-                if (data=='ok') {
-                    $('#modalMesapartes').modal('hide');
-                    dataTables.ajax.reload();
+                if (data.rta=='ok') {
+                    dataTables.ajax.reload()
+                    $('#modalMedico').modal('hide');
+                    //dataTables.ajax.reload();
                     Alert.success3('Guardado correctamente!')
                 } else {
                     Alert.success('Error al guardar')

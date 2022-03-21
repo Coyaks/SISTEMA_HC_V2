@@ -1,0 +1,105 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -23 -143 1256 900
+StartCharMetrics 157
+U 61450 ; WX 1000 ; N th-primary ; G 3
+U 61461 ; WX 1125 ; N home-primary ; G 4
+U 61550 ; WX 1125 ; N eye-primary ; G 5
+U 61552 ; WX 1250 ; N eye-slash-primary ; G 6
+U 61924 ; WX 1000 ; N tty-primary ; G 7
+U 62112 ; WX 750 ; N phone-volume-primary ; G 8
+U 62327 ; WX 1250 ; N battery-slash-primary ; G 9
+U 62576 ; WX 1250 ; N diagnoses-primary ; G 10
+U 62620 ; WX 1250 ; N box-full-primary ; G 11
+U 62622 ; WX 1250 ; N box-open-primary ; G 12
+U 62665 ; WX 1125 ; N home-heart-primary ; G 13
+U 63190 ; WX 1000 ; N drumstick-primary ; G 14
+U 63191 ; WX 1000 ; N drumstick-bite-primary ; G 15
+U 63237 ; WX 1125 ; N pie-primary ; G 16
+U 63269 ; WX 1250 ; N turkey-primary ; G 17
+U 63358 ; WX 1125 ; N ball-pile-primary ; G 18
+U 63360 ; WX 1125 ; N biohazard-primary ; G 19
+U 63461 ; WX 1125 ; N bacon-primary ; G 20
+U 63462 ; WX 875 ; N book-medical-primary ; G 21
+U 63463 ; WX 875 ; N book-user-primary ; G 22
+U 63465 ; WX 875 ; N brackets-primary ; G 23
+U 63466 ; WX 1125 ; N brackets-curly-primary ; G 24
+U 63467 ; WX 1250 ; N bread-loaf-primary ; G 25
+U 63468 ; WX 1125 ; N bread-slice-primary ; G 26
+U 63469 ; WX 1000 ; N burrito-primary ; G 27
+U 63470 ; WX 1000 ; N chart-scatter-primary ; G 28
+U 63471 ; WX 1000 ; N cheese-primary ; G 29
+U 63472 ; WX 1000 ; N cheese-swiss-primary ; G 30
+U 63474 ; WX 1125 ; N clinic-medical-primary ; G 31
+U 63475 ; WX 750 ; N clipboard-user-primary ; G 32
+U 63476 ; WX 1000 ; N comment-alt-medical-primary ; G 33
+U 63477 ; WX 1000 ; N comment-medical-primary ; G 34
+U 63478 ; WX 1000 ; N croissant-primary ; G 35
+U 63479 ; WX 1000 ; N crutch-primary ; G 36
+U 63480 ; WX 1250 ; N crutches-primary ; G 37
+U 63481 ; WX 1000 ; N debug-primary ; G 38
+U 63482 ; WX 1000 ; N disease-primary ; G 39
+U 63483 ; WX 750 ; N egg-primary ; G 40
+U 63484 ; WX 1000 ; N egg-fried-primary ; G 41
+U 63486 ; WX 1250 ; N fish-cooked-primary ; G 42
+U 63488 ; WX 1000 ; N flower-daffodil-primary ; G 43
+U 63489 ; WX 1000 ; N flower-tulip-primary ; G 44
+U 63490 ; WX 1125 ; N folder-tree-primary ; G 45
+U 63492 ; WX 750 ; N glass-primary ; G 46
+U 63493 ; WX 1000 ; N hamburger-primary ; G 47
+U 63495 ; WX 1000 ; N hard-hat-primary ; G 48
+U 63496 ; WX 1000 ; N head-side-brain-primary ; G 49
+U 63497 ; WX 1000 ; N head-side-medical-primary ; G 50
+U 63498 ; WX 1125 ; N home-alt-primary ; G 51
+U 63499 ; WX 1125 ; N home-lg-primary ; G 52
+U 63500 ; WX 1125 ; N home-lg-alt-primary ; G 53
+U 63502 ; WX 1250 ; N hospitals-primary ; G 54
+U 63503 ; WX 1000 ; N hotdog-primary ; G 55
+U 63505 ; WX 875 ; N island-tropical-primary ; G 56
+U 63506 ; WX 1250 ; N laptop-medical-primary ; G 57
+U 63508 ; WX 1000 ; N meat-primary ; G 58
+U 63509 ; WX 1000 ; N pager-primary ; G 59
+U 63510 ; WX 1000 ; N pepper-hot-primary ; G 60
+U 63511 ; WX 1125 ; N pizza-primary ; G 61
+U 63512 ; WX 1000 ; N pizza-slice-primary ; G 62
+U 63515 ; WX 1000 ; N rings-wedding-primary ; G 63
+U 63518 ; WX 1000 ; N salad-primary ; G 64
+U 63519 ; WX 1000 ; N sandwich-primary ; G 65
+U 63520 ; WX 1000 ; N sausage-primary ; G 66
+U 63521 ; WX 1000 ; N shish-kebab-primary ; G 67
+U 63522 ; WX 1000 ; N sickle-primary ; G 68
+U 63523 ; WX 1000 ; N soup-primary ; G 69
+U 63525 ; WX 1250 ; N stretcher-primary ; G 70
+U 63526 ; WX 1000 ; N taco-primary ; G 71
+U 63527 ; WX 875 ; N tanakh-primary ; G 72
+U 63532 ; WX 875 ; N user-hard-hat-primary ; G 73
+U 63533 ; WX 875 ; N user-headset-primary ; G 74
+U 63534 ; WX 1250 ; N user-md-chat-primary ; G 75
+U 63536 ; WX 1250 ; N users-medical-primary ; G 76
+U 63537 ; WX 875 ; N walker-primary ; G 77
+U 63538 ; WX 875 ; N webcam-primary ; G 78
+U 63539 ; WX 1250 ; N webcam-slash-primary ; G 79
+EndCharMetrics
+EndFontMetrics

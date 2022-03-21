@@ -1,0 +1,67 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -39 -141 1252 877
+StartCharMetrics 81
+U 61749 ; WX 1000 ; N rocket-primary ; G 3
+U 61926 ; WX 750 ; N plug-primary ; G 4
+U 62041 ; WX 1000 ; N hand-spock-primary ; G 5
+U 62156 ; WX 1000 ; N shower-primary ; G 6
+U 62157 ; WX 1000 ; N bath-primary ; G 7
+U 62498 ; WX 875 ; N compress-alt-primary ; G 8
+U 62500 ; WX 875 ; N expand-alt-primary ; G 9
+U 62741 ; WX 1250 ; N balance-scale-left-primary ; G 10
+U 62742 ; WX 1250 ; N balance-scale-right-primary ; G 11
+U 62788 ; WX 1250 ; N robot-primary ; G 12
+U 62859 ; WX 969 ; N grin-tongue-wink-primary ; G 13
+U 62930 ; WX 875 ; N atom-primary ; G 14
+U 62931 ; WX 875 ; N atom-alt-primary ; G 15
+U 63007 ; WX 1000 ; N shapes-primary ; G 16
+U 63063 ; WX 1000 ; N envelope-open-dollar-primary ; G 17
+U 63064 ; WX 1000 ; N envelope-open-text-primary ; G 18
+U 63078 ; WX 1000 ; N bahai-primary ; G 19
+U 63090 ; WX 1250 ; N lightbulb-on-primary ; G 20
+U 63187 ; WX 1125 ; N dog-primary ; G 21
+U 63188 ; WX 1125 ; N dog-leashed-primary ; G 22
+U 63315 ; WX 1000 ; N meteor-primary ; G 23
+U 63330 ; WX 1000 ; N stars-primary ; G 24
+U 63423 ; WX 1000 ; N satellite-primary ; G 25
+U 63424 ; WX 1000 ; N satellite-dish-primary ; G 26
+U 63535 ; WX 875 ; N user-nurse-primary ; G 27
+U 63674 ; WX 1000 ; N flux-capacitor-primary ; G 28
+U 63700 ; WX 1000 ; N piano-primary ; G 29
+U 63732 ; WX 1125 ; N air-conditioner-primary ; G 30
+U 63733 ; WX 875 ; N alien-primary ; G 31
+U 63734 ; WX 1125 ; N alien-monster-primary ; G 32
+U 63735 ; WX 1000 ; N bed-alt-primary ; G 33
+U 63736 ; WX 1125 ; N bed-bunk-primary ; G 34
+U 63737 ; WX 1250 ; N bed-empty-primary ; G 35
+U 63738 ; WX 1250 ; N bell-on-primary ; G 36
+U 63739 ; WX 1000 ; N blinds-primary ; G 37
+U 63740 ; WX 1000 ; N blinds-open-primary ; G 38
+U 63741 ; WX 1000 ; N blinds-raised-primary ; G 39
+U 63742 ; WX 875 ; N camera-home-primary ; G 40
+U 63743 ; WX 1250 ; N caravan-primary ; G 41
+EndCharMetrics
+EndFontMetrics

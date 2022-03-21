@@ -1,0 +1,105 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Pro Regular-5.15.4
+FullName Font Awesome 5 Pro Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Pro Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -25 -145 1254 900
+StartCharMetrics 80
+U 61450 ; WX 1000 ; N th ; G 3
+U 61461 ; WX 1125 ; N home ; G 4
+U 61550 ; WX 1125 ; N eye ; G 5
+U 61552 ; WX 1250 ; N eye-slash ; G 6
+U 61924 ; WX 1000 ; N tty ; G 7
+U 62112 ; WX 875 ; N phone-volume ; G 8
+U 62327 ; WX 1250 ; N battery-slash ; G 9
+U 62576 ; WX 1250 ; N diagnoses ; G 10
+U 62620 ; WX 1250 ; N box-full ; G 11
+U 62622 ; WX 1250 ; N box-open ; G 12
+U 62665 ; WX 1125 ; N home-heart ; G 13
+U 63190 ; WX 1000 ; N drumstick ; G 14
+U 63191 ; WX 1000 ; N drumstick-bite ; G 15
+U 63237 ; WX 1125 ; N pie ; G 16
+U 63269 ; WX 1250 ; N turkey ; G 17
+U 63358 ; WX 1125 ; N ball-pile ; G 18
+U 63360 ; WX 1125 ; N biohazard ; G 19
+U 63461 ; WX 1125 ; N bacon ; G 20
+U 63462 ; WX 875 ; N book-medical ; G 21
+U 63463 ; WX 875 ; N book-user ; G 22
+U 63465 ; WX 875 ; N brackets ; G 23
+U 63466 ; WX 1125 ; N brackets-curly ; G 24
+U 63467 ; WX 1250 ; N bread-loaf ; G 25
+U 63468 ; WX 1125 ; N bread-slice ; G 26
+U 63469 ; WX 1000 ; N burrito ; G 27
+U 63470 ; WX 1000 ; N chart-scatter ; G 28
+U 63471 ; WX 1000 ; N cheese ; G 29
+U 63472 ; WX 1000 ; N cheese-swiss ; G 30
+U 63474 ; WX 1125 ; N clinic-medical ; G 31
+U 63475 ; WX 750 ; N clipboard-user ; G 32
+U 63476 ; WX 1000 ; N comment-alt-medical ; G 33
+U 63477 ; WX 1000 ; N comment-medical ; G 34
+U 63478 ; WX 1000 ; N croissant ; G 35
+U 63479 ; WX 1000 ; N crutch ; G 36
+U 63480 ; WX 1250 ; N crutches ; G 37
+U 63481 ; WX 1000 ; N debug ; G 38
+U 63482 ; WX 1000 ; N disease ; G 39
+U 63483 ; WX 750 ; N egg ; G 40
+U 63484 ; WX 1000 ; N egg-fried ; G 41
+U 63486 ; WX 1250 ; N fish-cooked ; G 42
+U 63488 ; WX 1000 ; N flower-daffodil ; G 43
+U 63489 ; WX 1000 ; N flower-tulip ; G 44
+U 63490 ; WX 1125 ; N folder-tree ; G 45
+U 63492 ; WX 750 ; N glass ; G 46
+U 63493 ; WX 1000 ; N hamburger ; G 47
+U 63495 ; WX 1000 ; N hard-hat ; G 48
+U 63496 ; WX 1000 ; N head-side-brain ; G 49
+U 63497 ; WX 1000 ; N head-side-medical ; G 50
+U 63498 ; WX 1125 ; N home-alt ; G 51
+U 63499 ; WX 1125 ; N home-lg ; G 52
+U 63500 ; WX 1125 ; N home-lg-alt ; G 53
+U 63502 ; WX 1250 ; N hospitals ; G 54
+U 63503 ; WX 1000 ; N hotdog ; G 55
+U 63505 ; WX 875 ; N island-tropical ; G 56
+U 63506 ; WX 1250 ; N laptop-medical ; G 57
+U 63508 ; WX 1000 ; N meat ; G 58
+U 63509 ; WX 1000 ; N pager ; G 59
+U 63510 ; WX 1000 ; N pepper-hot ; G 60
+U 63511 ; WX 1125 ; N pizza ; G 61
+U 63512 ; WX 1000 ; N pizza-slice ; G 62
+U 63515 ; WX 1000 ; N rings-wedding ; G 63
+U 63518 ; WX 1000 ; N salad ; G 64
+U 63519 ; WX 1000 ; N sandwich ; G 65
+U 63520 ; WX 1000 ; N sausage ; G 66
+U 63521 ; WX 1000 ; N shish-kebab ; G 67
+U 63522 ; WX 1000 ; N sickle ; G 68
+U 63523 ; WX 1000 ; N soup ; G 69
+U 63525 ; WX 1250 ; N stretcher ; G 70
+U 63526 ; WX 1000 ; N taco ; G 71
+U 63527 ; WX 875 ; N tanakh ; G 72
+U 63532 ; WX 875 ; N user-hard-hat ; G 73
+U 63533 ; WX 875 ; N user-headset ; G 74
+U 63534 ; WX 1250 ; N user-md-chat ; G 75
+U 63536 ; WX 1250 ; N users-medical ; G 76
+U 63537 ; WX 875 ; N walker ; G 77
+U 63538 ; WX 875 ; N webcam ; G 78
+U 63539 ; WX 1250 ; N webcam-slash ; G 79
+EndCharMetrics
+EndFontMetrics

@@ -1,0 +1,34 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Brands Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Brands Regular-5.15.4
+FullName Font Awesome 5 Brands Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Brands-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Brands
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Brands Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox 0 -125 1125 875
+StartCharMetrics 9
+U 61819 ; WX 1125 ; N android ; G 3
+U 61928 ; WX 1000 ; N twitch ; G 4
+U 62055 ; WX 1000 ; N safari ; G 5
+U 62057 ; WX 1000 ; N firefox ; G 6
+U 62126 ; WX 938 ; N pied-piper ; G 7
+U 62149 ; WX 1125 ; N free-code-camp ; G 8
+EndCharMetrics
+EndFontMetrics

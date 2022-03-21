@@ -44,6 +44,7 @@ class Autoload extends AutoloadConfig
         APP_NAMESPACE => APPPATH, // For custom app namespace
         'Config'      => APPPATH . 'Config',
         'Dompdf'      => APPPATH . 'TrirdParty/dompdf/src',
+        //'Html2Pdf'      => APPPATH . 'TrirdParty/spipu/html2pdf/src',
     ];
 
     /**

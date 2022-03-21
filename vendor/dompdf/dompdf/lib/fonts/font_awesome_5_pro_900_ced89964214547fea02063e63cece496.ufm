@@ -1,0 +1,110 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Pro Solid-5.15.4
+FullName Font Awesome 5 Pro Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Pro Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -25 -139 1264 893
+StartCharMetrics 85
+U 61479 ; WX 750 ; N volume-down ; G 3
+U 61480 ; WX 1125 ; N volume-up ; G 4
+U 61568 ; WX 1000 ; N chart-bar ; G 5
+U 61601 ; WX 1125 ; N bullhorn ; G 6
+U 61617 ; WX 1000 ; N briefcase ; G 7
+U 61675 ; WX 688 ; N lightbulb ; G 8
+U 61952 ; WX 1063 ; N chart-pie ; G 9
+U 61953 ; WX 1000 ; N chart-line ; G 10
+U 62178 ; WX 1250 ; N volume-slash ; G 11
+U 63002 ; WX 875 ; N route-highway ; G 12
+U 63040 ; WX 1125 ; N abacus ; G 13
+U 63043 ; WX 1125 ; N analytics ; G 14
+U 63044 ; WX 625 ; N ankh ; G 15
+U 63045 ; WX 1000 ; N badge-dollar ; G 16
+U 63046 ; WX 1000 ; N badge-percent ; G 17
+U 63047 ; WX 875 ; N bible ; G 18
+U 63050 ; WX 1250 ; N business-time ; G 19
+U 63051 ; WX 1000 ; N cabinet-filing ; G 20
+U 63053 ; WX 1000 ; N chart-line-down ; G 21
+U 63054 ; WX 1000 ; N chart-pie-alt ; G 22
+U 63055 ; WX 1250 ; N city ; G 23
+U 63056 ; WX 1000 ; N comment-alt-dollar ; G 24
+U 63057 ; WX 1000 ; N comment-dollar ; G 25
+U 63058 ; WX 1125 ; N comments-alt-dollar ; G 26
+U 63059 ; WX 1125 ; N comments-dollar ; G 27
+U 63061 ; WX 1000 ; N dharmachakra ; G 28
+U 63062 ; WX 1000 ; N empty-set ; G 29
+U 63069 ; WX 1000 ; N folder-minus ; G 30
+U 63071 ; WX 1000 ; N folder-times ; G 31
+U 63072 ; WX 1250 ; N folders ; G 32
+U 63073 ; WX 1250 ; N function ; G 33
+U 63074 ; WX 1250 ; N funnel-dollar ; G 34
+U 63075 ; WX 1125 ; N gift-card ; G 35
+U 63077 ; WX 1000 ; N hamsa ; G 36
+U 63079 ; WX 750 ; N integral ; G 37
+U 63080 ; WX 750 ; N intersection ; G 38
+U 63081 ; WX 1125 ; N jedi ; G 39
+U 63083 ; WX 1125 ; N kaaba ; G 40
+U 63084 ; WX 1000 ; N keynote ; G 41
+U 63085 ; WX 1000 ; N khanda ; G 42
+U 63086 ; WX 875 ; N lambda ; G 43
+U 63087 ; WX 1000 ; N landmark ; G 44
+U 63088 ; WX 688 ; N lightbulb-dollar ; G 45
+U 63089 ; WX 688 ; N lightbulb-exclamation ; G 46
+U 63091 ; WX 1250 ; N lightbulb-slash ; G 47
+U 63092 ; WX 1125 ; N mail-bulk ; G 48
+U 63093 ; WX 1125 ; N megaphone ; G 49
+U 63096 ; WX 1250 ; N mosque ; G 50
+U 63097 ; WX 1000 ; N om ; G 51
+U 63098 ; WX 1000 ; N omega ; G 52
+U 63099 ; WX 1250 ; N pastafarianism ; G 53
+U 63101 ; WX 1125 ; N phone-office ; G 54
+U 63102 ; WX 1000 ; N pi ; G 55
+U 63103 ; WX 1250 ; N place-of-worship ; G 56
+U 63104 ; WX 875 ; N podium ; G 57
+U 63107 ; WX 750 ; N pray ; G 58
+U 63108 ; WX 1250 ; N praying-hands ; G 59
+U 63109 ; WX 1125 ; N presentation ; G 60
+U 63110 ; WX 1250 ; N print-slash ; G 61
+U 63111 ; WX 875 ; N quran ; G 62
+U 63112 ; WX 1000 ; N search-dollar ; G 63
+U 63113 ; WX 1000 ; N search-location ; G 64
+U 63115 ; WX 750 ; N sigma ; G 65
+U 63124 ; WX 1250 ; N signal-alt-slash ; G 66
+U 63125 ; WX 1250 ; N signal-slash ; G 67
+U 63127 ; WX 1125 ; N square-root ; G 68
+U 63128 ; WX 1125 ; N square-root-alt ; G 69
+U 63129 ; WX 1000 ; N star-and-crescent ; G 70
+U 63131 ; WX 1250 ; N synagogue ; G 71
+U 63132 ; WX 1250 ; N tally ; G 72
+U 63134 ; WX 750 ; N theta ; G 73
+U 63135 ; WX 1000 ; N tilde ; G 74
+U 63137 ; WX 1000 ; N torii-gate ; G 75
+U 63138 ; WX 750 ; N union ; G 76
+U 63139 ; WX 1250 ; N user-chart ; G 77
+U 63140 ; WX 875 ; N user-crown ; G 78
+U 63141 ; WX 1250 ; N users-crown ; G 79
+U 63142 ; WX 1000 ; N value-absolute ; G 80
+U 63143 ; WX 1250 ; N vihara ; G 81
+U 63144 ; WX 938 ; N volume ; G 82
+U 63145 ; WX 1000 ; N volume-mute ; G 83
+U 63148 ; WX 1250 ; N wifi-slash ; G 84
+EndCharMetrics
+EndFontMetrics

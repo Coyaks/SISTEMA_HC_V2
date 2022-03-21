@@ -1,0 +1,111 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -29 -131 1291 877
+StartCharMetrics 169
+U 61440 ; WX 1000 ; N glass-martini-primary ; G 3
+U 61458 ; WX 1250 ; N signal-primary ; G 4
+U 61481 ; WX 875 ; N qrcode-primary ; G 5
+U 61502 ; WX 1000 ; N image-primary ; G 6
+U 61549 ; WX 750 ; N fire-primary ; G 7
+U 61557 ; WX 1000 ; N comment-primary ; G 8
+U 61563 ; WX 1000 ; N folder-primary ; G 9
+U 61571 ; WX 1000 ; N camera-retro-primary ; G 10
+U 61572 ; WX 1000 ; N key-primary ; G 11
+U 61600 ; WX 1125 ; N hdd-primary ; G 12
+U 61726 ; WX 1000 ; N flag-checkered-primary ; G 13
+U 61853 ; WX 1250 ; N graduation-cap-primary ; G 14
+U 61962 ; WX 1000 ; N closed-captioning-primary ; G 15
+U 62023 ; WX 1000 ; N object-group-primary ; G 16
+U 62024 ; WX 1125 ; N object-ungroup-primary ; G 17
+U 62033 ; WX 750 ; N hourglass-start-primary ; G 18
+U 62034 ; WX 750 ; N hourglass-half-primary ; G 19
+U 62035 ; WX 750 ; N hourglass-end-primary ; G 20
+U 62036 ; WX 750 ; N hourglass-primary ; G 21
+U 62045 ; WX 1000 ; N registered-primary ; G 22
+U 62069 ; WX 1000 ; N industry-primary ; G 23
+U 62074 ; WX 1000 ; N comment-alt-primary ; G 24
+U 62146 ; WX 1125 ; N id-card-primary ; G 25
+U 62161 ; WX 1000 ; N window-minimize-primary ; G 26
+U 62210 ; WX 1125 ; N images-primary ; G 27
+U 62224 ; WX 1125 ; N inbox-in-primary ; G 28
+U 62225 ; WX 1125 ; N inbox-out-primary ; G 29
+U 62285 ; WX 750 ; N arrow-alt-to-top-primary ; G 30
+U 62373 ; WX 1125 ; N gem-primary ; G 31
+U 62517 ; WX 1250 ; N basketball-hoop-primary ; G 32
+U 62548 ; WX 1250 ; N hockey-sticks-primary ; G 33
+U 62550 ; WX 1125 ; N pennant-primary ; G 34
+U 62582 ; WX 1250 ; N dolly-flatbed-empty-primary ; G 35
+U 62591 ; WX 1125 ; N id-card-alt-primary ; G 36
+U 62592 ; WX 1250 ; N inventory-primary ; G 37
+U 62767 ; WX 1000 ; N gas-pump-primary ; G 38
+U 62772 ; WX 1250 ; N infinity-primary ; G 39
+U 62817 ; WX 1125 ; N cocktail-primary ; G 40
+U 62840 ; WX 1125 ; N fish-primary ; G 41
+U 62865 ; WX 1063 ; N highlighter-primary ; G 42
+U 62939 ; WX 1125 ; N books-primary ; G 43
+U 62951 ; WX 1125 ; N charging-station-primary ; G 44
+U 62966 ; WX 875 ; N globe-stand-primary ; G 45
+U 62993 ; WX 1125 ; N monitor-heart-rate-primary ; G 46
+U 62995 ; WX 1250 ; N oil-can-primary ; G 47
+U 63060 ; WX 750 ; N cross-primary ; G 48
+U 63105 ; WX 875 ; N poll-primary ; G 49
+U 63106 ; WX 875 ; N poll-h-primary ; G 50
+U 63116 ; WX 1250 ; N signal-1-primary ; G 51
+U 63117 ; WX 1250 ; N signal-2-primary ; G 52
+U 63118 ; WX 1250 ; N signal-3-primary ; G 53
+U 63119 ; WX 1250 ; N signal-4-primary ; G 54
+U 63120 ; WX 1250 ; N signal-alt-primary ; G 55
+U 63121 ; WX 1250 ; N signal-alt-1-primary ; G 56
+U 63122 ; WX 1250 ; N signal-alt-2-primary ; G 57
+U 63123 ; WX 1250 ; N signal-alt-3-primary ; G 58
+U 63166 ; WX 1000 ; N cat-primary ; G 59
+U 63194 ; WX 1250 ; N elephant-primary ; G 60
+U 63204 ; WX 750 ; N hammer-war-primary ; G 61
+U 63213 ; WX 1250 ; N hippo-primary ; G 62
+U 63215 ; WX 1125 ; N hood-cloak-primary ; G 63
+U 63216 ; WX 1125 ; N horse-primary ; G 64
+U 63220 ; WX 1250 ; N kite-primary ; G 65
+U 63226 ; WX 1250 ; N mask-primary ; G 66
+U 63227 ; WX 1250 ; N monkey-primary ; G 67
+U 63230 ; WX 1250 ; N narwhal-primary ; G 68
+U 63276 ; WX 1250 ; N whale-primary ; G 69
+U 63313 ; WX 750 ; N hurricane-primary ; G 70
+U 63321 ; WX 1250 ; N poll-people-primary ; G 71
+U 63323 ; WX 1125 ; N rainbow-primary ; G 72
+U 63353 ; WX 1125 ; N angel-primary ; G 73
+U 63356 ; WX 750 ; N baby-primary ; G 74
+U 63366 ; WX 1000 ; N candy-cane-primary ; G 75
+U 63367 ; WX 1000 ; N carrot-primary ; G 76
+U 63403 ; WX 1000 ; N horse-head-primary ; G 77
+U 63410 ; WX 1250 ; N lights-holiday-primary ; G 78
+U 63415 ; WX 1000 ; N mug-marshmallows-primary ; G 79
+U 63464 ; WX 1250 ; N books-medical-primary ; G 80
+U 63507 ; WX 1125 ; N mailbox-primary ; G 81
+U 63587 ; WX 1000 ; N fan-primary ; G 82
+U 63611 ; WX 875 ; N phone-square-alt-primary ; G 83
+U 63644 ; WX 875 ; N border-center-h-primary ; G 84
+U 63645 ; WX 875 ; N border-center-v-primary ; G 85
+EndCharMetrics
+EndFontMetrics

@@ -1,0 +1,111 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Pro Solid-5.15.4
+FullName Font Awesome 5 Pro Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Pro Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -14 -148 1264 896
+StartCharMetrics 86
+U 62617 ; WX 875 ; N book-heart ; G 3
+U 63094 ; WX 1250 ; N menorah ; G 4
+U 63150 ; WX 875 ; N acorn ; G 5
+U 63152 ; WX 1250 ; N alicorn ; G 6
+U 63153 ; WX 1000 ; N apple-crate ; G 7
+U 63154 ; WX 1250 ; N axe ; G 8
+U 63155 ; WX 1000 ; N axe-battle ; G 9
+U 63157 ; WX 1250 ; N bat ; G 10
+U 63158 ; WX 1125 ; N blender-phone ; G 11
+U 63159 ; WX 875 ; N book-dead ; G 12
+U 63160 ; WX 875 ; N book-spells ; G 13
+U 63161 ; WX 1000 ; N bow-arrow ; G 14
+U 63162 ; WX 1000 ; N campfire ; G 15
+U 63163 ; WX 1250 ; N campground ; G 16
+U 63164 ; WX 875 ; N candle-holder ; G 17
+U 63167 ; WX 875 ; N cauldron ; G 18
+U 63170 ; WX 1000 ; N claw-marks ; G 19
+U 63173 ; WX 875 ; N coffee-togo ; G 20
+U 63175 ; WX 1000 ; N corn ; G 21
+U 63176 ; WX 1250 ; N cow ; G 22
+U 63179 ; WX 750 ; N dagger ; G 23
+U 63181 ; WX 1000 ; N dice-d10 ; G 24
+U 63182 ; WX 1000 ; N dice-d12 ; G 25
+U 63183 ; WX 938 ; N dice-d20 ; G 26
+U 63184 ; WX 1000 ; N dice-d4 ; G 27
+U 63185 ; WX 875 ; N dice-d6 ; G 28
+U 63186 ; WX 1000 ; N dice-d8 ; G 29
+U 63189 ; WX 1250 ; N dragon ; G 30
+U 63192 ; WX 1000 ; N duck ; G 31
+U 63193 ; WX 1000 ; N dungeon ; G 32
+U 63195 ; WX 1250 ; N eye-evil ; G 33
+U 63198 ; WX 750 ; N fist-raised ; G 34
+U 63202 ; WX 750 ; N ghost ; G 35
+U 63203 ; WX 1125 ; N hammer ; G 36
+U 63205 ; WX 1125 ; N hand-holding-magic ; G 37
+U 63206 ; WX 1250 ; N hanukiah ; G 38
+U 63207 ; WX 1125 ; N hat-witch ; G 39
+U 63209 ; WX 1000 ; N head-side ; G 40
+U 63210 ; WX 1000 ; N head-vr ; G 41
+U 63211 ; WX 1125 ; N helmet-battle ; G 42
+U 63212 ; WX 750 ; N hiking ; G 43
+U 63214 ; WX 875 ; N hockey-mask ; G 44
+U 63217 ; WX 1125 ; N house-damage ; G 45
+U 63218 ; WX 750 ; N hryvnia ; G 46
+U 63219 ; WX 1000 ; N key-skeleton ; G 47
+U 63221 ; WX 1125 ; N knife-kitchen ; G 48
+U 63222 ; WX 1000 ; N leaf-maple ; G 49
+U 63223 ; WX 1000 ; N leaf-oak ; G 50
+U 63224 ; WX 1000 ; N mace ; G 51
+U 63228 ; WX 1250 ; N mountain ; G 52
+U 63229 ; WX 1250 ; N mountains ; G 53
+U 63231 ; WX 1250 ; N network-wired ; G 54
+U 63232 ; WX 1250 ; N otter ; G 55
+U 63233 ; WX 875 ; N paw-alt ; G 56
+U 63234 ; WX 1000 ; N paw-claws ; G 57
+U 63235 ; WX 1125 ; N pegasus ; G 58
+U 63239 ; WX 1125 ; N pumpkin ; G 59
+U 63242 ; WX 1250 ; N ram ; G 60
+U 63243 ; WX 1000 ; N ring ; G 61
+U 63249 ; WX 1250 ; N sheep ; G 62
+U 63250 ; WX 875 ; N shield-cross ; G 63
+U 63251 ; WX 1000 ; N shovel ; G 64
+U 63253 ; WX 1250 ; N slash ; G 65
+U 63254 ; WX 1250 ; N snake ; G 66
+U 63255 ; WX 1125 ; N spider ; G 67
+U 63256 ; WX 1125 ; N spider-black-widow ; G 68
+U 63257 ; WX 1125 ; N spider-web ; G 69
+U 63258 ; WX 1000 ; N squirrel ; G 70
+U 63259 ; WX 1000 ; N staff ; G 71
+U 63260 ; WX 1000 ; N sword ; G 72
+U 63261 ; WX 1000 ; N swords ; G 73
+U 63264 ; WX 1000 ; N tombstone ; G 74
+U 63265 ; WX 1000 ; N tombstone-alt ; G 75
+U 63266 ; WX 1250 ; N tractor ; G 76
+U 63267 ; WX 1125 ; N treasure-chest ; G 77
+U 63268 ; WX 1250 ; N trees ; G 78
+U 63270 ; WX 1125 ; N turtle ; G 79
+U 63271 ; WX 1250 ; N unicorn ; G 80
+U 63272 ; WX 875 ; N user-injured ; G 81
+U 63273 ; WX 1250 ; N vr-cardboard ; G 82
+U 63275 ; WX 1000 ; N wand-magic ; G 83
+U 63277 ; WX 1000 ; N wheat ; G 84
+U 63279 ; WX 1000 ; N wine-bottle ; G 85
+EndCharMetrics
+EndFontMetrics

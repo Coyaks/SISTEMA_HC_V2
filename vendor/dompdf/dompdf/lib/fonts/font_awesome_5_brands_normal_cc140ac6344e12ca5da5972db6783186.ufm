@@ -1,0 +1,82 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Brands Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Brands Regular-5.15.4
+FullName Font Awesome 5 Brands Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Brands-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Brands
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Brands Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -27 -133 1254 938
+StartCharMetrics 57
+U 61809 ; WX 1000 ; N bitbucket ; G 3
+U 61817 ; WX 750 ; N applelogo ; G 4
+U 61929 ; WX 750 ; N yelp ; G 5
+U 62076 ; WX 875 ; N houzz ; G 6
+U 62451 ; WX 875 ; N speakap ; G 7
+U 62490 ; WX 1000 ; N osi ; G 8
+U 62494 ; WX 1250 ; N sass ; G 9
+U 62496 ; WX 875 ; N angular ; G 10
+U 62504 ; WX 750 ; N strava ; G 11
+U 62506 ; WX 750 ; N stripe-s ; G 12
+U 62507 ; WX 875 ; N typo3 ; G 13
+U 62508 ; WX 1250 ; N amazon-pay ; G 14
+U 62553 ; WX 1000 ; N quinscape ; G 15
+U 62692 ; WX 750 ; N java ; G 16
+U 62710 ; WX 875 ; N mastodon ; G 17
+U 62713 ; WX 1000 ; N teamspeak ; G 18
+U 62731 ; WX 625 ; N fulcrum ; G 19
+U 62735 ; WX 875 ; N mandalorian ; G 20
+U 62737 ; WX 1000 ; N phoenix-squadron ; G 21
+U 62740 ; WX 1000 ; N wolf-pack-battalion ; G 22
+U 62866 ; WX 1000 ; N hornbill ; G 23
+U 62888 ; WX 750 ; N nimblr ; G 24
+U 62898 ; WX 875 ; N rev ; G 25
+U 62901 ; WX 1000 ; N shopware ; G 26
+U 62918 ; WX 875 ; N themeco ; G 27
+U 62967 ; WX 1000 ; N hackerrank ; G 28
+U 62970 ; WX 625 ; N kaggle ; G 29
+U 62994 ; WX 1000 ; N neos ; G 30
+U 63133 ; WX 1000 ; N the-red-yeti ; G 31
+U 63151 ; WX 750 ; N acquisitions-incorporated ; G 32
+U 63177 ; WX 875 ; N critical-role ; G 33
+U 63281 ; WX 1125 ; N think-peaks ; G 34
+U 63325 ; WX 1125 ; N reacteurope ; G 35
+U 63354 ; WX 1000 ; N artstation ; G 36
+U 63365 ; WX 1000 ; N canadian-maple-leaf ; G 37
+U 63369 ; WX 875 ; N centos ; G 38
+U 63377 ; WX 1000 ; N diaspora ; G 39
+U 63384 ; WX 875 ; N fedora ; G 40
+U 63430 ; WX 1000 ; N sketch ; G 41
+U 63443 ; WX 875 ; N sourcetree ; G 42
+U 63446 ; WX 1250 ; N suse ; G 43
+U 63456 ; WX 750 ; N ups ; G 44
+U 63457 ; WX 1125 ; N usps ; G 45
+U 63540 ; WX 875 ; N airbnb ; G 46
+U 63541 ; WX 1000 ; N battle-net ; G 47
+U 63543 ; WX 875 ; N buffer ; G 48
+U 63544 ; WX 1000 ; N chromecast ; G 49
+U 63545 ; WX 750 ; N evernote ; G 50
+U 63546 ; WX 1000 ; N itch-io ; G 51
+U 63547 ; WX 1250 ; N salesforce ; G 52
+U 63548 ; WX 1000 ; N speaker-deck ; G 53
+U 63549 ; WX 1000 ; N symfony ; G 54
+U 63551 ; WX 1000 ; N waze ; G 55
+U 63552 ; WX 1000 ; N yammer ; G 56
+EndCharMetrics
+EndFontMetrics

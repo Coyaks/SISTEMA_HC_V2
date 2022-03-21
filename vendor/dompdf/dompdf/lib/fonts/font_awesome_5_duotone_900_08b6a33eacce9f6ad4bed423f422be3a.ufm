@@ -1,0 +1,94 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -12 -129 1271 887
+StartCharMetrics 135
+U 61671 ; WX 625 ; N bolt-primary ; G 3
+U 61829 ; WX 1000 ; N sun-primary ; G 4
+U 62172 ; WX 875 ; N snowflake-primary ; G 5
+U 63171 ; WX 1125 ; N cloud-moon-primary ; G 6
+U 63172 ; WX 1250 ; N cloud-sun-primary ; G 7
+U 63278 ; WX 1000 ; N wind-primary ; G 8
+U 63282 ; WX 750 ; N ballot-primary ; G 9
+U 63283 ; WX 750 ; N ballot-check-primary ; G 10
+U 63284 ; WX 1000 ; N booth-curtain-primary ; G 11
+U 63285 ; WX 1125 ; N box-ballot-primary ; G 12
+U 63287 ; WX 750 ; N clipboard-list-check-primary ; G 13
+U 63288 ; WX 1000 ; N cloud-drizzle-primary ; G 14
+U 63289 ; WX 1000 ; N cloud-hail-primary ; G 15
+U 63290 ; WX 1000 ; N cloud-hail-mixed-primary ; G 16
+U 63291 ; WX 1000 ; N cloud-meatball-primary ; G 17
+U 63292 ; WX 1125 ; N cloud-moon-rain-primary ; G 18
+U 63293 ; WX 1000 ; N cloud-rain-primary ; G 19
+U 63294 ; WX 1125 ; N cloud-rainbow-primary ; G 20
+U 63295 ; WX 1000 ; N cloud-showers-primary ; G 21
+U 63296 ; WX 1000 ; N cloud-showers-heavy-primary ; G 22
+U 63297 ; WX 1000 ; N cloud-sleet-primary ; G 23
+U 63298 ; WX 1000 ; N cloud-snow-primary ; G 24
+U 63299 ; WX 1125 ; N cloud-sun-rain-primary ; G 25
+U 63300 ; WX 1250 ; N clouds-primary ; G 26
+U 63301 ; WX 1250 ; N clouds-moon-primary ; G 27
+U 63302 ; WX 1250 ; N clouds-sun-primary ; G 28
+U 63303 ; WX 1250 ; N democrat-primary ; G 29
+U 63304 ; WX 1000 ; N dewpoint-primary ; G 30
+U 63305 ; WX 1250 ; N eclipse-primary ; G 31
+U 63306 ; WX 1000 ; N eclipse-alt-primary ; G 32
+U 63307 ; WX 1250 ; N fire-smoke-primary ; G 33
+U 63308 ; WX 1000 ; N flag-alt-primary ; G 34
+U 63309 ; WX 1000 ; N flag-usa-primary ; G 35
+U 63310 ; WX 1250 ; N fog-primary ; G 36
+U 63311 ; WX 1125 ; N house-flood-primary ; G 37
+U 63312 ; WX 750 ; N humidity-primary ; G 38
+U 63314 ; WX 1000 ; N landmark-alt-primary ; G 39
+U 63316 ; WX 1125 ; N moon-cloud-primary ; G 40
+U 63317 ; WX 1000 ; N moon-stars-primary ; G 41
+U 63318 ; WX 1125 ; N person-booth-primary ; G 42
+U 63319 ; WX 1000 ; N person-sign-primary ; G 43
+U 63320 ; WX 875 ; N podium-star-primary ; G 44
+U 63322 ; WX 875 ; N poo-storm-primary ; G 45
+U 63324 ; WX 875 ; N raindrops-primary ; G 46
+U 63326 ; WX 1250 ; N republican-primary ; G 47
+U 63327 ; WX 1250 ; N smog-primary ; G 48
+U 63328 ; WX 1250 ; N smoke-primary ; G 49
+U 63329 ; WX 1250 ; N snow-blowing-primary ; G 50
+U 63331 ; WX 1250 ; N sun-cloud-primary ; G 51
+U 63332 ; WX 1000 ; N sun-dust-primary ; G 52
+U 63333 ; WX 1250 ; N sun-haze-primary ; G 53
+U 63334 ; WX 1125 ; N sunrise-primary ; G 54
+U 63335 ; WX 1125 ; N sunset-primary ; G 55
+U 63336 ; WX 1125 ; N temperature-frigid-primary ; G 56
+U 63337 ; WX 1000 ; N temperature-high-primary ; G 57
+U 63338 ; WX 1250 ; N temperature-hot-primary ; G 58
+U 63339 ; WX 1000 ; N temperature-low-primary ; G 59
+U 63340 ; WX 1000 ; N thunderstorm-primary ; G 60
+U 63341 ; WX 1125 ; N thunderstorm-moon-primary ; G 61
+U 63342 ; WX 1125 ; N thunderstorm-sun-primary ; G 62
+U 63345 ; WX 1250 ; N vote-nay-primary ; G 63
+U 63346 ; WX 1250 ; N vote-yea-primary ; G 64
+U 63347 ; WX 1125 ; N water-primary ; G 65
+U 63348 ; WX 1125 ; N water-lower-primary ; G 66
+U 63349 ; WX 1125 ; N water-rise-primary ; G 67
+U 63350 ; WX 1250 ; N wind-warning-primary ; G 68
+EndCharMetrics
+EndFontMetrics

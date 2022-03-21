@@ -1,0 +1,43 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Brands Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Brands Regular-5.15.4
+FullName Font Awesome 5 Brands Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Brands-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Brands
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Brands Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -2 -125 1250 877
+StartCharMetrics 18
+U 57351 ; WX 1000 ; N firefox-browser ; G 3
+U 57363 ; WX 1125 ; N ideal ; G 4
+U 57370 ; WX 875 ; N microblog ; G 5
+U 57374 ; WX 875 ; N pied-piper-square ; G 6
+U 57417 ; WX 1125 ; N unity ; G 7
+U 57426 ; WX 875 ; N dailymotion ; G 8
+U 57429 ; WX 875 ; N instagram-square ; G 9
+U 57430 ; WX 1000 ; N mixer ; G 10
+U 57431 ; WX 875 ; N shopify ; G 11
+U 57463 ; WX 1125 ; N deezer ; G 12
+U 57464 ; WX 1000 ; N edge-legacy ; G 13
+U 57465 ; WX 1250 ; N google-pay ; G 14
+U 57466 ; WX 1000 ; N rust ; G 15
+U 57467 ; WX 875 ; N tiktok ; G 16
+U 57468 ; WX 875 ; N unsplash ; G 17
+EndCharMetrics
+EndFontMetrics

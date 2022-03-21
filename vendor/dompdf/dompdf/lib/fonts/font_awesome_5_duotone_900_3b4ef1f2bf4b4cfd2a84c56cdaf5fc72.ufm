@@ -1,0 +1,119 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -27 -145 1254 885
+StartCharMetrics 185
+U 61464 ; WX 1125 ; N road-primary ; G 3
+U 61668 ; WX 1125 ; N tachometer-primary ; G 4
+U 61705 ; WX 1250 ; N laptop-primary ; G 5
+U 61881 ; WX 1000 ; N car-primary ; G 6
+U 61925 ; WX 1000 ; N binoculars-primary ; G 7
+U 61942 ; WX 1250 ; N bell-slash-primary ; G 8
+U 61981 ; WX 1000 ; N street-view-primary ; G 9
+U 62070 ; WX 563 ; N map-pin-primary ; G 10
+U 62071 ; WX 1000 ; N map-signs-primary ; G 11
+U 62461 ; WX 1125 ; N tachometer-alt-primary ; G 12
+U 62679 ; WX 1000 ; N route-primary ; G 13
+U 62744 ; WX 1125 ; N book-open-primary ; G 14
+U 62929 ; WX 875 ; N apple-alt-primary ; G 15
+U 62932 ; WX 875 ; N backpack-primary ; G 16
+U 62933 ; WX 1000 ; N bell-school-primary ; G 17
+U 62934 ; WX 1250 ; N bell-school-slash-primary ; G 18
+U 62935 ; WX 1250 ; N bone-primary ; G 19
+U 62936 ; WX 1250 ; N bone-break-primary ; G 20
+U 62937 ; WX 875 ; N book-alt-primary ; G 21
+U 62938 ; WX 1000 ; N book-reader-primary ; G 22
+U 62941 ; WX 1000 ; N bus-school-primary ; G 23
+U 62943 ; WX 1000 ; N car-battery-primary ; G 24
+U 62944 ; WX 1125 ; N car-bump-primary ; G 25
+U 62945 ; WX 1250 ; N car-crash-primary ; G 26
+U 62946 ; WX 1250 ; N car-garage-primary ; G 27
+U 62947 ; WX 1000 ; N car-mechanic-primary ; G 28
+U 62948 ; WX 1250 ; N car-side-primary ; G 29
+U 62949 ; WX 1250 ; N car-tilt-primary ; G 30
+U 62952 ; WX 750 ; N clipboard-prescription-primary ; G 31
+U 62953 ; WX 1250 ; N compass-slash-primary ; G 32
+U 62954 ; WX 1250 ; N diploma-primary ; G 33
+U 62957 ; WX 1000 ; N draw-circle-primary ; G 34
+U 62958 ; WX 875 ; N draw-polygon-primary ; G 35
+U 62959 ; WX 875 ; N draw-square-primary ; G 36
+U 62960 ; WX 750 ; N ear-primary ; G 37
+U 62962 ; WX 1250 ; N engine-warning-primary ; G 38
+U 62964 ; WX 1250 ; N gas-pump-slash-primary ; G 39
+U 62965 ; WX 1125 ; N glasses-alt-primary ; G 40
+U 62968 ; WX 1250 ; N heart-rate-primary ; G 41
+U 62969 ; WX 1250 ; N inhaler-primary ; G 42
+U 62971 ; WX 1250 ; N kidneys-primary ; G 43
+U 62972 ; WX 1250 ; N laptop-code-primary ; G 44
+U 62973 ; WX 1000 ; N layer-group-primary ; G 45
+U 62974 ; WX 1000 ; N layer-minus-primary ; G 46
+U 62975 ; WX 1000 ; N layer-plus-primary ; G 47
+U 62976 ; WX 1250 ; N lips-primary ; G 48
+U 62979 ; WX 1250 ; N location-slash-primary ; G 49
+U 62980 ; WX 1250 ; N lungs-primary ; G 50
+U 62981 ; WX 1250 ; N map-marker-alt-slash-primary ; G 51
+U 62982 ; WX 750 ; N map-marker-check-primary ; G 52
+U 62983 ; WX 750 ; N map-marker-edit-primary ; G 53
+U 62984 ; WX 750 ; N map-marker-exclamation-primary ; G 54
+U 62985 ; WX 750 ; N map-marker-minus-primary ; G 55
+U 62986 ; WX 750 ; N map-marker-plus-primary ; G 56
+U 62987 ; WX 750 ; N map-marker-question-primary ; G 57
+U 62988 ; WX 1250 ; N map-marker-slash-primary ; G 58
+U 62989 ; WX 750 ; N map-marker-smile-primary ; G 59
+U 62990 ; WX 750 ; N map-marker-times-primary ; G 60
+U 62992 ; WX 1000 ; N microscope-primary ; G 61
+U 62996 ; WX 1250 ; N oil-temp-primary ; G 62
+U 62999 ; WX 1250 ; N parking-slash-primary ; G 63
+U 63000 ; WX 1000 ; N pencil-paintbrush-primary ; G 64
+U 63001 ; WX 1000 ; N poop-primary ; G 65
+U 63004 ; WX 1000 ; N ruler-triangle-primary ; G 66
+U 63005 ; WX 1000 ; N scalpel-primary ; G 67
+U 63006 ; WX 1250 ; N scalpel-path-primary ; G 68
+U 63008 ; WX 1000 ; N skeleton-primary ; G 69
+U 63009 ; WX 938 ; N star-of-life-primary ; G 70
+U 63011 ; WX 1000 ; N stomach-primary ; G 71
+U 63012 ; WX 1125 ; N tachometer-alt-average-primary ; G 72
+U 63013 ; WX 1125 ; N tachometer-alt-fast-primary ; G 73
+U 63014 ; WX 1125 ; N tachometer-alt-fastest-primary ; G 74
+U 63015 ; WX 1125 ; N tachometer-alt-slow-primary ; G 75
+U 63016 ; WX 1125 ; N tachometer-alt-slowest-primary ; G 76
+U 63017 ; WX 1125 ; N tachometer-average-primary ; G 77
+U 63018 ; WX 1125 ; N tachometer-fast-primary ; G 78
+U 63019 ; WX 1125 ; N tachometer-fastest-primary ; G 79
+U 63020 ; WX 1125 ; N tachometer-slow-primary ; G 80
+U 63021 ; WX 1125 ; N tachometer-slowest-primary ; G 81
+U 63022 ; WX 1250 ; N teeth-primary ; G 82
+U 63023 ; WX 1250 ; N teeth-open-primary ; G 83
+U 63027 ; WX 1000 ; N tire-pressure-warning-primary ; G 84
+U 63029 ; WX 1250 ; N toothbrush-primary ; G 85
+U 63030 ; WX 1000 ; N traffic-cone-primary ; G 86
+U 63031 ; WX 750 ; N traffic-light-primary ; G 87
+U 63032 ; WX 750 ; N traffic-light-go-primary ; G 88
+U 63033 ; WX 750 ; N traffic-light-slow-primary ; G 89
+U 63034 ; WX 750 ; N traffic-light-stop-primary ; G 90
+U 63035 ; WX 1250 ; N truck-monster-primary ; G 91
+U 63036 ; WX 1250 ; N truck-pickup-primary ; G 92
+U 63037 ; WX 1250 ; N users-class-primary ; G 93
+EndCharMetrics
+EndFontMetrics

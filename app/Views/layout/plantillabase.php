@@ -116,7 +116,7 @@
         <!-- Main Sidebar Container inicio SIDEBAR-->
         <aside class="main-sidebar sidebar-dark-primary elevation-4">
             <!-- Brand Logo -->
-            <a href="index3.html" class="brand-link text-center">
+            <a href="#" class="brand-link text-center">
                 <img src="<?= base_url('assets/img/logo.png') ?>" alt="Logo" class="brand-text img-circle elevation-3" style="width:50px">
             </a>
 
@@ -289,7 +289,7 @@
                         ?>
 
                         <?php
-                        if ($_SESSION['idRol'] == 6 || $_SESSION['idRol'] == 1) {
+                        if ($_SESSION['idRol'] == 5 || $_SESSION['idRol'] == 1) {
                         ?>
                             <li class="nav-item">
                                 <a href="<?php echo base_url('/medico') ?>" class="nav-link <?= (current_url() == base_url('medico')) ? 'menu-item-active' : '' ?>">

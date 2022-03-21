@@ -1,0 +1,154 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Pro Solid-5.15.4
+FullName Font Awesome 5 Pro Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Pro Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -16 -141 1264 883
+StartCharMetrics 129
+U 61441 ; WX 1000 ; N music ; G 3
+U 61487 ; WX 1000 ; N print ; G 4
+U 61506 ; WX 1000 ; N adjust ; G 5
+U 61582 ; WX 1000 ; N external-link ; G 6
+U 61585 ; WX 1125 ; N trophy ; G 7
+U 61683 ; WX 875 ; N bell ; G 8
+U 61700 ; WX 500 ; N angle-left ; G 9
+U 61701 ; WX 500 ; N angle-right ; G 10
+U 61723 ; WX 1250 ; N gamepad ; G 11
+U 61757 ; WX 1125 ; N anchor ; G 12
+U 61769 ; WX 688 ; N level-down ; G 13
+U 61868 ; WX 1000 ; N fax ; G 14
+U 61932 ; WX 875 ; N calculator ; G 15
+U 61987 ; WX 563 ; N mercury ; G 16
+U 61989 ; WX 938 ; N transgender-alt ; G 17
+U 61994 ; WX 563 ; N mars-stroke-v ; G 18
+U 61995 ; WX 938 ; N mars-stroke-h ; G 19
+U 61996 ; WX 563 ; N neuter ; G 20
+U 62029 ; WX 1000 ; N clone ; G 21
+U 62060 ; WX 1250 ; N tv ; G 22
+U 62109 ; WX 750 ; N blind ; G 23
+U 62187 ; WX 1125 ; N trophy-alt ; G 24
+U 62190 ; WX 1125 ; N times-hexagon ; G 25
+U 62195 ; WX 1125 ; N star-exclamation ; G 26
+U 62208 ; WX 1125 ; N plus-hexagon ; G 27
+U 62215 ; WX 1125 ; N minus-hexagon ; G 28
+U 62243 ; WX 1000 ; N chevron-double-left ; G 29
+U 62244 ; WX 1000 ; N chevron-double-right ; G 30
+U 62264 ; WX 500 ; N arrows-alt-v ; G 31
+U 62269 ; WX 750 ; N arrow-to-bottom ; G 32
+U 62301 ; WX 1000 ; N external-link-alt ; G 33
+U 62602 ; WX 1125 ; N scanner-touchscreen ; G 34
+U 62656 ; WX 1125 ; N hand-holding-usd ; G 35
+U 62825 ; WX 1000 ; N drum ; G 36
+U 62940 ; WX 1125 ; N brain ; G 37
+U 62955 ; WX 1000 ; N directions ; G 38
+U 62977 ; WX 1000 ; N location ; G 39
+U 63003 ; WX 938 ; N route-interstate ; G 40
+U 63052 ; WX 1000 ; N calculator-alt ; G 41
+U 63076 ; WX 1000 ; N gopuram ; G 42
+U 63082 ; WX 875 ; N journal-whills ; G 43
+U 63114 ; WX 1000 ; N shredder ; G 44
+U 63168 ; WX 875 ; N chair ; G 45
+U 63169 ; WX 875 ; N chair-office ; G 46
+U 63199 ; WX 750 ; N flame ; G 47
+U 63200 ; WX 813 ; N flask-poison ; G 48
+U 63201 ; WX 813 ; N flask-potion ; G 49
+U 63208 ; WX 1000 ; N hat-wizard ; G 50
+U 63225 ; WX 1000 ; N mandolin ; G 51
+U 63244 ; WX 813 ; N running ; G 52
+U 63398 ; WX 1000 ; N guitar ; G 53
+U 63514 ; WX 1250 ; N print-search ; G 54
+U 63647 ; WX 875 ; N album ; G 55
+U 63648 ; WX 1000 ; N album-collection ; G 56
+U 63649 ; WX 1000 ; N amp-guitar ; G 57
+U 63650 ; WX 1000 ; N badge-sheriff ; G 58
+U 63651 ; WX 1000 ; N banjo ; G 59
+U 63652 ; WX 1000 ; N betamax ; G 60
+U 63653 ; WX 1250 ; N boombox ; G 61
+U 63655 ; WX 1000 ; N cactus ; G 62
+U 63656 ; WX 1125 ; N camcorder ; G 63
+U 63657 ; WX 1125 ; N camera-movie ; G 64
+U 63658 ; WX 1125 ; N camera-polaroid ; G 65
+U 63659 ; WX 1000 ; N cassette-tape ; G 66
+U 63660 ; WX 1125 ; N cctv ; G 67
+U 63661 ; WX 1250 ; N clarinet ; G 68
+U 63662 ; WX 1250 ; N cloud-music ; G 69
+U 63663 ; WX 1000 ; N comment-alt-music ; G 70
+U 63664 ; WX 1000 ; N comment-music ; G 71
+U 63665 ; WX 875 ; N computer-classic ; G 72
+U 63666 ; WX 1250 ; N computer-speaker ; G 73
+U 63667 ; WX 875 ; N cowbell ; G 74
+U 63668 ; WX 1250 ; N cowbell-more ; G 75
+U 63669 ; WX 1000 ; N disc-drive ; G 76
+U 63670 ; WX 750 ; N file-music ; G 77
+U 63672 ; WX 1250 ; N flashlight ; G 78
+U 63673 ; WX 1250 ; N flute ; G 79
+U 63675 ; WX 750 ; N game-console-handheld ; G 80
+U 63676 ; WX 1250 ; N gamepad-alt ; G 81
+U 63677 ; WX 750 ; N gramophone ; G 82
+U 63678 ; WX 1000 ; N guitar-electric ; G 83
+U 63679 ; WX 1000 ; N guitars ; G 84
+U 63680 ; WX 1250 ; N hat-cowboy ; G 85
+U 63681 ; WX 1250 ; N hat-cowboy-side ; G 86
+U 63682 ; WX 1000 ; N head-side-headphones ; G 87
+U 63683 ; WX 1125 ; N horse-saddle ; G 88
+U 63684 ; WX 875 ; N image-polaroid ; G 89
+U 63685 ; WX 875 ; N joystick ; G 90
+U 63686 ; WX 875 ; N jug ; G 91
+U 63687 ; WX 1250 ; N kazoo ; G 92
+U 63688 ; WX 1125 ; N lasso ; G 93
+U 63689 ; WX 1000 ; N list-music ; G 94
+U 63691 ; WX 1000 ; N microphone-stand ; G 95
+U 63692 ; WX 750 ; N mouse ; G 96
+U 63693 ; WX 750 ; N mouse-alt ; G 97
+U 63694 ; WX 750 ; N mp3-player ; G 98
+U 63695 ; WX 750 ; N music-alt ; G 99
+U 63696 ; WX 1250 ; N music-alt-slash ; G 100
+U 63697 ; WX 1250 ; N music-slash ; G 101
+U 63699 ; WX 1000 ; N phone-rotary ; G 102
+U 63701 ; WX 1125 ; N piano-keyboard ; G 103
+U 63702 ; WX 1250 ; N projector ; G 104
+U 63703 ; WX 1000 ; N radio ; G 105
+U 63704 ; WX 1000 ; N radio-alt ; G 106
+U 63705 ; WX 1000 ; N record-vinyl ; G 107
+U 63706 ; WX 1125 ; N router ; G 108
+U 63707 ; WX 1250 ; N sax-hot ; G 109
+U 63708 ; WX 1250 ; N saxophone ; G 110
+U 63709 ; WX 1125 ; N signal-stream ; G 111
+U 63711 ; WX 750 ; N speaker ; G 112
+U 63712 ; WX 1250 ; N speakers ; G 113
+U 63714 ; WX 1000 ; N triangle-music ; G 114
+U 63715 ; WX 1250 ; N trumpet ; G 115
+U 63716 ; WX 1125 ; N turntable ; G 116
+U 63717 ; WX 1250 ; N tv-alt ; G 117
+U 63718 ; WX 1250 ; N tv-music ; G 118
+U 63719 ; WX 1000 ; N typewriter ; G 119
+U 63721 ; WX 1250 ; N usb-drive ; G 120
+U 63722 ; WX 875 ; N user-cowboy ; G 121
+U 63723 ; WX 1250 ; N user-music ; G 122
+U 63724 ; WX 1000 ; N vhs ; G 123
+U 63725 ; WX 1250 ; N violin ; G 124
+U 63727 ; WX 750 ; N walkie-talkie ; G 125
+U 63728 ; WX 750 ; N watch-calculator ; G 126
+U 63729 ; WX 1250 ; N waveform ; G 127
+U 63730 ; WX 1250 ; N waveform-path ; G 128
+EndCharMetrics
+EndFontMetrics

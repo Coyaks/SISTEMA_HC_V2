@@ -1,0 +1,29 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Light
+FontSubfamily Light
+UniqueID Font Awesome 5 Pro Light-5.15.4
+FullName Font Awesome 5 Pro Light
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Light
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Light
+CompatibleFullName Font Awesome 5 Pro Light
+Weight Medium
+ItalicAngle 0
+IsFixedPitch true
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox 0 -125 1250 877
+StartCharMetrics 4
+U 62401 ; WX 1250 ; N lock-open ; G 3
+EndCharMetrics
+EndFontMetrics

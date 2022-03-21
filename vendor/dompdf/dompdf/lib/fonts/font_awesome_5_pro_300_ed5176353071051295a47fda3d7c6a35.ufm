@@ -1,0 +1,45 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Light
+FontSubfamily Light
+UniqueID Font Awesome 5 Pro Light-5.15.4
+FullName Font Awesome 5 Pro Light
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Light
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Light
+CompatibleFullName Font Awesome 5 Pro Light
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -14 -139 1283 885
+StartCharMetrics 20
+U 61923 ; WX 969 ; N futbol ; G 3
+U 62514 ; WX 1250 ; N baseball ; G 4
+U 62519 ; WX 938 ; N bowling-pins ; G 5
+U 62520 ; WX 875 ; N boxing-glove ; G 6
+U 62537 ; WX 1250 ; N cricket ; G 7
+U 62538 ; WX 1250 ; N curling ; G 8
+U 62539 ; WX 1250 ; N dumbbell ; G 9
+U 62540 ; WX 1250 ; N field-hockey ; G 10
+U 62543 ; WX 1000 ; N football-helmet ; G 11
+U 62544 ; WX 813 ; N golf-ball ; G 12
+U 62545 ; WX 1250 ; N golf-club ; G 13
+U 62547 ; WX 1063 ; N hockey-puck ; G 14
+U 62549 ; WX 875 ; N luchador ; G 15
+U 62552 ; WX 1250 ; N quidditch ; G 16
+U 62554 ; WX 1250 ; N racquet ; G 17
+U 62555 ; WX 1000 ; N shuttlecock ; G 18
+U 62557 ; WX 1000 ; N table-tennis ; G 19
+EndCharMetrics
+EndFontMetrics

@@ -1,0 +1,145 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Pro Regular-5.15.4
+FullName Font Awesome 5 Pro Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Pro Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -10 -131 1252 877
+StartCharMetrics 120
+U 61494 ; WX 875 ; N align-left ; G 3
+U 61495 ; WX 875 ; N align-center ; G 4
+U 61496 ; WX 875 ; N align-right ; G 5
+U 61497 ; WX 875 ; N align-justify ; G 6
+U 61498 ; WX 1000 ; N list ; G 7
+U 61499 ; WX 875 ; N outdent ; G 8
+U 61500 ; WX 875 ; N indent ; G 9
+U 61614 ; WX 1000 ; N tasks ; G 10
+U 61642 ; WX 1000 ; N list-ul ; G 11
+U 61643 ; WX 1000 ; N list-ol ; G 12
+U 61644 ; WX 1000 ; N strikethrough ; G 13
+U 61645 ; WX 875 ; N underline ; G 14
+U 61789 ; WX 875 ; N sort-alpha-down ; G 15
+U 61790 ; WX 875 ; N sort-alpha-up ; G 16
+U 61792 ; WX 1000 ; N sort-amount-down ; G 17
+U 61793 ; WX 1000 ; N sort-amount-up ; G 18
+U 61794 ; WX 875 ; N sort-numeric-down ; G 19
+U 61795 ; WX 875 ; N sort-numeric-up ; G 20
+U 61917 ; WX 875 ; N paragraph ; G 21
+U 62227 ; WX 1125 ; N h1 ; G 22
+U 62228 ; WX 1125 ; N h2 ; G 23
+U 62229 ; WX 1125 ; N h3 ; G 24
+U 62286 ; WX 1000 ; N alarm-clock ; G 25
+U 62521 ; WX 1000 ; N chess ; G 26
+U 62522 ; WX 625 ; N chess-bishop ; G 27
+U 62523 ; WX 500 ; N chess-bishop-alt ; G 28
+U 62524 ; WX 1000 ; N chess-board ; G 29
+U 62525 ; WX 1250 ; N chess-clock ; G 30
+U 62526 ; WX 1250 ; N chess-clock-alt ; G 31
+U 62527 ; WX 875 ; N chess-king ; G 32
+U 62528 ; WX 625 ; N chess-king-alt ; G 33
+U 62529 ; WX 750 ; N chess-knight ; G 34
+U 62530 ; WX 625 ; N chess-knight-alt ; G 35
+U 62531 ; WX 625 ; N chess-pawn ; G 36
+U 62532 ; WX 500 ; N chess-pawn-alt ; G 37
+U 62533 ; WX 1000 ; N chess-queen ; G 38
+U 62534 ; WX 500 ; N chess-queen-alt ; G 39
+U 62535 ; WX 750 ; N chess-rook ; G 40
+U 62536 ; WX 625 ; N chess-rook-alt ; G 41
+U 62722 ; WX 1250 ; N user-lock ; G 42
+U 63095 ; WX 1250 ; N mind-share ; G 43
+U 63555 ; WX 1000 ; N alarm-exclamation ; G 44
+U 63556 ; WX 1000 ; N alarm-plus ; G 45
+U 63557 ; WX 1000 ; N alarm-snooze ; G 46
+U 63558 ; WX 1250 ; N align-slash ; G 47
+U 63559 ; WX 1125 ; N bags-shopping ; G 48
+U 63560 ; WX 875 ; N bell-exclamation ; G 49
+U 63561 ; WX 875 ; N bell-plus ; G 50
+U 63562 ; WX 1250 ; N biking ; G 51
+U 63563 ; WX 1250 ; N biking-mountain ; G 52
+U 63564 ; WX 875 ; N border-all ; G 53
+U 63565 ; WX 875 ; N border-bottom ; G 54
+U 63566 ; WX 875 ; N border-inner ; G 55
+U 63567 ; WX 875 ; N border-left ; G 56
+U 63568 ; WX 875 ; N border-none ; G 57
+U 63569 ; WX 875 ; N border-outer ; G 58
+U 63570 ; WX 875 ; N border-right ; G 59
+U 63571 ; WX 875 ; N border-style ; G 60
+U 63572 ; WX 875 ; N border-style-alt ; G 61
+U 63573 ; WX 875 ; N border-top ; G 62
+U 63576 ; WX 1250 ; N burger-soda ; G 63
+U 63577 ; WX 1250 ; N car-building ; G 64
+U 63578 ; WX 1250 ; N car-bus ; G 65
+U 63579 ; WX 1250 ; N cars ; G 66
+U 63580 ; WX 1000 ; N coin ; G 67
+U 63581 ; WX 1250 ; N construction ; G 68
+U 63582 ; WX 1125 ; N digging ; G 69
+U 63584 ; WX 1250 ; N drone-alt ; G 70
+U 63585 ; WX 875 ; N dryer ; G 71
+U 63586 ; WX 875 ; N dryer-alt ; G 72
+U 63588 ; WX 1125 ; N farm ; G 73
+U 63590 ; WX 1250 ; N font-case ; G 74
+U 63591 ; WX 1000 ; N game-board ; G 75
+U 63592 ; WX 1000 ; N game-board-alt ; G 76
+U 63593 ; WX 1000 ; N glass-citrus ; G 77
+U 63594 ; WX 1125 ; N h4 ; G 78
+U 63595 ; WX 1000 ; N hat-chef ; G 79
+U 63596 ; WX 1250 ; N horizontal-rule ; G 80
+U 63597 ; WX 1000 ; N icons ; G 81
+U 63598 ; WX 1000 ; N icons-alt ; G 82
+U 63599 ; WX 1250 ; N kerning ; G 83
+U 63600 ; WX 1000 ; N line-columns ; G 84
+U 63601 ; WX 1250 ; N line-height ; G 85
+U 63602 ; WX 1250 ; N money-check-edit ; G 86
+U 63603 ; WX 1250 ; N money-check-edit-alt ; G 87
+U 63604 ; WX 1125 ; N mug ; G 88
+U 63605 ; WX 1250 ; N mug-tea ; G 89
+U 63606 ; WX 875 ; N overline ; G 90
+U 63607 ; WX 1125 ; N page-break ; G 91
+U 63608 ; WX 750 ; N paragraph-rtl ; G 92
+U 63610 ; WX 1250 ; N phone-laptop ; G 93
+U 63612 ; WX 1250 ; N photo-video ; G 94
+U 63613 ; WX 1250 ; N remove-format ; G 95
+U 63616 ; WX 875 ; N snooze ; G 96
+U 63617 ; WX 875 ; N sort-alpha-down-alt ; G 97
+U 63618 ; WX 875 ; N sort-alpha-up-alt ; G 98
+U 63619 ; WX 750 ; N sort-alt ; G 99
+U 63620 ; WX 1000 ; N sort-amount-down-alt ; G 100
+U 63621 ; WX 1000 ; N sort-amount-up-alt ; G 101
+U 63622 ; WX 875 ; N sort-numeric-down-alt ; G 102
+U 63623 ; WX 875 ; N sort-numeric-up-alt ; G 103
+U 63624 ; WX 875 ; N sort-shapes-down ; G 104
+U 63625 ; WX 875 ; N sort-shapes-down-alt ; G 105
+U 63626 ; WX 875 ; N sort-shapes-up ; G 106
+U 63627 ; WX 875 ; N sort-shapes-up-alt ; G 107
+U 63628 ; WX 1000 ; N sort-size-down ; G 108
+U 63629 ; WX 1000 ; N sort-size-down-alt ; G 109
+U 63630 ; WX 1000 ; N sort-size-up ; G 110
+U 63631 ; WX 1000 ; N sort-size-up-alt ; G 111
+U 63632 ; WX 1000 ; N sparkles ; G 112
+U 63633 ; WX 1125 ; N spell-check ; G 113
+U 63634 ; WX 1125 ; N sunglasses ; G 114
+U 63639 ; WX 1250 ; N voicemail ; G 115
+U 63640 ; WX 871 ; N washer ; G 116
+U 63641 ; WX 1250 ; N wave-sine ; G 117
+U 63642 ; WX 1250 ; N wave-triangle ; G 118
+U 63643 ; WX 1004 ; N wind-turbine ; G 119
+EndCharMetrics
+EndFontMetrics

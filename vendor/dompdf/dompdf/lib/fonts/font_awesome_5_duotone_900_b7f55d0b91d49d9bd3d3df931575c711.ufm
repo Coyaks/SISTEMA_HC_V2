@@ -1,0 +1,38 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -2 -127 1268 877
+StartCharMetrics 23
+U 61470 ; WX 1000 ; N redo-primary ; G 3
+U 61473 ; WX 1000 ; N sync-primary ; G 4
+U 61478 ; WX 500 ; N volume-off-primary ; G 5
+U 61558 ; WX 1000 ; N magnet-primary ; G 6
+U 61741 ; WX 1000 ; N eraser-primary ; G 7
+U 62238 ; WX 875 ; N expand-arrows-alt-primary ; G 8
+U 62294 ; WX 875 ; N arrow-alt-right-primary ; G 9
+U 62559 ; WX 1000 ; N volleyball-ball-primary ; G 10
+U 62896 ; WX 1250 ; N plane-departure-primary ; G 11
+U 63550 ; WX 1250 ; N wave-square-primary ; G 12
+EndCharMetrics
+EndFontMetrics

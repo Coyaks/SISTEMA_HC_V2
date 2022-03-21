@@ -1,0 +1,122 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -23 -137 1264 883
+StartCharMetrics 191
+U 61453 ; WX 688 ; N times-primary ; G 3
+U 61512 ; WX 875 ; N step-backward-primary ; G 4
+U 61521 ; WX 875 ; N step-forward-primary ; G 5
+U 61612 ; WX 969 ; N globe-primary ; G 6
+U 61616 ; WX 1000 ; N filter-primary ; G 7
+U 61720 ; WX 969 ; N smile-primary ; G 8
+U 61721 ; WX 969 ; N frown-primary ; G 9
+U 61722 ; WX 969 ; N meh-primary ; G 10
+U 61768 ; WX 688 ; N level-up-primary ; G 11
+U 61774 ; WX 969 ; N compass-primary ; G 12
+U 61781 ; WX 563 ; N dollar-sign-primary ; G 13
+U 61830 ; WX 1000 ; N moon-primary ; G 14
+U 61852 ; WX 1000 ; N university-primary ; G 15
+U 61931 ; WX 1250 ; N wifi-primary ; G 16
+U 61978 ; WX 1250 ; N ship-primary ; G 17
+U 61985 ; WX 563 ; N venus-primary ; G 18
+U 61997 ; WX 563 ; N genderless-primary ; G 19
+U 62141 ; WX 969 ; N user-circle-primary ; G 20
+U 62184 ; WX 969 ; N usd-circle-primary ; G 21
+U 62200 ; WX 969 ; N scrubber-primary ; G 22
+U 62292 ; WX 875 ; N arrow-alt-down-primary ; G 23
+U 62295 ; WX 875 ; N arrow-alt-up-primary ; G 24
+U 62515 ; WX 969 ; N baseball-ball-primary ; G 25
+U 62516 ; WX 969 ; N basketball-ball-primary ; G 26
+U 62518 ; WX 969 ; N bowling-ball-primary ; G 27
+U 62542 ; WX 969 ; N football-ball-primary ; G 28
+U 62558 ; WX 969 ; N tennis-ball-primary ; G 29
+U 62663 ; WX 969 ; N heart-circle-primary ; G 30
+U 62682 ; WX 969 ; N smile-wink-primary ; G 31
+U 62691 ; WX 563 ; N wine-glass-primary ; G 32
+U 62751 ; WX 969 ; N compact-disc-primary ; G 33
+U 62798 ; WX 1203 ; N store-primary ; G 34
+U 62806 ; WX 969 ; N angry-primary ; G 35
+U 62823 ; WX 969 ; N dizzy-primary ; G 36
+U 62841 ; WX 969 ; N flushed-primary ; G 37
+U 62842 ; WX 969 ; N frown-open-primary ; G 38
+U 62844 ; WX 969 ; N globe-africa-primary ; G 39
+U 62845 ; WX 969 ; N globe-americas-primary ; G 40
+U 62846 ; WX 969 ; N globe-asia-primary ; G 41
+U 62847 ; WX 969 ; N grimace-primary ; G 42
+U 62848 ; WX 969 ; N grin-primary ; G 43
+U 62849 ; WX 969 ; N grin-alt-primary ; G 44
+U 62850 ; WX 969 ; N grin-beam-primary ; G 45
+U 62851 ; WX 984 ; N grin-beam-sweat-primary ; G 46
+U 62852 ; WX 969 ; N grin-hearts-primary ; G 47
+U 62853 ; WX 969 ; N grin-squint-primary ; G 48
+U 62855 ; WX 969 ; N grin-stars-primary ; G 49
+U 62857 ; WX 969 ; N grin-tongue-primary ; G 50
+U 62858 ; WX 969 ; N grin-tongue-squint-primary ; G 51
+U 62860 ; WX 969 ; N grin-wink-primary ; G 52
+U 62870 ; WX 969 ; N kiss-primary ; G 53
+U 62871 ; WX 969 ; N kiss-beam-primary ; G 54
+U 62872 ; WX 984 ; N kiss-wink-heart-primary ; G 55
+U 62873 ; WX 969 ; N laugh-primary ; G 56
+U 62874 ; WX 969 ; N laugh-beam-primary ; G 57
+U 62875 ; WX 969 ; N laugh-squint-primary ; G 58
+U 62876 ; WX 969 ; N laugh-wink-primary ; G 59
+U 62884 ; WX 969 ; N meh-blank-primary ; G 60
+U 62885 ; WX 969 ; N meh-rolling-eyes-primary ; G 61
+U 62899 ; WX 969 ; N sad-cry-primary ; G 62
+U 62900 ; WX 969 ; N sad-tear-primary ; G 63
+U 62904 ; WX 969 ; N smile-beam-primary ; G 64
+U 62912 ; WX 1047 ; N star-half-alt-primary ; G 65
+U 62914 ; WX 969 ; N surprise-primary ; G 66
+U 62915 ; WX 1000 ; N swatchbook-primary ; G 67
+U 62920 ; WX 969 ; N tired-primary ; G 68
+U 62926 ; WX 563 ; N wine-glass-alt-primary ; G 69
+U 62942 ; WX 938 ; N car-alt-primary ; G 70
+U 62950 ; WX 906 ; N car-wash-primary ; G 71
+U 62956 ; WX 969 ; N do-not-enter-primary ; G 72
+U 62978 ; WX 969 ; N location-circle-primary ; G 73
+U 62997 ; WX 969 ; N parking-circle-primary ; G 74
+U 62998 ; WX 969 ; N parking-circle-slash-primary ; G 75
+U 63010 ; WX 969 ; N steering-wheel-primary ; G 76
+U 63048 ; WX 969 ; N bullseye-arrow-primary ; G 77
+U 63049 ; WX 969 ; N bullseye-pointer-primary ; G 78
+U 63100 ; WX 969 ; N peace-primary ; G 79
+U 63130 ; WX 906 ; N star-of-david-primary ; G 80
+U 63146 ; WX 1250 ; N wifi-1-primary ; G 81
+U 63147 ; WX 1250 ; N wifi-2-primary ; G 82
+U 63149 ; WX 969 ; N yin-yang-primary ; G 83
+U 63394 ; WX 969 ; N globe-europe-primary ; G 84
+U 63397 ; WX 500 ; N grip-lines-vertical-primary ; G 85
+U 63417 ; WX 969 ; N radiation-primary ; G 86
+U 63418 ; WX 969 ; N radiation-alt-primary ; G 87
+U 63487 ; WX 1000 ; N flower-primary ; G 88
+U 63491 ; WX 1000 ; N french-fries-primary ; G 89
+U 63494 ; WX 1000 ; N hand-middle-finger-primary ; G 90
+U 63504 ; WX 875 ; N ice-cream-primary ; G 91
+U 63513 ; WX 1000 ; N popcorn-primary ; G 92
+U 63531 ; WX 1250 ; N tree-palm-primary ; G 93
+U 63615 ; WX 1004 ; N send-backward-primary ; G 94
+U 63710 ; WX 1250 ; N skull-cow-primary ; G 95
+U 63726 ; WX 1250 ; N wagon-covered-primary ; G 96
+EndCharMetrics
+EndFontMetrics

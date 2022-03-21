@@ -2,9 +2,9 @@ $(document).ready(function () {
 
     function generarPdfHC() {
         $('#btnGenerarPdfHC').click(function (e) {
-            let num=$('#num').val();
-            let num_doc=$('#num_doc').val();
-            let nameDoc=num+'_'+num_doc+'.pdf'
+            let num = $('#num').val();
+            let num_doc = $('#num_doc').val();
+            let nameDoc = num + '_' + num_doc + '.pdf'
 
             $('#div_asociar_cita').hide();
             //const $elementoParaConvertir = document.body; // <-- Aquí puedes elegir cualquier elemento del DOM
@@ -29,8 +29,9 @@ $(document).ready(function () {
                     }
                 })
                 .from($elementoParaConvertir)
-               // .save()
                 .save()
+                //.output('dataurlnewwindow')
+                //.output("C:/wamp64/www/SISTEMA_HC/sistema_hc_v2/uploads/file_xxxx.pdf", 'F')
                 .catch(err => console.log(err));
 
             setTimeout(() => {
@@ -40,6 +41,29 @@ $(document).ready(function () {
         });
     }
     generarPdfHC()
+
+
+    function generarPdfHC2() {
+        $('#btnGenerarPdfHC').click(function (e) {
+            var doc = new jsPDF();
+            var elementHandler = {
+                '#ignorePDF': function (element, renderer) {
+                    return true;
+                }
+            };
+            var source = window.document.querySelector(".card-container");
+            doc.fromHTML(
+                source,
+                15,
+                15, {
+                    'width': 180,
+                    'elementHandlers': elementHandler
+                });
+
+            doc.output("uploads/test.pdf");
+        });
+    }
+    //generarPdfHC2()
 
     $('#btnAsociarCita').click(function (e) {
         e.preventDefault();
@@ -107,9 +131,9 @@ $(document).ready(function () {
     $('#formAsociarCita').submit(function (e) {
         e.preventDefault();
         let idEspecialidad = $('#especialidad').val();
-        
+
         let numAtencionActual = $('#num_atencion').val();
-        
+
         $.ajax({
             type: 'POST',
             url: 'AdmisionController/restarStock',
@@ -137,14 +161,15 @@ $(document).ready(function () {
     // click GUARDAR CREACION DE HC
     $('#formSolicitudPaciente').submit(function (e) {
         e.preventDefault();
-        let cod_cita=$('#cod_cita').val();
-        if(cod_cita==''){
+        let cod_cita = $('#cod_cita').val();
+        if (cod_cita == '') {
             Alert.error('Es necesario asociar cita')
             return false;
         }
         $.ajax({
             type: 'POST',
             url: 'AdmisionController/saveHC',
+            data: $(this).serialize(),
             data: $(this).serialize(),
             //dataType: 'JSON',
             success: function (r) {

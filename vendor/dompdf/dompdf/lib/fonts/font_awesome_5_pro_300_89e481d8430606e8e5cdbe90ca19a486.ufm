@@ -1,0 +1,138 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Light
+FontSubfamily Light
+UniqueID Font Awesome 5 Pro Light-5.15.4
+FullName Font Awesome 5 Pro Light
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Light
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Light
+CompatibleFullName Font Awesome 5 Pro Light
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -41 -127 1270 932
+StartCharMetrics 113
+U 57344 ; WX 1250 ; N caravan-alt ; G 3
+U 57345 ; WX 1250 ; N cat-space ; G 4
+U 57346 ; WX 1000 ; N coffee-pot ; G 5
+U 57347 ; WX 1000 ; N comet ; G 6
+U 57348 ; WX 875 ; N fan-table ; G 7
+U 57349 ; WX 1000 ; N faucet ; G 8
+U 57350 ; WX 1000 ; N faucet-drip ; G 9
+U 57352 ; WX 1000 ; N galaxy ; G 10
+U 57353 ; WX 1250 ; N garage ; G 11
+U 57354 ; WX 1250 ; N garage-car ; G 12
+U 57355 ; WX 1250 ; N garage-open ; G 13
+U 57356 ; WX 875 ; N heat ; G 14
+U 57357 ; WX 1125 ; N house ; G 15
+U 57358 ; WX 1250 ; N house-day ; G 16
+U 57359 ; WX 1250 ; N house-leave ; G 17
+U 57360 ; WX 1250 ; N house-night ; G 18
+U 57361 ; WX 1250 ; N house-return ; G 19
+U 57362 ; WX 1250 ; N house-signal ; G 20
+U 57364 ; WX 1000 ; N lamp-desk ; G 21
+U 57365 ; WX 750 ; N lamp-floor ; G 22
+U 57366 ; WX 1000 ; N light-ceiling ; G 23
+U 57367 ; WX 750 ; N light-switch ; G 24
+U 57368 ; WX 750 ; N light-switch-off ; G 25
+U 57369 ; WX 750 ; N light-switch-on ; G 26
+U 57371 ; WX 1000 ; N microwave ; G 27
+U 57372 ; WX 1000 ; N outlet ; G 28
+U 57373 ; WX 875 ; N oven ; G 29
+U 57375 ; WX 1125 ; N planet-moon ; G 30
+U 57376 ; WX 1000 ; N planet-ringed ; G 31
+U 57377 ; WX 750 ; N police-box ; G 32
+U 57378 ; WX 1000 ; N portal-enter ; G 33
+U 57379 ; WX 1000 ; N portal-exit ; G 34
+U 57380 ; WX 1000 ; N radar ; G 35
+U 57381 ; WX 1125 ; N raygun ; G 36
+U 57382 ; WX 750 ; N refrigerator ; G 37
+U 57383 ; WX 1000 ; N rocket-launch ; G 38
+U 57384 ; WX 875 ; N sensor ; G 39
+U 57385 ; WX 1250 ; N sensor-alert ; G 40
+U 57386 ; WX 1250 ; N sensor-fire ; G 41
+U 57387 ; WX 1250 ; N sensor-on ; G 42
+U 57388 ; WX 1250 ; N sensor-smoke ; G 43
+U 57389 ; WX 875 ; N siren ; G 44
+U 57390 ; WX 1250 ; N siren-on ; G 45
+U 57391 ; WX 1000 ; N solar-system ; G 46
+U 57392 ; WX 1000 ; N sort-circle ; G 47
+U 57393 ; WX 1000 ; N sort-circle-down ; G 48
+U 57394 ; WX 1000 ; N sort-circle-up ; G 49
+U 57395 ; WX 1000 ; N space-station-moon ; G 50
+U 57396 ; WX 1000 ; N space-station-moon-alt ; G 51
+U 57397 ; WX 1000 ; N sprinkler ; G 52
+U 57398 ; WX 1000 ; N star-shooting ; G 53
+U 57399 ; WX 1250 ; N starfighter ; G 54
+U 57400 ; WX 1125 ; N starfighter-alt ; G 55
+U 57401 ; WX 1250 ; N starship ; G 56
+U 57402 ; WX 1125 ; N starship-freighter ; G 57
+U 57403 ; WX 1000 ; N sword-laser ; G 58
+U 57404 ; WX 1000 ; N sword-laser-alt ; G 59
+U 57405 ; WX 1250 ; N swords-laser ; G 60
+U 57406 ; WX 1250 ; N telescope ; G 61
+U 57407 ; WX 1000 ; N temperature-down ; G 62
+U 57408 ; WX 1000 ; N temperature-up ; G 63
+U 57409 ; WX 1250 ; N trailer ; G 64
+U 57410 ; WX 1000 ; N transporter ; G 65
+U 57411 ; WX 1000 ; N transporter-1 ; G 66
+U 57412 ; WX 1000 ; N transporter-2 ; G 67
+U 57413 ; WX 1000 ; N transporter-3 ; G 68
+U 57414 ; WX 1000 ; N transporter-empty ; G 69
+U 57415 ; WX 1250 ; N ufo ; G 70
+U 57416 ; WX 1250 ; N ufo-beam ; G 71
+U 57418 ; WX 875 ; N user-alien ; G 72
+U 57419 ; WX 875 ; N user-robot ; G 73
+U 57420 ; WX 875 ; N user-visor ; G 74
+U 57421 ; WX 1250 ; N vacuum ; G 75
+U 57422 ; WX 1000 ; N vacuum-robot ; G 76
+U 57423 ; WX 1000 ; N window-frame ; G 77
+U 57424 ; WX 1000 ; N window-frame-open ; G 78
+U 57425 ; WX 750 ; N coffin-cross ; G 79
+U 57427 ; WX 1000 ; N folder-download ; G 80
+U 57428 ; WX 1000 ; N folder-upload ; G 81
+U 57432 ; WX 1250 ; N user-unlock ; G 82
+U 57433 ; WX 1250 ; N bacteria ; G 83
+U 57434 ; WX 1000 ; N bacterium ; G 84
+U 57435 ; WX 1000 ; N box-tissue ; G 85
+U 57436 ; WX 1125 ; N hand-holding-medical ; G 86
+U 57437 ; WX 1250 ; N hand-sparkles ; G 87
+U 57438 ; WX 1125 ; N hands-wash ; G 88
+U 57439 ; WX 1250 ; N handshake-alt-slash ; G 89
+U 57440 ; WX 1250 ; N handshake-slash ; G 90
+U 57441 ; WX 1250 ; N head-side-cough ; G 91
+U 57442 ; WX 1250 ; N head-side-cough-slash ; G 92
+U 57443 ; WX 1000 ; N head-side-mask ; G 93
+U 57444 ; WX 1000 ; N head-side-virus ; G 94
+U 57445 ; WX 1125 ; N house-user ; G 95
+U 57446 ; WX 1250 ; N laptop-house ; G 96
+U 57447 ; WX 1250 ; N lungs-virus ; G 97
+U 57448 ; WX 1125 ; N people-arrows ; G 98
+U 57449 ; WX 1250 ; N plane-slash ; G 99
+U 57450 ; WX 750 ; N pump-medical ; G 100
+U 57451 ; WX 750 ; N pump-soap ; G 101
+U 57452 ; WX 1000 ; N shield-virus ; G 102
+U 57453 ; WX 1000 ; N sink ; G 103
+U 57454 ; WX 1000 ; N soap ; G 104
+U 57455 ; WX 875 ; N stopwatch-20 ; G 105
+U 57456 ; WX 1250 ; N store-alt-slash ; G 106
+U 57457 ; WX 1250 ; N store-slash ; G 107
+U 57458 ; WX 1250 ; N toilet-paper-slash ; G 108
+U 57459 ; WX 1250 ; N users-slash ; G 109
+U 57460 ; WX 1000 ; N virus ; G 110
+U 57461 ; WX 1250 ; N virus-slash ; G 111
+U 57462 ; WX 1250 ; N viruses ; G 112
+EndCharMetrics
+EndFontMetrics

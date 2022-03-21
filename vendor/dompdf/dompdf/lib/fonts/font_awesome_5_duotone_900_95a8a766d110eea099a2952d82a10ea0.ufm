@@ -1,0 +1,57 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -2 -127 1252 877
+StartCharMetrics 61
+U 61447 ; WX 875 ; N user-primary ; G 3
+U 61632 ; WX 1250 ; N users-primary ; G 4
+U 61634 ; WX 1250 ; N cloud-primary ; G 5
+U 61677 ; WX 1250 ; N cloud-download-primary ; G 6
+U 61678 ; WX 1250 ; N cloud-upload-primary ; G 7
+U 61680 ; WX 875 ; N user-md-primary ; G 8
+U 61918 ; WX 1000 ; N sliders-h-primary ; G 9
+U 61979 ; WX 875 ; N user-secret-primary ; G 10
+U 62004 ; WX 1250 ; N user-plus-primary ; G 11
+U 62005 ; WX 1250 ; N user-times-primary ; G 12
+U 62337 ; WX 1250 ; N cloud-download-alt-primary ; G 13
+U 62338 ; WX 1250 ; N cloud-upload-alt-primary ; G 14
+U 62449 ; WX 875 ; N sliders-v-primary ; G 15
+U 62470 ; WX 1000 ; N user-alt-primary ; G 16
+U 62714 ; WX 1250 ; N user-alt-slash-primary ; G 17
+U 62715 ; WX 875 ; N user-astronaut-primary ; G 18
+U 62716 ; WX 1250 ; N user-check-primary ; G 19
+U 62717 ; WX 1250 ; N user-clock-primary ; G 20
+U 62718 ; WX 1250 ; N user-cog-primary ; G 21
+U 62719 ; WX 1250 ; N user-edit-primary ; G 22
+U 62720 ; WX 1250 ; N user-friends-primary ; G 23
+U 62721 ; WX 875 ; N user-graduate-primary ; G 24
+U 62723 ; WX 1250 ; N user-minus-primary ; G 25
+U 62724 ; WX 875 ; N user-ninja-primary ; G 26
+U 62725 ; WX 1250 ; N user-shield-primary ; G 27
+U 62726 ; WX 1250 ; N user-slash-primary ; G 28
+U 62727 ; WX 1250 ; N user-tag-primary ; G 29
+U 62728 ; WX 875 ; N user-tie-primary ; G 30
+U 62729 ; WX 1250 ; N users-cog-primary ; G 31
+EndCharMetrics
+EndFontMetrics

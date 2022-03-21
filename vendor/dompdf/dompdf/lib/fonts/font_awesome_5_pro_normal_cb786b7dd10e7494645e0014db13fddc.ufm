@@ -1,0 +1,33 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Pro Regular-5.15.4
+FullName Font Awesome 5 Pro Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Pro Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox 0 -137 1125 877
+StartCharMetrics 8
+U 62021 ; WX 750 ; N mouse-pointer ; G 3
+U 62137 ; WX 875 ; N address-book ; G 4
+U 62139 ; WX 1125 ; N address-card ; G 5
+U 62145 ; WX 750 ; N id-badge ; G 6
+U 62432 ; WX 750 ; N portrait ; G 7
+EndCharMetrics
+EndFontMetrics

@@ -58,7 +58,9 @@ $routes->group('paciente',[],function($routes){
 $routes->get('/mesapartes', 'MesaController::index');
 $routes->get('/fedateo', 'FedateoController::index');
 $routes->get('/admision', 'AdmisionController::index');
+
 $routes->get('/reporte', 'AdmisionController::generacionReporteHC');
+$routes->get('/reporte2', 'AdmisionController::pdf');
 $routes->get('/enfermeria', 'EnfermeriaController::index');
 $routes->get('/medico', 'MedicoController::index');
 

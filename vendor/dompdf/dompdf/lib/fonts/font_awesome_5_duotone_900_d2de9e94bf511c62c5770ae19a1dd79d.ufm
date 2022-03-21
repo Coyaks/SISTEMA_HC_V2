@@ -1,0 +1,189 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -16 -164 1256 895
+StartCharMetrics 325
+U 61444 ; WX 1000 ; N heart-primary ; G 3
+U 61445 ; WX 1125 ; N star-primary ; G 4
+U 61484 ; WX 1250 ; N tags-primary ; G 5
+U 61486 ; WX 750 ; N bookmark-primary ; G 6
+U 61489 ; WX 875 ; N font-primary ; G 7
+U 61490 ; WX 750 ; N bold-primary ; G 8
+U 61491 ; WX 625 ; N italic-primary ; G 9
+U 61492 ; WX 1125 ; N text-height-primary ; G 10
+U 61493 ; WX 875 ; N text-width-primary ; G 11
+U 61515 ; WX 875 ; N play-primary ; G 12
+U 61516 ; WX 875 ; N pause-primary ; G 13
+U 61517 ; WX 875 ; N stop-primary ; G 14
+U 61526 ; WX 1000 ; N minus-circle-primary ; G 15
+U 61555 ; WX 875 ; N calendar-alt-primary ; G 16
+U 61581 ; WX 750 ; N thumbtack-primary ; G 17
+U 61589 ; WX 1000 ; N phone-primary ; G 18
+U 61603 ; WX 1000 ; N certificate-primary ; G 19
+U 61637 ; WX 875 ; N copy-primary ; G 20
+U 61639 ; WX 875 ; N save-primary ; G 21
+U 61640 ; WX 875 ; N square-primary ; G 22
+U 61660 ; WX 625 ; N sort-primary ; G 23
+U 61661 ; WX 625 ; N sort-down-primary ; G 24
+U 61662 ; WX 625 ; N sort-up-primary ; G 25
+U 61664 ; WX 1000 ; N envelope-primary ; G 26
+U 61712 ; WX 1000 ; N spinner-primary ; G 27
+U 61713 ; WX 1000 ; N circle-primary ; G 28
+U 61737 ; WX 375 ; N info-primary ; G 29
+U 61738 ; WX 375 ; N exclamation-primary ; G 30
+U 61739 ; WX 1000 ; N superscript-primary ; G 31
+U 61740 ; WX 1000 ; N subscript-primary ; G 32
+U 61746 ; WX 1000 ; N shield-primary ; G 33
+U 61747 ; WX 875 ; N calendar-primary ; G 34
+U 61764 ; WX 1000 ; N play-circle-primary ; G 35
+U 61765 ; WX 1125 ; N ticket-primary ; G 36
+U 61787 ; WX 750 ; N file-primary ; G 37
+U 61788 ; WX 750 ; N file-alt-primary ; G 38
+U 61796 ; WX 1000 ; N thumbs-up-primary ; G 39
+U 61797 ; WX 1000 ; N thumbs-down-primary ; G 40
+U 61843 ; WX 1000 ; N wheelchair-primary ; G 41
+U 61847 ; WX 1250 ; N space-shuttle-primary ; G 42
+U 61867 ; WX 1250 ; N language-primary ; G 43
+U 61889 ; WX 750 ; N file-pdf-primary ; G 44
+U 61890 ; WX 750 ; N file-word-primary ; G 45
+U 61891 ; WX 750 ; N file-excel-primary ; G 46
+U 61892 ; WX 750 ; N file-powerpoint-primary ; G 47
+U 61893 ; WX 750 ; N file-image-primary ; G 48
+U 61894 ; WX 750 ; N file-archive-primary ; G 49
+U 61895 ; WX 750 ; N file-audio-primary ; G 50
+U 61896 ; WX 750 ; N file-video-primary ; G 51
+U 61897 ; WX 750 ; N file-code-primary ; G 52
+U 61902 ; WX 1000 ; N circle-notch-primary ; G 53
+U 61916 ; WX 1000 ; N heading-primary ; G 54
+U 61944 ; WX 875 ; N trash-primary ; G 55
+U 61945 ; WX 1000 ; N copyright-primary ; G 56
+U 61977 ; WX 875 ; N diamond-primary ; G 57
+U 62025 ; WX 875 ; N sticky-note-primary ; G 58
+U 62065 ; WX 875 ; N calendar-plus-primary ; G 59
+U 62066 ; WX 875 ; N calendar-minus-primary ; G 60
+U 62067 ; WX 875 ; N calendar-times-primary ; G 61
+U 62068 ; WX 875 ; N calendar-check-primary ; G 62
+U 62106 ; WX 1000 ; N universal-access-primary ; G 63
+U 62110 ; WX 1000 ; N audio-description-primary ; G 64
+U 62119 ; WX 875 ; N sign-language-primary ; G 65
+U 62134 ; WX 1000 ; N envelope-open-primary ; G 66
+U 62177 ; WX 750 ; N watch-primary ; G 67
+U 62179 ; WX 1000 ; N utensil-fork-primary ; G 68
+U 62180 ; WX 1000 ; N utensil-knife-primary ; G 69
+U 62181 ; WX 1000 ; N utensil-spoon-primary ; G 70
+U 62188 ; WX 1125 ; N triangle-primary ; G 71
+U 62189 ; WX 875 ; N trash-alt-primary ; G 72
+U 62194 ; WX 875 ; N stopwatch-primary ; G 73
+U 62196 ; WX 1000 ; N spade-primary ; G 74
+U 62202 ; WX 1000 ; N rectangle-landscape-primary ; G 75
+U 62203 ; WX 750 ; N rectangle-portrait-primary ; G 76
+U 62204 ; WX 1250 ; N rectangle-wide-primary ; G 77
+U 62214 ; WX 1000 ; N octagon-primary ; G 78
+U 62226 ; WX 1125 ; N hexagon-primary ; G 79
+U 62230 ; WX 750 ; N file-check-primary ; G 80
+U 62234 ; WX 750 ; N file-exclamation-primary ; G 81
+U 62236 ; WX 750 ; N file-edit-primary ; G 82
+U 62247 ; WX 1000 ; N club-primary ; G 83
+U 62259 ; WX 875 ; N calendar-edit-primary ; G 84
+U 62260 ; WX 875 ; N calendar-exclamation-primary ; G 85
+U 62261 ; WX 1000 ; N badge-primary ; G 86
+U 62452 ; WX 1000 ; N spinner-third-primary ; G 87
+U 62463 ; WX 1125 ; N ticket-alt-primary ; G 88
+U 62556 ; WX 1000 ; N square-full-primary ; G 89
+U 62560 ; WX 1250 ; N whistle-primary ; G 90
+U 62562 ; WX 1250 ; N band-aid-primary ; G 91
+U 62583 ; WX 750 ; N file-medical-primary ; G 92
+U 62584 ; WX 875 ; N file-medical-alt-primary ; G 93
+U 62615 ; WX 1250 ; N x-ray-primary ; G 94
+U 62650 ; WX 1000 ; N dove-primary ; G 95
+U 62675 ; WX 1125 ; N piggy-bank-primary ; G 96
+U 62796 ; WX 1000 ; N skull-primary ; G 97
+U 62803 ; WX 1250 ; N tshirt-primary ; G 98
+U 62809 ; WX 750 ; N award-primary ; G 99
+U 62828 ; WX 750 ; N file-contract-primary ; G 100
+U 62829 ; WX 750 ; N file-download-primary ; G 101
+U 62830 ; WX 1125 ; N file-export-primary ; G 102
+U 62831 ; WX 1000 ; N file-import-primary ; G 103
+U 62832 ; WX 750 ; N file-invoice-primary ; G 104
+U 62833 ; WX 750 ; N file-invoice-dollar-primary ; G 105
+U 62834 ; WX 750 ; N file-prescription-primary ; G 106
+U 62835 ; WX 1125 ; N file-signature-primary ; G 107
+U 62836 ; WX 750 ; N file-upload-primary ; G 108
+U 62911 ; WX 1000 ; N stamp-primary ; G 109
+U 62913 ; WX 750 ; N suitcase-rolling-primary ; G 110
+U 62963 ; WX 1000 ; N file-certificate-primary ; G 111
+U 63024 ; WX 1250 ; N theater-masks-primary ; G 112
+U 63025 ; WX 1000 ; N tire-primary ; G 113
+U 63026 ; WX 1000 ; N tire-flat-primary ; G 114
+U 63028 ; WX 1000 ; N tire-rugged-primary ; G 115
+U 63038 ; WX 750 ; N watch-fitness-primary ; G 116
+U 63041 ; WX 1000 ; N ad-primary ; G 117
+U 63065 ; WX 750 ; N file-chart-line-primary ; G 118
+U 63066 ; WX 750 ; N file-chart-pie-primary ; G 119
+U 63067 ; WX 750 ; N file-spreadsheet-primary ; G 120
+U 63068 ; WX 750 ; N file-user-primary ; G 121
+U 63126 ; WX 1000 ; N socks-primary ; G 122
+U 63136 ; WX 1250 ; N torah-primary ; G 123
+U 63156 ; WX 1250 ; N badger-honey-primary ; G 124
+U 63165 ; WX 1250 ; N candy-corn-primary ; G 125
+U 63197 ; WX 750 ; N file-csv-primary ; G 126
+U 63238 ; WX 1125 ; N pig-primary ; G 127
+U 63240 ; WX 875 ; N rabbit-primary ; G 128
+U 63241 ; WX 1125 ; N rabbit-fast-primary ; G 129
+U 63245 ; WX 875 ; N scarecrow-primary ; G 130
+U 63246 ; WX 1250 ; N scroll-primary ; G 131
+U 63247 ; WX 1250 ; N scroll-old-primary ; G 132
+U 63248 ; WX 1250 ; N scythe-primary ; G 133
+U 63252 ; WX 875 ; N skull-crossbones-primary ; G 134
+U 63262 ; WX 1125 ; N toilet-paper-primary ; G 135
+U 63263 ; WX 1125 ; N toilet-paper-alt-primary ; G 136
+U 63286 ; WX 875 ; N calendar-star-primary ; G 137
+U 63343 ; WX 1000 ; N tornado-primary ; G 138
+U 63344 ; WX 1000 ; N volcano-primary ; G 139
+U 63351 ; WX 1000 ; N windsock-primary ; G 140
+U 63363 ; WX 875 ; N calendar-day-primary ; G 141
+U 63364 ; WX 875 ; N calendar-week-primary ; G 142
+U 63401 ; WX 1000 ; N heart-broken-primary ; G 143
+U 63428 ; WX 750 ; N sim-card-primary ; G 144
+U 63445 ; WX 750 ; N stocking-primary ; G 145
+U 63449 ; WX 1000 ; N tools-primary ; G 146
+U 63453 ; WX 875 ; N tree-large-primary ; G 147
+U 63485 ; WX 875 ; N files-medical-primary ; G 148
+U 63516 ; WX 1000 ; N sack-primary ; G 149
+U 63517 ; WX 1000 ; N sack-dollar-primary ; G 150
+U 63524 ; WX 1125 ; N steak-primary ; G 151
+U 63528 ; WX 1000 ; N tasks-alt-primary ; G 152
+U 63529 ; WX 875 ; N trash-restore-primary ; G 153
+U 63530 ; WX 875 ; N trash-restore-alt-primary ; G 154
+U 63574 ; WX 1000 ; N bring-forward-primary ; G 155
+U 63575 ; WX 1250 ; N bring-front-primary ; G 156
+U 63589 ; WX 1250 ; N file-search-primary ; G 157
+U 63609 ; WX 1000 ; N phone-alt-primary ; G 158
+U 63614 ; WX 1250 ; N send-back-primary ; G 159
+U 63635 ; WX 875 ; N text-primary ; G 160
+U 63636 ; WX 1250 ; N text-size-primary ; G 161
+U 63637 ; WX 875 ; N trash-undo-primary ; G 162
+U 63638 ; WX 875 ; N trash-undo-alt-primary ; G 163
+EndCharMetrics
+EndFontMetrics

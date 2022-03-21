@@ -1,0 +1,67 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Pro Regular-5.15.4
+FullName Font Awesome 5 Pro Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Pro Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -39 -127 1252 887
+StartCharMetrics 42
+U 61749 ; WX 1000 ; N rocket ; G 3
+U 61926 ; WX 750 ; N plug ; G 4
+U 62041 ; WX 1000 ; N hand-spock ; G 5
+U 62156 ; WX 1000 ; N shower ; G 6
+U 62157 ; WX 1000 ; N bath ; G 7
+U 62498 ; WX 875 ; N compress-alt ; G 8
+U 62500 ; WX 875 ; N expand-alt ; G 9
+U 62741 ; WX 1250 ; N balance-scale-left ; G 10
+U 62742 ; WX 1250 ; N balance-scale-right ; G 11
+U 62788 ; WX 1250 ; N robot ; G 12
+U 62859 ; WX 969 ; N grin-tongue-wink ; G 13
+U 62930 ; WX 875 ; N atom ; G 14
+U 62931 ; WX 875 ; N atom-alt ; G 15
+U 63007 ; WX 1000 ; N shapes ; G 16
+U 63063 ; WX 1000 ; N envelope-open-dollar ; G 17
+U 63064 ; WX 1000 ; N envelope-open-text ; G 18
+U 63078 ; WX 1000 ; N bahai ; G 19
+U 63090 ; WX 1250 ; N lightbulb-on ; G 20
+U 63187 ; WX 1125 ; N dog ; G 21
+U 63188 ; WX 1125 ; N dog-leashed ; G 22
+U 63315 ; WX 1000 ; N meteor ; G 23
+U 63330 ; WX 1000 ; N stars ; G 24
+U 63423 ; WX 1000 ; N satellite ; G 25
+U 63424 ; WX 1000 ; N satellite-dish ; G 26
+U 63535 ; WX 875 ; N user-nurse ; G 27
+U 63674 ; WX 875 ; N flux-capacitor ; G 28
+U 63700 ; WX 1000 ; N piano ; G 29
+U 63732 ; WX 1125 ; N air-conditioner ; G 30
+U 63733 ; WX 875 ; N alien ; G 31
+U 63734 ; WX 1125 ; N alien-monster ; G 32
+U 63735 ; WX 1000 ; N bed-alt ; G 33
+U 63736 ; WX 1125 ; N bed-bunk ; G 34
+U 63737 ; WX 1250 ; N bed-empty ; G 35
+U 63738 ; WX 1250 ; N bell-on ; G 36
+U 63739 ; WX 1000 ; N blinds ; G 37
+U 63740 ; WX 1000 ; N blinds-open ; G 38
+U 63741 ; WX 1000 ; N blinds-raised ; G 39
+U 63742 ; WX 875 ; N camera-home ; G 40
+U 63743 ; WX 1250 ; N caravan ; G 41
+EndCharMetrics
+EndFontMetrics

@@ -1,0 +1,103 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Light
+FontSubfamily Light
+UniqueID Font Awesome 5 Pro Light-5.15.4
+FullName Font Awesome 5 Pro Light
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Light
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Light
+CompatibleFullName Font Awesome 5 Pro Light
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -16 -145 1258 883
+StartCharMetrics 78
+U 61501 ; WX 1125 ; N video ; G 3
+U 61548 ; WX 1125 ; N leaf ; G 4
+U 61574 ; WX 1125 ; N comments ; G 5
+U 61682 ; WX 1000 ; N suitcase ; G 6
+U 61709 ; WX 1000 ; N quote-left ; G 7
+U 61710 ; WX 1000 ; N quote-right ; G 8
+U 61831 ; WX 1000 ; N archive ; G 9
+U 62133 ; WX 1250 ; N handshake ; G 10
+U 62185 ; WX 875 ; N usd-square ; G 11
+U 62206 ; WX 1000 ; N poo ; G 12
+U 62429 ; WX 1250 ; N phone-slash ; G 13
+U 62587 ; WX 1125 ; N hand-holding-box ; G 14
+U 62588 ; WX 1250 ; N hand-receiving ; G 15
+U 62616 ; WX 1000 ; N blanket ; G 16
+U 62618 ; WX 875 ; N box-alt ; G 17
+U 62619 ; WX 875 ; N box-fragile ; G 18
+U 62621 ; WX 875 ; N box-heart ; G 19
+U 62623 ; WX 1000 ; N box-up ; G 20
+U 62624 ; WX 875 ; N box-usd ; G 21
+U 62625 ; WX 1250 ; N boxes-alt ; G 22
+U 62626 ; WX 1000 ; N comment-alt-check ; G 23
+U 62627 ; WX 1000 ; N comment-alt-dots ; G 24
+U 62628 ; WX 1000 ; N comment-alt-edit ; G 25
+U 62629 ; WX 1000 ; N comment-alt-exclamation ; G 26
+U 62630 ; WX 1000 ; N comment-alt-lines ; G 27
+U 62631 ; WX 1000 ; N comment-alt-minus ; G 28
+U 62632 ; WX 1000 ; N comment-alt-plus ; G 29
+U 62633 ; WX 1250 ; N comment-alt-slash ; G 30
+U 62634 ; WX 1000 ; N comment-alt-smile ; G 31
+U 62635 ; WX 1000 ; N comment-alt-times ; G 32
+U 62636 ; WX 1000 ; N comment-check ; G 33
+U 62637 ; WX 1000 ; N comment-dots ; G 34
+U 62638 ; WX 1000 ; N comment-edit ; G 35
+U 62639 ; WX 1000 ; N comment-exclamation ; G 36
+U 62640 ; WX 1000 ; N comment-lines ; G 37
+U 62641 ; WX 1000 ; N comment-minus ; G 38
+U 62642 ; WX 1000 ; N comment-plus ; G 39
+U 62643 ; WX 1250 ; N comment-slash ; G 40
+U 62644 ; WX 1000 ; N comment-smile ; G 41
+U 62645 ; WX 1000 ; N comment-times ; G 42
+U 62646 ; WX 1125 ; N comments-alt ; G 43
+U 62647 ; WX 1250 ; N container-storage ; G 44
+U 62648 ; WX 1250 ; N couch ; G 45
+U 62649 ; WX 1000 ; N donate ; G 46
+U 62651 ; WX 563 ; N fragile ; G 47
+U 62652 ; WX 875 ; N hand-heart ; G 48
+U 62653 ; WX 1125 ; N hand-holding ; G 49
+U 62654 ; WX 1125 ; N hand-holding-heart ; G 50
+U 62655 ; WX 1125 ; N hand-holding-seedling ; G 51
+U 62658 ; WX 1250 ; N hands ; G 52
+U 62659 ; WX 1250 ; N hands-heart ; G 53
+U 62660 ; WX 1250 ; N hands-helping ; G 54
+U 62661 ; WX 1250 ; N hands-usd ; G 55
+U 62662 ; WX 1250 ; N handshake-alt ; G 56
+U 62664 ; WX 875 ; N heart-square ; G 57
+U 62667 ; WX 1125 ; N leaf-heart ; G 58
+U 62668 ; WX 1000 ; N loveseat ; G 59
+U 62669 ; WX 1000 ; N parachute-box ; G 60
+U 62670 ; WX 1250 ; N people-carry ; G 61
+U 62671 ; WX 750 ; N person-carry ; G 62
+U 62672 ; WX 1000 ; N person-dolly ; G 63
+U 62673 ; WX 1000 ; N person-dolly-empty ; G 64
+U 62674 ; WX 1000 ; N phone-plus ; G 65
+U 62676 ; WX 750 ; N ramp-loading ; G 66
+U 62678 ; WX 875 ; N ribbon ; G 67
+U 62680 ; WX 1000 ; N seedling ; G 68
+U 62681 ; WX 1000 ; N sign ; G 69
+U 62683 ; WX 1250 ; N tape ; G 70
+U 62684 ; WX 1250 ; N truck-container ; G 71
+U 62685 ; WX 1250 ; N truck-couch ; G 72
+U 62686 ; WX 1250 ; N truck-loading ; G 73
+U 62687 ; WX 1250 ; N truck-moving ; G 74
+U 62688 ; WX 1250 ; N truck-ramp ; G 75
+U 62689 ; WX 1125 ; N video-plus ; G 76
+U 62690 ; WX 1250 ; N video-slash ; G 77
+EndCharMetrics
+EndFontMetrics

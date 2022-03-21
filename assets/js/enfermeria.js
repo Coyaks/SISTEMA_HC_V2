@@ -59,34 +59,38 @@ $(document).ready(function () {
     // UPDATE
     $(document).on('click', '.edit', function () {
         var id = $(this).data('id');
-        $('#modalMesapartes').modal('show')
+        $('#modalEnfermeria').modal('show')
         $('#hidden_id').val(id);
         
     });
 
-    $('.row-observacion').hide()
-    $('#estado_mesa').change(function (e) { 
+
+    $('#formEnfermeria').submit(function (e) { 
         e.preventDefault();
-        let estado_mesa=$(this).val();
-        if(estado_mesa==0){
-            $('.row-observacion').show()
-        }else{
-            $('.row-observacion').hide()
+        let anotaciones=$('#anotaciones').val();
+        let hidden_id=$('#hidden_id').val();
+        console.log('aaa: ',$('#etapa2').is(':checked'))
+        
+        let etapa2=0;
+
+        if($('#etapa2').is(':checked')){
+            etapa2=1
         }
-    });
-
-    $('#formMesapartes').submit(function (e) { 
-        e.preventDefault();
-
         $.ajax({
-            url: "MesaController/updateMesa",
+            url: "EnfermeriaController/saveAnotaciones",
             method: "POST",
-            data: $(this).serialize(),
-            //dataType: "JSON",
+            //data: $(this).serialize(),
+            data: {
+                anotaciones:anotaciones,
+                etapa2:etapa2,
+                hidden_id:hidden_id
+            },
+            dataType: "JSON",
             success: function (data) {
-                if (data=='ok') {
-                    $('#modalMesapartes').modal('hide');
-                    dataTables.ajax.reload();
+                if (data.rta=='ok') {
+                    dataTables.ajax.reload()
+                    $('#modalEnfermeria').modal('hide');
+                    //dataTables.ajax.reload();
                     Alert.success3('Guardado correctamente!')
                 } else {
                     Alert.success('Error al guardar')

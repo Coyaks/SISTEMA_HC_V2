@@ -1,0 +1,42 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Brands Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Brands Regular-5.15.4
+FullName Font Awesome 5 Brands Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Brands-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Brands
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Brands Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox 0 -109 969 859
+StartCharMetrics 17
+U 61955 ; WX 875 ; N lastfm-square ; G 3
+U 62695 ; WX 969 ; N creative-commons-by ; G 4
+U 62696 ; WX 969 ; N creative-commons-nc ; G 5
+U 62697 ; WX 969 ; N creative-commons-nc-eu ; G 6
+U 62698 ; WX 969 ; N creative-commons-nc-jp ; G 7
+U 62699 ; WX 969 ; N creative-commons-nd ; G 8
+U 62700 ; WX 969 ; N creative-commons-pd ; G 9
+U 62701 ; WX 969 ; N creative-commons-pd-alt ; G 10
+U 62702 ; WX 969 ; N creative-commons-remix ; G 11
+U 62703 ; WX 969 ; N creative-commons-sa ; G 12
+U 62704 ; WX 969 ; N creative-commons-sampling ; G 13
+U 62705 ; WX 969 ; N creative-commons-sampling-plus ; G 14
+U 62706 ; WX 969 ; N creative-commons-share ; G 15
+U 62712 ; WX 875 ; N researchgate ; G 16
+EndCharMetrics
+EndFontMetrics

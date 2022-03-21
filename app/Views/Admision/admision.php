@@ -6,8 +6,10 @@ Solicitud HC
 <?= $this->endSection() ?>
 
 <?= $this->section('css') ?>
-<!-- DATATABLES + B4 CSS -->
+<!-- libreria para generar PDF CON JS FUNCIONAL -->
 <script src="<?= media('libs/html2pdf/html2pdf.bundle.min.js')?>"></script>
+
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> -->
 
 <?= $this->endSection() ?>
 

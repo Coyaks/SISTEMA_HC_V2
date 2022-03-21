@@ -6,6 +6,10 @@ use App\Models\Admision;
 
 //llamar libreria Dompdf 
 use Dompdf\Dompdf;
+
+//require base_url().'/vendor/autoload.php';
+//require __DIR__.'/vendor/autoload.php';
+//use Spipu\Html2Pdf\Html2Pdf;
 //ini_set('memory_limit', '-1');
 
 class AdmisionController extends BaseController
@@ -199,7 +203,7 @@ class AdmisionController extends BaseController
         //ob_start();
         //CONTENIDO
         //require 'formCreacionHC.php';
-        
+
         //START: OJO: OPCIONES PARA PERMITIR IMAGENES EN PDF
         $options = $dompdf->getOptions();
         $options->set(array('isRemoteEnabled' => true));
@@ -209,7 +213,7 @@ class AdmisionController extends BaseController
         //new
         //$html = file_get_contents(view('Admision/formCreacionHC')); 
         //$dompdf->loadHtml('<p>holaaaaaaaaa<p>');
-        $dompdf->loadHtml(view('Admision/formCreacionHC'));
+        $dompdf->loadHtml(view('Admision/admision'));
 
         $dompdf->setPaper('A4', 'landscape');
 
@@ -226,5 +230,12 @@ class AdmisionController extends BaseController
         // OJO: Salida del PDF generado al navegador
         //'Attachment'=> false ->no descargar  || true -> descargar
         //$dompdf->stream('reporteHC.pdf', array('Attachment' => true));
+    }
+
+    function pdf()
+    {
+        // $html2pdf = new Html2Pdf();
+        // $html2pdf->writeHTML('<h1>HelloWorld</h1>This is my first test');
+        // $html2pdf->output();
     }
 }

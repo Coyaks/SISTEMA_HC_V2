@@ -1,0 +1,47 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Brands Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Brands Regular-5.15.4
+FullName Font Awesome 5 Brands Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Brands-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Brands
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Brands Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -2 -129 1252 881
+StartCharMetrics 22
+U 61837 ; WX 875 ; N stack-exchange ; G 3
+U 61877 ; WX 875 ; N behance-square ; G 4
+U 61911 ; WX 1125 ; N weixin ; G 5
+U 61968 ; WX 875 ; N dashcube ; G 6
+U 61974 ; WX 1250 ; N skyatlas ; G 7
+U 62086 ; WX 1000 ; N fort-awesome ; G 8
+U 62129 ; WX 875 ; N yoast ; G 9
+U 62355 ; WX 875 ; N discourse ; G 10
+U 62393 ; WX 875 ; N js-square ; G 11
+U 62411 ; WX 875 ; N mix ; G 12
+U 62419 ; WX 875 ; N node-js ; G 13
+U 62424 ; WX 1125 ; N palfed ; G 14
+U 62425 ; WX 1000 ; N patreon ; G 15
+U 62428 ; WX 1250 ; N phoenix-framework ; G 16
+U 62473 ; WX 1000 ; N viber ; G 17
+U 62499 ; WX 1250 ; N ember ; G 18
+U 62505 ; WX 1250 ; N stripe ; G 19
+U 62512 ; WX 875 ; N elementor ; G 20
+U 62513 ; WX 875 ; N youtube-square ; G 21
+EndCharMetrics
+EndFontMetrics

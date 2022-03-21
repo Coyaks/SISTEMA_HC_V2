@@ -1,0 +1,74 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Light
+FontSubfamily Light
+UniqueID Font Awesome 5 Pro Light-5.15.4
+FullName Font Awesome 5 Pro Light
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Light
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Light
+CompatibleFullName Font Awesome 5 Pro Light
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -8 -139 1250 885
+StartCharMetrics 49
+U 61649 ; WX 1250 ; N truck ; G 3
+U 61681 ; WX 1000 ; N stethoscope ; G 4
+U 61689 ; WX 1250 ; N ambulance ; G 5
+U 61982 ; WX 1000 ; N heartbeat ; G 6
+U 62561 ; WX 875 ; N allergies ; G 7
+U 62563 ; WX 1250 ; N barcode-alt ; G 8
+U 62564 ; WX 1250 ; N barcode-read ; G 9
+U 62565 ; WX 1250 ; N barcode-scan ; G 10
+U 62566 ; WX 1000 ; N box ; G 11
+U 62567 ; WX 1250 ; N box-check ; G 12
+U 62568 ; WX 1250 ; N boxes ; G 13
+U 62569 ; WX 1000 ; N briefcase-medical ; G 14
+U 62570 ; WX 750 ; N burn ; G 15
+U 62571 ; WX 1063 ; N capsules ; G 16
+U 62572 ; WX 750 ; N clipboard-check ; G 17
+U 62573 ; WX 750 ; N clipboard-list ; G 18
+U 62574 ; WX 1250 ; N conveyor-belt ; G 19
+U 62575 ; WX 1250 ; N conveyor-belt-alt ; G 20
+U 62578 ; WX 1125 ; N dolly ; G 21
+U 62579 ; WX 1125 ; N dolly-empty ; G 22
+U 62580 ; WX 1250 ; N dolly-flatbed ; G 23
+U 62581 ; WX 1250 ; N dolly-flatbed-alt ; G 24
+U 62585 ; WX 1125 ; N first-aid ; G 25
+U 62586 ; WX 1250 ; N forklift ; G 26
+U 62589 ; WX 1125 ; N hospital-alt ; G 27
+U 62590 ; WX 1000 ; N hospital-symbol ; G 28
+U 62593 ; WX 750 ; N notes-medical ; G 29
+U 62594 ; WX 1250 ; N pallet ; G 30
+U 62595 ; WX 1250 ; N pallet-alt ; G 31
+U 62596 ; WX 1125 ; N pills ; G 32
+U 62597 ; WX 750 ; N prescription-bottle ; G 33
+U 62598 ; WX 750 ; N prescription-bottle-alt ; G 34
+U 62599 ; WX 1250 ; N procedures ; G 35
+U 62601 ; WX 1125 ; N scanner-keyboard ; G 36
+U 62603 ; WX 1250 ; N shipping-fast ; G 37
+U 62604 ; WX 1250 ; N shipping-timed ; G 38
+U 62605 ; WX 1250 ; N smoking ; G 39
+U 62606 ; WX 1000 ; N syringe ; G 40
+U 62607 ; WX 875 ; N tablet-rugged ; G 41
+U 62608 ; WX 1250 ; N tablets ; G 42
+U 62609 ; WX 1000 ; N thermometer ; G 43
+U 62610 ; WX 938 ; N vial ; G 44
+U 62611 ; WX 1250 ; N vials ; G 45
+U 62612 ; WX 1250 ; N warehouse ; G 46
+U 62613 ; WX 1250 ; N warehouse-alt ; G 47
+U 62614 ; WX 1000 ; N weight ; G 48
+EndCharMetrics
+EndFontMetrics

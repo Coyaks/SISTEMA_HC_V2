@@ -1,0 +1,38 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Pro Regular-5.15.4
+FullName Font Awesome 5 Pro Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Pro Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -2 -125 1271 861
+StartCharMetrics 13
+U 61470 ; WX 1000 ; N redo ; G 3
+U 61473 ; WX 1000 ; N sync ; G 4
+U 61478 ; WX 500 ; N volume-off ; G 5
+U 61558 ; WX 1000 ; N magnet ; G 6
+U 61741 ; WX 1000 ; N eraser ; G 7
+U 62238 ; WX 875 ; N expand-arrows-alt ; G 8
+U 62294 ; WX 875 ; N arrow-alt-right ; G 9
+U 62559 ; WX 969 ; N volleyball-ball ; G 10
+U 62896 ; WX 1250 ; N plane-departure ; G 11
+U 63550 ; WX 1250 ; N wave-square ; G 12
+EndCharMetrics
+EndFontMetrics

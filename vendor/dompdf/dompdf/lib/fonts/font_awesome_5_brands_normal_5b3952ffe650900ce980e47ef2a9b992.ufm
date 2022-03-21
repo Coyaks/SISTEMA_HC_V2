@@ -1,0 +1,43 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Brands Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Brands Regular-5.15.4
+FullName Font Awesome 5 Brands Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Brands-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Brands
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Brands Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -8 -139 1252 877
+StartCharMetrics 18
+U 61848 ; WX 875 ; N slack ; G 3
+U 61861 ; WX 875 ; N delicious ; G 4
+U 61864 ; WX 1125 ; N pied-piper-alt ; G 5
+U 61939 ; WX 1125 ; N cc-amex ; G 6
+U 61972 ; WX 875 ; N shirtsinbulk ; G 7
+U 62012 ; WX 1125 ; N optin-monster ; G 8
+U 62102 ; WX 1000 ; N gitlab ; G 9
+U 62122 ; WX 875 ; N viadeo-square ; G 10
+U 62353 ; WX 1000 ; N digital-ocean ; G 11
+U 62365 ; WX 1250 ; N erlang ; G 12
+U 62455 ; WX 1125 ; N sticker-mule ; G 13
+U 62503 ; WX 1250 ; N hooli ; G 14
+U 62708 ; WX 1250 ; N ebay ; G 15
+U 62734 ; WX 875 ; N jedi-order ; G 16
+U 62991 ; WX 1250 ; N markdown ; G 17
+EndCharMetrics
+EndFontMetrics

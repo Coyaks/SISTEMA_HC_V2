@@ -57,7 +57,6 @@ Fedateo
                                 <label for="">Estado <span class="text-danger">*</span></label>
                                 <select name="estado_mesa" id="estado_mesa" class="form-control">
                                     <option value="1">aprobar</option>
-                                    <option value="0">desaprobar</option>
                                 </select>
                             </div>
                         </div>

@@ -2,7 +2,7 @@
 <?= $this->extend('layout/plantillabase') ?>
 <!-- SECCIONES -->
 <?= $this->section('title') ?>
-Medico
+Médico
 <?= $this->endSection() ?>
 
 <?= $this->section('css') ?>
@@ -21,15 +21,18 @@ Medico
         </legend>
 
         <div class="table-responsive">
-            <table id="tablaBandejaSoliPendientes" class="table table-bordered table-hover" style="width:100%">
+            <table id="tablaMedico" class="table table-bordered table-hover" style="width:100%">
                 <thead>
                     <tr>
                         <th>ID</th>
                         <th>Nombre</th>
                         <th>Apellidos</th>
-                        <th>DNI</th>
-                        <th>Fecha y hora</th>
-                        <th>Estado</th>
+                        <th>Edad</th>
+                        <th>Codigo HC</th>
+                        <th>Anotaciones de enfermera</th>
+                        <th>Anotaciones</th>
+                        <th>Fecha y Hora</th>
+                        <th>Etapa</th>
                         <th>Acciones</th>
                     </tr>
                 </thead>
@@ -39,11 +42,11 @@ Medico
     </fieldset>
 </div>
 
-<!-- Modal Usuario-->
-<div class="modal fade" id="modalMesapartes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Modal Enfermeria-->
+<div class="modal fade" id="modalMedico" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <!-- inicio de form -->
-        <form id="formMesapartes">
+        <form id="formMedico">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel"></h5>
@@ -54,26 +57,26 @@ Medico
                     <div class="row">
                         <div class="col-lg-12">
                             <div class="form-group">
-                                <label for="">Estado <span class="text-danger">*</span></label>
-                                <select name="estado_mesa" id="estado_mesa" class="form-control">
-                                    <option value="1">aprobar</option>
-                                    <option value="0">desaprobar</option>
-                                </select>
+                                <label for="">Mis Anotaciones <span class="text-danger">*</span></label>
+                                <textarea name="anotaciones" id="anotaciones" cols="30" rows="10" class="form-control"></textarea>
                             </div>
                         </div>
                     </div>
 
-                    <div class="row row-observacion">
+                    <div class="row">
                         <div class="col-lg-12">
-                            <label for="">Observación</label>
-                            <textarea name="observacion" id="observacion" cols="30" rows="5" class="form-control"></textarea>
+                            <label for="">Pasar a etapa 3 (Estar seguro de la acciones)</label>
+                            <div class="toggle-flip">
+                                <label>
+                                    <input type="checkbox" name="etapa2" id="etapa2"><span class="flip-indecator" data-toggle-on="SI" data-toggle-off="NO"></span>
+                                </label>
+                            </div>
                         </div>
                     </div>
                 </div>
                 <div class="modal-footer">
                     <!-- HIDDEN -->
                     <input type="hidden" name="hidden_id" id="hidden_id" />
-                    <input type="hidden" name="action" id="action" value="Add" />
 
                     <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-times"></i> Cerrar</button>
 

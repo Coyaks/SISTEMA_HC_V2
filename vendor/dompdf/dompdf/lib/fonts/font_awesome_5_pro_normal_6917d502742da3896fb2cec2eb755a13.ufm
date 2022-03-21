@@ -1,0 +1,122 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Pro Regular-5.15.4
+FullName Font Awesome 5 Pro Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Pro Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -18 -141 1262 885
+StartCharMetrics 97
+U 61453 ; WX 625 ; N times ; G 3
+U 61512 ; WX 875 ; N step-backward ; G 4
+U 61521 ; WX 875 ; N step-forward ; G 5
+U 61612 ; WX 969 ; N globe ; G 6
+U 61616 ; WX 1000 ; N filter ; G 7
+U 61720 ; WX 969 ; N smile ; G 8
+U 61721 ; WX 969 ; N frown ; G 9
+U 61722 ; WX 969 ; N meh ; G 10
+U 61768 ; WX 625 ; N level-up ; G 11
+U 61774 ; WX 969 ; N compass ; G 12
+U 61781 ; WX 563 ; N dollar-sign ; G 13
+U 61830 ; WX 1000 ; N moon ; G 14
+U 61852 ; WX 1000 ; N university ; G 15
+U 61931 ; WX 1250 ; N wifi ; G 16
+U 61978 ; WX 1250 ; N ship ; G 17
+U 61985 ; WX 563 ; N venus ; G 18
+U 61997 ; WX 563 ; N genderless ; G 19
+U 62141 ; WX 969 ; N user-circle ; G 20
+U 62184 ; WX 969 ; N usd-circle ; G 21
+U 62200 ; WX 969 ; N scrubber ; G 22
+U 62292 ; WX 875 ; N arrow-alt-down ; G 23
+U 62295 ; WX 875 ; N arrow-alt-up ; G 24
+U 62515 ; WX 969 ; N baseball-ball ; G 25
+U 62516 ; WX 969 ; N basketball-ball ; G 26
+U 62518 ; WX 969 ; N bowling-ball ; G 27
+U 62542 ; WX 969 ; N football-ball ; G 28
+U 62558 ; WX 969 ; N tennis-ball ; G 29
+U 62663 ; WX 969 ; N heart-circle ; G 30
+U 62682 ; WX 969 ; N smile-wink ; G 31
+U 62691 ; WX 563 ; N wine-glass ; G 32
+U 62751 ; WX 969 ; N compact-disc ; G 33
+U 62798 ; WX 1203 ; N store ; G 34
+U 62806 ; WX 969 ; N angry ; G 35
+U 62823 ; WX 969 ; N dizzy ; G 36
+U 62841 ; WX 969 ; N flushed ; G 37
+U 62842 ; WX 969 ; N frown-open ; G 38
+U 62844 ; WX 969 ; N globe-africa ; G 39
+U 62845 ; WX 969 ; N globe-americas ; G 40
+U 62846 ; WX 969 ; N globe-asia ; G 41
+U 62847 ; WX 969 ; N grimace ; G 42
+U 62848 ; WX 969 ; N grin ; G 43
+U 62849 ; WX 969 ; N grin-alt ; G 44
+U 62850 ; WX 969 ; N grin-beam ; G 45
+U 62851 ; WX 969 ; N grin-beam-sweat ; G 46
+U 62852 ; WX 969 ; N grin-hearts ; G 47
+U 62853 ; WX 969 ; N grin-squint ; G 48
+U 62855 ; WX 969 ; N grin-stars ; G 49
+U 62857 ; WX 969 ; N grin-tongue ; G 50
+U 62858 ; WX 969 ; N grin-tongue-squint ; G 51
+U 62860 ; WX 969 ; N grin-wink ; G 52
+U 62870 ; WX 969 ; N kiss ; G 53
+U 62871 ; WX 969 ; N kiss-beam ; G 54
+U 62872 ; WX 984 ; N kiss-wink-heart ; G 55
+U 62873 ; WX 969 ; N laugh ; G 56
+U 62874 ; WX 969 ; N laugh-beam ; G 57
+U 62875 ; WX 969 ; N laugh-squint ; G 58
+U 62876 ; WX 969 ; N laugh-wink ; G 59
+U 62884 ; WX 969 ; N meh-blank ; G 60
+U 62885 ; WX 969 ; N meh-rolling-eyes ; G 61
+U 62899 ; WX 969 ; N sad-cry ; G 62
+U 62900 ; WX 969 ; N sad-tear ; G 63
+U 62904 ; WX 969 ; N smile-beam ; G 64
+U 62912 ; WX 1047 ; N star-half-alt ; G 65
+U 62914 ; WX 969 ; N surprise ; G 66
+U 62915 ; WX 1000 ; N swatchbook ; G 67
+U 62920 ; WX 969 ; N tired ; G 68
+U 62926 ; WX 563 ; N wine-glass-alt ; G 69
+U 62942 ; WX 938 ; N car-alt ; G 70
+U 62950 ; WX 938 ; N car-wash ; G 71
+U 62956 ; WX 969 ; N do-not-enter ; G 72
+U 62978 ; WX 969 ; N location-circle ; G 73
+U 62997 ; WX 969 ; N parking-circle ; G 74
+U 62998 ; WX 969 ; N parking-circle-slash ; G 75
+U 63010 ; WX 969 ; N steering-wheel ; G 76
+U 63048 ; WX 969 ; N bullseye-arrow ; G 77
+U 63049 ; WX 969 ; N bullseye-pointer ; G 78
+U 63100 ; WX 969 ; N peace ; G 79
+U 63130 ; WX 906 ; N star-of-david ; G 80
+U 63146 ; WX 1250 ; N wifi-1 ; G 81
+U 63147 ; WX 1250 ; N wifi-2 ; G 82
+U 63149 ; WX 969 ; N yin-yang ; G 83
+U 63394 ; WX 969 ; N globe-europe ; G 84
+U 63397 ; WX 500 ; N grip-lines-vertical ; G 85
+U 63417 ; WX 969 ; N radiation ; G 86
+U 63418 ; WX 969 ; N radiation-alt ; G 87
+U 63487 ; WX 1000 ; N flower ; G 88
+U 63491 ; WX 1000 ; N french-fries ; G 89
+U 63494 ; WX 1000 ; N hand-middle-finger ; G 90
+U 63504 ; WX 875 ; N ice-cream ; G 91
+U 63513 ; WX 1000 ; N popcorn ; G 92
+U 63531 ; WX 1250 ; N tree-palm ; G 93
+U 63615 ; WX 1000 ; N send-backward ; G 94
+U 63710 ; WX 1250 ; N skull-cow ; G 95
+U 63726 ; WX 1250 ; N wagon-covered ; G 96
+EndCharMetrics
+EndFontMetrics

@@ -1,0 +1,110 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -21 -135 1252 891
+StartCharMetrics 167
+U 61479 ; WX 750 ; N volume-down-primary ; G 3
+U 61480 ; WX 1125 ; N volume-up-primary ; G 4
+U 61568 ; WX 1000 ; N chart-bar-primary ; G 5
+U 61601 ; WX 1125 ; N bullhorn-primary ; G 6
+U 61617 ; WX 1000 ; N briefcase-primary ; G 7
+U 61675 ; WX 688 ; N lightbulb-primary ; G 8
+U 61952 ; WX 1063 ; N chart-pie-primary ; G 9
+U 61953 ; WX 1000 ; N chart-line-primary ; G 10
+U 62178 ; WX 1250 ; N volume-slash-primary ; G 11
+U 63002 ; WX 875 ; N route-highway-primary ; G 12
+U 63040 ; WX 1125 ; N abacus-primary ; G 13
+U 63043 ; WX 1125 ; N analytics-primary ; G 14
+U 63044 ; WX 625 ; N ankh-primary ; G 15
+U 63045 ; WX 1000 ; N badge-dollar-primary ; G 16
+U 63046 ; WX 1000 ; N badge-percent-primary ; G 17
+U 63047 ; WX 875 ; N bible-primary ; G 18
+U 63050 ; WX 1250 ; N business-time-primary ; G 19
+U 63051 ; WX 1000 ; N cabinet-filing-primary ; G 20
+U 63053 ; WX 1000 ; N chart-line-down-primary ; G 21
+U 63054 ; WX 1000 ; N chart-pie-alt-primary ; G 22
+U 63055 ; WX 1250 ; N city-primary ; G 23
+U 63056 ; WX 1000 ; N comment-alt-dollar-primary ; G 24
+U 63057 ; WX 1000 ; N comment-dollar-primary ; G 25
+U 63058 ; WX 1125 ; N comments-alt-dollar-primary ; G 26
+U 63059 ; WX 1125 ; N comments-dollar-primary ; G 27
+U 63061 ; WX 1000 ; N dharmachakra-primary ; G 28
+U 63062 ; WX 1000 ; N empty-set-primary ; G 29
+U 63069 ; WX 1000 ; N folder-minus-primary ; G 30
+U 63071 ; WX 1000 ; N folder-times-primary ; G 31
+U 63072 ; WX 1250 ; N folders-primary ; G 32
+U 63073 ; WX 1250 ; N function-primary ; G 33
+U 63074 ; WX 1250 ; N funnel-dollar-primary ; G 34
+U 63075 ; WX 1125 ; N gift-card-primary ; G 35
+U 63077 ; WX 1000 ; N hamsa-primary ; G 36
+U 63079 ; WX 750 ; N integral-primary ; G 37
+U 63080 ; WX 750 ; N intersection-primary ; G 38
+U 63081 ; WX 1125 ; N jedi-primary ; G 39
+U 63083 ; WX 1125 ; N kaaba-primary ; G 40
+U 63084 ; WX 1000 ; N keynote-primary ; G 41
+U 63085 ; WX 1000 ; N khanda-primary ; G 42
+U 63086 ; WX 875 ; N lambda-primary ; G 43
+U 63087 ; WX 1000 ; N landmark-primary ; G 44
+U 63088 ; WX 688 ; N lightbulb-dollar-primary ; G 45
+U 63089 ; WX 688 ; N lightbulb-exclamation-primary ; G 46
+U 63091 ; WX 1250 ; N lightbulb-slash-primary ; G 47
+U 63092 ; WX 1125 ; N mail-bulk-primary ; G 48
+U 63093 ; WX 1125 ; N megaphone-primary ; G 49
+U 63096 ; WX 1250 ; N mosque-primary ; G 50
+U 63097 ; WX 1000 ; N om-primary ; G 51
+U 63098 ; WX 1000 ; N omega-primary ; G 52
+U 63099 ; WX 1250 ; N pastafarianism-primary ; G 53
+U 63101 ; WX 1125 ; N phone-office-primary ; G 54
+U 63102 ; WX 1000 ; N pi-primary ; G 55
+U 63103 ; WX 1250 ; N place-of-worship-primary ; G 56
+U 63104 ; WX 875 ; N podium-primary ; G 57
+U 63107 ; WX 750 ; N pray-primary ; G 58
+U 63108 ; WX 1250 ; N praying-hands-primary ; G 59
+U 63109 ; WX 1125 ; N presentation-primary ; G 60
+U 63110 ; WX 1250 ; N print-slash-primary ; G 61
+U 63111 ; WX 875 ; N quran-primary ; G 62
+U 63112 ; WX 1000 ; N search-dollar-primary ; G 63
+U 63113 ; WX 1000 ; N search-location-primary ; G 64
+U 63115 ; WX 750 ; N sigma-primary ; G 65
+U 63124 ; WX 1250 ; N signal-alt-slash-primary ; G 66
+U 63125 ; WX 1250 ; N signal-slash-primary ; G 67
+U 63127 ; WX 1125 ; N square-root-primary ; G 68
+U 63128 ; WX 1125 ; N square-root-alt-primary ; G 69
+U 63129 ; WX 1000 ; N star-and-crescent-primary ; G 70
+U 63131 ; WX 1250 ; N synagogue-primary ; G 71
+U 63132 ; WX 1250 ; N tally-primary ; G 72
+U 63134 ; WX 750 ; N theta-primary ; G 73
+U 63135 ; WX 1000 ; N tilde-primary ; G 74
+U 63137 ; WX 1000 ; N torii-gate-primary ; G 75
+U 63138 ; WX 750 ; N union-primary ; G 76
+U 63139 ; WX 1250 ; N user-chart-primary ; G 77
+U 63140 ; WX 875 ; N user-crown-primary ; G 78
+U 63141 ; WX 1250 ; N users-crown-primary ; G 79
+U 63142 ; WX 1000 ; N value-absolute-primary ; G 80
+U 63143 ; WX 1250 ; N vihara-primary ; G 81
+U 63144 ; WX 938 ; N volume-primary ; G 82
+U 63145 ; WX 1000 ; N volume-mute-primary ; G 83
+U 63148 ; WX 1250 ; N wifi-slash-primary ; G 84
+EndCharMetrics
+EndFontMetrics

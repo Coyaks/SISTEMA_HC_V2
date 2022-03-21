@@ -1,0 +1,98 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Pro Regular
+FontSubfamily Regular
+UniqueID Font Awesome 5 Pro Regular-5.15.4
+FullName Font Awesome 5 Pro Regular
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Pro-Regular
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Pro
+PreferredSubfamily Regular
+CompatibleFullName Font Awesome 5 Pro Regular
+Weight Medium
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -25 -139 1264 895
+StartCharMetrics 73
+U 61507 ; WX 688 ; N tint ; G 3
+U 61636 ; WX 875 ; N cut ; G 4
+U 61648 ; WX 1000 ; N magic ; G 5
+U 61733 ; WX 1000 ; N crop ; G 6
+U 61882 ; WX 1000 ; N taxi ; G 7
+U 61947 ; WX 1000 ; N eye-dropper ; G 8
+U 61948 ; WX 1000 ; N paint-brush ; G 9
+U 61959 ; WX 1000 ; N bus ; G 10
+U 62006 ; WX 1250 ; N bed ; G 11
+U 62073 ; WX 1125 ; N map ; G 12
+U 62212 ; WX 1000 ; N pen ; G 13
+U 62213 ; WX 1000 ; N pen-alt ; G 14
+U 62765 ; WX 1000 ; N feather ; G 15
+U 62807 ; WX 1125 ; N archway ; G 16
+U 62808 ; WX 875 ; N atlas ; G 17
+U 62810 ; WX 1250 ; N backspace ; G 18
+U 62811 ; WX 1250 ; N bezier-curve ; G 19
+U 62812 ; WX 875 ; N bong ; G 20
+U 62813 ; WX 750 ; N brush ; G 21
+U 62814 ; WX 1000 ; N bus-alt ; G 22
+U 62815 ; WX 1063 ; N cannabis ; G 23
+U 62818 ; WX 1000 ; N concierge-bell ; G 24
+U 62819 ; WX 1000 ; N cookie ; G 25
+U 62820 ; WX 1000 ; N cookie-bite ; G 26
+U 62821 ; WX 1000 ; N crop-alt ; G 27
+U 62822 ; WX 1250 ; N digital-tachograph ; G 28
+U 62824 ; WX 1000 ; N drafting-compass ; G 29
+U 62826 ; WX 1125 ; N drum-steelpan ; G 30
+U 62827 ; WX 1000 ; N feather-alt ; G 31
+U 62837 ; WX 1000 ; N fill ; G 32
+U 62838 ; WX 1125 ; N fill-drip ; G 33
+U 62839 ; WX 1000 ; N fingerprint ; G 34
+U 62843 ; WX 1000 ; N glass-martini-alt ; G 35
+U 62854 ; WX 1000 ; N grin-squint-tears ; G 36
+U 62856 ; WX 1250 ; N grin-tears ; G 37
+U 62861 ; WX 1000 ; N grip-horizontal ; G 38
+U 62862 ; WX 625 ; N grip-vertical ; G 39
+U 62863 ; WX 1000 ; N headphones-alt ; G 40
+U 62864 ; WX 1000 ; N headset ; G 41
+U 62867 ; WX 1000 ; N hot-tub ; G 42
+U 62868 ; WX 1125 ; N hotel ; G 43
+U 62869 ; WX 1250 ; N joint ; G 44
+U 62877 ; WX 1250 ; N luggage-cart ; G 45
+U 62879 ; WX 1125 ; N map-marked ; G 46
+U 62880 ; WX 1125 ; N map-marked-alt ; G 47
+U 62881 ; WX 1000 ; N marker ; G 48
+U 62882 ; WX 1000 ; N medal ; G 49
+U 62886 ; WX 750 ; N monument ; G 50
+U 62887 ; WX 1000 ; N mortar-pestle ; G 51
+U 62889 ; WX 1000 ; N paint-brush-alt ; G 52
+U 62890 ; WX 1000 ; N paint-roller ; G 53
+U 62891 ; WX 875 ; N passport ; G 54
+U 62892 ; WX 1000 ; N pen-fancy ; G 55
+U 62893 ; WX 1000 ; N pen-nib ; G 56
+U 62894 ; WX 1000 ; N pencil-ruler ; G 57
+U 62895 ; WX 1250 ; N plane-arrival ; G 58
+U 62897 ; WX 750 ; N prescription ; G 59
+U 62902 ; WX 1250 ; N shuttle-van ; G 60
+U 62905 ; WX 1250 ; N smile-plus ; G 61
+U 62906 ; WX 1250 ; N solar-panel ; G 62
+U 62907 ; WX 1125 ; N spa ; G 63
+U 62908 ; WX 1000 ; N splotch ; G 64
+U 62909 ; WX 1000 ; N spray-can ; G 65
+U 62916 ; WX 1250 ; N swimmer ; G 66
+U 62917 ; WX 1250 ; N swimming-pool ; G 67
+U 62919 ; WX 1250 ; N tint-slash ; G 68
+U 62921 ; WX 875 ; N tooth ; G 69
+U 62922 ; WX 1250 ; N umbrella-beach ; G 70
+U 62923 ; WX 1000 ; N vector-square ; G 71
+U 62925 ; WX 1000 ; N weight-hanging ; G 72
+EndCharMetrics
+EndFontMetrics

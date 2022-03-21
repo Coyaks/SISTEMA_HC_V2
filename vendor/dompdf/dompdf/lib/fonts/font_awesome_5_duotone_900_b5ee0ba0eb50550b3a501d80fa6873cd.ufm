@@ -1,0 +1,111 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -10 -148 1260 885
+StartCharMetrics 169
+U 62617 ; WX 875 ; N book-heart-primary ; G 3
+U 63094 ; WX 1250 ; N menorah-primary ; G 4
+U 63150 ; WX 875 ; N acorn-primary ; G 5
+U 63152 ; WX 1250 ; N alicorn-primary ; G 6
+U 63153 ; WX 1000 ; N apple-crate-primary ; G 7
+U 63154 ; WX 1250 ; N axe-primary ; G 8
+U 63155 ; WX 1000 ; N axe-battle-primary ; G 9
+U 63157 ; WX 1250 ; N bat-primary ; G 10
+U 63158 ; WX 1125 ; N blender-phone-primary ; G 11
+U 63159 ; WX 875 ; N book-dead-primary ; G 12
+U 63160 ; WX 875 ; N book-spells-primary ; G 13
+U 63161 ; WX 1000 ; N bow-arrow-primary ; G 14
+U 63162 ; WX 1000 ; N campfire-primary ; G 15
+U 63163 ; WX 1250 ; N campground-primary ; G 16
+U 63164 ; WX 875 ; N candle-holder-primary ; G 17
+U 63167 ; WX 875 ; N cauldron-primary ; G 18
+U 63170 ; WX 1000 ; N claw-marks-primary ; G 19
+U 63173 ; WX 875 ; N coffee-togo-primary ; G 20
+U 63175 ; WX 1000 ; N corn-primary ; G 21
+U 63176 ; WX 1250 ; N cow-primary ; G 22
+U 63179 ; WX 750 ; N dagger-primary ; G 23
+U 63181 ; WX 1000 ; N dice-d10-primary ; G 24
+U 63182 ; WX 1000 ; N dice-d12-primary ; G 25
+U 63183 ; WX 938 ; N dice-d20-primary ; G 26
+U 63184 ; WX 1000 ; N dice-d4-primary ; G 27
+U 63185 ; WX 875 ; N dice-d6-primary ; G 28
+U 63186 ; WX 1000 ; N dice-d8-primary ; G 29
+U 63189 ; WX 1250 ; N dragon-primary ; G 30
+U 63192 ; WX 1000 ; N duck-primary ; G 31
+U 63193 ; WX 1000 ; N dungeon-primary ; G 32
+U 63195 ; WX 1250 ; N eye-evil-primary ; G 33
+U 63198 ; WX 750 ; N fist-raised-primary ; G 34
+U 63202 ; WX 750 ; N ghost-primary ; G 35
+U 63203 ; WX 1125 ; N hammer-primary ; G 36
+U 63205 ; WX 1125 ; N hand-holding-magic-primary ; G 37
+U 63206 ; WX 1250 ; N hanukiah-primary ; G 38
+U 63207 ; WX 1125 ; N hat-witch-primary ; G 39
+U 63209 ; WX 1000 ; N head-side-primary ; G 40
+U 63210 ; WX 1000 ; N head-vr-primary ; G 41
+U 63211 ; WX 1125 ; N helmet-battle-primary ; G 42
+U 63212 ; WX 750 ; N hiking-primary ; G 43
+U 63214 ; WX 875 ; N hockey-mask-primary ; G 44
+U 63217 ; WX 1125 ; N house-damage-primary ; G 45
+U 63218 ; WX 750 ; N hryvnia-primary ; G 46
+U 63219 ; WX 1000 ; N key-skeleton-primary ; G 47
+U 63221 ; WX 1125 ; N knife-kitchen-primary ; G 48
+U 63222 ; WX 1000 ; N leaf-maple-primary ; G 49
+U 63223 ; WX 1000 ; N leaf-oak-primary ; G 50
+U 63224 ; WX 1000 ; N mace-primary ; G 51
+U 63228 ; WX 1250 ; N mountain-primary ; G 52
+U 63229 ; WX 1250 ; N mountains-primary ; G 53
+U 63231 ; WX 1250 ; N network-wired-primary ; G 54
+U 63232 ; WX 1250 ; N otter-primary ; G 55
+U 63233 ; WX 875 ; N paw-alt-primary ; G 56
+U 63234 ; WX 1000 ; N paw-claws-primary ; G 57
+U 63235 ; WX 1125 ; N pegasus-primary ; G 58
+U 63239 ; WX 1125 ; N pumpkin-primary ; G 59
+U 63242 ; WX 1250 ; N ram-primary ; G 60
+U 63243 ; WX 1000 ; N ring-primary ; G 61
+U 63249 ; WX 1250 ; N sheep-primary ; G 62
+U 63250 ; WX 875 ; N shield-cross-primary ; G 63
+U 63251 ; WX 1000 ; N shovel-primary ; G 64
+U 63253 ; WX 1250 ; N slash-primary ; G 65
+U 63254 ; WX 1250 ; N snake-primary ; G 66
+U 63255 ; WX 1125 ; N spider-primary ; G 67
+U 63256 ; WX 1125 ; N spider-black-widow-primary ; G 68
+U 63257 ; WX 1125 ; N spider-web-primary ; G 69
+U 63258 ; WX 1000 ; N squirrel-primary ; G 70
+U 63259 ; WX 1000 ; N staff-primary ; G 71
+U 63260 ; WX 1000 ; N sword-primary ; G 72
+U 63261 ; WX 1000 ; N swords-primary ; G 73
+U 63264 ; WX 1000 ; N tombstone-primary ; G 74
+U 63265 ; WX 1000 ; N tombstone-alt-primary ; G 75
+U 63266 ; WX 1250 ; N tractor-primary ; G 76
+U 63267 ; WX 1125 ; N treasure-chest-primary ; G 77
+U 63268 ; WX 1250 ; N trees-primary ; G 78
+U 63270 ; WX 1125 ; N turtle-primary ; G 79
+U 63271 ; WX 1250 ; N unicorn-primary ; G 80
+U 63272 ; WX 875 ; N user-injured-primary ; G 81
+U 63273 ; WX 1250 ; N vr-cardboard-primary ; G 82
+U 63275 ; WX 1000 ; N wand-magic-primary ; G 83
+U 63277 ; WX 1000 ; N wheat-primary ; G 84
+U 63279 ; WX 1000 ; N wine-bottle-primary ; G 85
+EndCharMetrics
+EndFontMetrics

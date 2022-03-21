@@ -1,0 +1,93 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -18 -137 1262 896
+StartCharMetrics 133
+U 61456 ; WX 1000 ; N search-minus-primary ; G 3
+U 61543 ; WX 875 ; N plus-primary ; G 4
+U 61554 ; WX 1125 ; N plane-primary ; G 5
+U 61613 ; WX 1000 ; N wrench-primary ; G 6
+U 61654 ; WX 1250 ; N money-bill-primary ; G 7
+U 61672 ; WX 1250 ; N sitemap-primary ; G 8
+U 61744 ; WX 688 ; N microphone-primary ; G 9
+U 61745 ; WX 1250 ; N microphone-slash-primary ; G 10
+U 62030 ; WX 1250 ; N balance-scale-primary ; G 11
+U 62409 ; WX 688 ; N microphone-alt-primary ; G 12
+U 62417 ; WX 1250 ; N money-bill-alt-primary ; G 13
+U 62743 ; WX 1000 ; N blender-primary ; G 14
+U 62745 ; WX 1250 ; N broadcast-tower-primary ; G 15
+U 62746 ; WX 1250 ; N broom-primary ; G 16
+U 62747 ; WX 1250 ; N chalkboard-primary ; G 17
+U 62748 ; WX 1250 ; N chalkboard-teacher-primary ; G 18
+U 62749 ; WX 1250 ; N church-primary ; G 19
+U 62750 ; WX 1000 ; N coins-primary ; G 20
+U 62752 ; WX 1250 ; N crow-primary ; G 21
+U 62753 ; WX 1250 ; N crown-primary ; G 22
+U 62754 ; WX 1250 ; N dice-primary ; G 23
+U 62755 ; WX 875 ; N dice-five-primary ; G 24
+U 62756 ; WX 875 ; N dice-four-primary ; G 25
+U 62757 ; WX 875 ; N dice-one-primary ; G 26
+U 62758 ; WX 875 ; N dice-six-primary ; G 27
+U 62759 ; WX 875 ; N dice-three-primary ; G 28
+U 62760 ; WX 875 ; N dice-two-primary ; G 29
+U 62761 ; WX 875 ; N divide-primary ; G 30
+U 62762 ; WX 1250 ; N door-closed-primary ; G 31
+U 62763 ; WX 1250 ; N door-open-primary ; G 32
+U 62764 ; WX 875 ; N equals-primary ; G 33
+U 62766 ; WX 1125 ; N frog-primary ; G 34
+U 62768 ; WX 1125 ; N glasses-primary ; G 35
+U 62769 ; WX 750 ; N greater-than-primary ; G 36
+U 62770 ; WX 875 ; N greater-than-equal-primary ; G 37
+U 62771 ; WX 1250 ; N helicopter-primary ; G 38
+U 62773 ; WX 1125 ; N kiwi-bird-primary ; G 39
+U 62774 ; WX 750 ; N less-than-primary ; G 40
+U 62775 ; WX 875 ; N less-than-equal-primary ; G 41
+U 62776 ; WX 1250 ; N memory-primary ; G 42
+U 62777 ; WX 1250 ; N microphone-alt-slash-primary ; G 43
+U 62778 ; WX 1250 ; N money-bill-wave-primary ; G 44
+U 62779 ; WX 1250 ; N money-bill-wave-alt-primary ; G 45
+U 62780 ; WX 1250 ; N money-check-primary ; G 46
+U 62781 ; WX 1250 ; N money-check-alt-primary ; G 47
+U 62782 ; WX 875 ; N not-equal-primary ; G 48
+U 62783 ; WX 1000 ; N palette-primary ; G 49
+U 62784 ; WX 875 ; N parking-primary ; G 50
+U 62785 ; WX 750 ; N percentage-primary ; G 51
+U 62786 ; WX 1250 ; N project-diagram-primary ; G 52
+U 62787 ; WX 750 ; N receipt-primary ; G 53
+U 62789 ; WX 1250 ; N ruler-primary ; G 54
+U 62790 ; WX 1000 ; N ruler-combined-primary ; G 55
+U 62791 ; WX 1125 ; N ruler-horizontal-primary ; G 56
+U 62792 ; WX 500 ; N ruler-vertical-primary ; G 57
+U 62793 ; WX 1250 ; N school-primary ; G 58
+U 62794 ; WX 1000 ; N screwdriver-primary ; G 59
+U 62795 ; WX 1250 ; N shoe-prints-primary ; G 60
+U 62797 ; WX 1000 ; N smoking-ban-primary ; G 61
+U 62799 ; WX 1250 ; N store-alt-primary ; G 62
+U 62800 ; WX 1000 ; N stream-primary ; G 63
+U 62801 ; WX 1000 ; N stroopwafel-primary ; G 64
+U 62802 ; WX 1000 ; N toolbox-primary ; G 65
+U 62804 ; WX 625 ; N walking-primary ; G 66
+U 62805 ; WX 1000 ; N wallet-primary ; G 67
+EndCharMetrics
+EndFontMetrics

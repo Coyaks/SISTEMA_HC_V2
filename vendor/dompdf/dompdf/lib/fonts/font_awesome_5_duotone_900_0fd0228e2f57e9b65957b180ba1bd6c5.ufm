@@ -1,0 +1,74 @@
+StartFontMetrics 4.1
+Notice Converted by PHP-font-lib
+Comment https://github.com/PhenX/php-font-lib
+EncodingScheme FontSpecific
+Copyright Copyright (c) Font Awesome
+FontName Font Awesome 5 Duotone Solid
+FontSubfamily Solid
+UniqueID Font Awesome 5 Duotone Solid-5.15.4
+FullName Font Awesome 5 Duotone Solid
+Version 331.524 (Font Awesome version: 5.15.4)
+PostScriptName FontAwesome5Duotone-Solid
+Description The web's most popular icon set and toolkit.
+FontVendorURL https://fontawesome.com
+PreferredFamily Font Awesome 5 Duotone
+PreferredSubfamily Solid
+CompatibleFullName Font Awesome 5 Duotone Solid
+Weight Bold
+ItalicAngle 0
+IsFixedPitch false
+UnderlineThickness 49
+UnderlinePosition -72
+FontHeightOffset 0
+Ascender 875
+Descender -125
+FontBBox -6 -125 1258 883
+StartCharMetrics 95
+U 61649 ; WX 1250 ; N truck-primary ; G 3
+U 61681 ; WX 1000 ; N stethoscope-primary ; G 4
+U 61689 ; WX 1250 ; N ambulance-primary ; G 5
+U 61982 ; WX 1000 ; N heartbeat-primary ; G 6
+U 62561 ; WX 875 ; N allergies-primary ; G 7
+U 62563 ; WX 1250 ; N barcode-alt-primary ; G 8
+U 62564 ; WX 1250 ; N barcode-read-primary ; G 9
+U 62565 ; WX 1250 ; N barcode-scan-primary ; G 10
+U 62566 ; WX 1000 ; N box-primary ; G 11
+U 62567 ; WX 1250 ; N box-check-primary ; G 12
+U 62568 ; WX 1125 ; N boxes-primary ; G 13
+U 62569 ; WX 1000 ; N briefcase-medical-primary ; G 14
+U 62570 ; WX 750 ; N burn-primary ; G 15
+U 62571 ; WX 1125 ; N capsules-primary ; G 16
+U 62572 ; WX 750 ; N clipboard-check-primary ; G 17
+U 62573 ; WX 750 ; N clipboard-list-primary ; G 18
+U 62574 ; WX 1250 ; N conveyor-belt-primary ; G 19
+U 62575 ; WX 1250 ; N conveyor-belt-alt-primary ; G 20
+U 62578 ; WX 1125 ; N dolly-primary ; G 21
+U 62579 ; WX 1125 ; N dolly-empty-primary ; G 22
+U 62580 ; WX 1250 ; N dolly-flatbed-primary ; G 23
+U 62581 ; WX 1250 ; N dolly-flatbed-alt-primary ; G 24
+U 62585 ; WX 1125 ; N first-aid-primary ; G 25
+U 62586 ; WX 1250 ; N forklift-primary ; G 26
+U 62589 ; WX 1125 ; N hospital-alt-primary ; G 27
+U 62590 ; WX 1000 ; N hospital-symbol-primary ; G 28
+U 62593 ; WX 750 ; N notes-medical-primary ; G 29
+U 62594 ; WX 1250 ; N pallet-primary ; G 30
+U 62595 ; WX 1250 ; N pallet-alt-primary ; G 31
+U 62596 ; WX 1125 ; N pills-primary ; G 32
+U 62597 ; WX 750 ; N prescription-bottle-primary ; G 33
+U 62598 ; WX 750 ; N prescription-bottle-alt-primary ; G 34
+U 62599 ; WX 1250 ; N procedures-primary ; G 35
+U 62601 ; WX 1125 ; N scanner-keyboard-primary ; G 36
+U 62603 ; WX 1250 ; N shipping-fast-primary ; G 37
+U 62604 ; WX 1250 ; N shipping-timed-primary ; G 38
+U 62605 ; WX 1250 ; N smoking-primary ; G 39
+U 62606 ; WX 1000 ; N syringe-primary ; G 40
+U 62607 ; WX 875 ; N tablet-rugged-primary ; G 41
+U 62608 ; WX 1250 ; N tablets-primary ; G 42
+U 62609 ; WX 1000 ; N thermometer-primary ; G 43
+U 62610 ; WX 938 ; N vial-primary ; G 44
+U 62611 ; WX 1250 ; N vials-primary ; G 45
+U 62612 ; WX 1250 ; N warehouse-primary ; G 46
+U 62613 ; WX 1250 ; N warehouse-alt-primary ; G 47
+U 62614 ; WX 1000 ; N weight-primary ; G 48
+EndCharMetrics
+EndFontMetrics
