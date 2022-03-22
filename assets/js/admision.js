@@ -7,32 +7,119 @@ $(document).ready(function () {
             let nameDoc = num + '_' + num_doc + '.pdf'
 
             $('#div_asociar_cita').hide();
+
             //const $elementoParaConvertir = document.body; // <-- Aquí puedes elegir cualquier elemento del DOM
             const $elementoParaConvertir = document.querySelector(".card-container");
-            html2pdf()
-                .set({
-                    margin: 1,
-                    filename: nameDoc,
-                    image: {
-                        type: 'jpeg',
-                        quality: 0.98
-                    },
-                    html2canvas: {
-                        scale: 3, // A mayor escala, mejores gráficos, pero más peso
-                        letterRendering: true,
-                    },
-                    jsPDF: {
-                        unit: "in",
-                        format: "a3",
-                        //format: "a4",
-                        orientation: 'portrait' // landscape o portrait
-                    }
-                })
-                .from($elementoParaConvertir)
-                .save()
-                //.output('dataurlnewwindow')
-                //.output("C:/wamp64/www/SISTEMA_HC/sistema_hc_v2/uploads/file_xxxx.pdf", 'F')
-                .catch(err => console.log(err));
+
+            // Final file name
+            let fileName = "evaluation_xxx.pdf";
+
+            // Generate the PDF.
+            let worker = html2pdf().set({
+                margin: 0,
+                filename: fileName,
+                html2canvas: {
+                    scale: 2
+                },
+                jsPDF: {
+                    orientation: 'portrait',
+                    unit: 'pt',
+                    format: 'a4',
+                    compressPDF: true
+                }
+            }).from($elementoParaConvertir).toPdf();
+
+
+            worker = worker.output("datauristring").then(function (pdf) {
+
+                const preBlob = dataURItoBlob(pdf);
+                const file = new File([preBlob], fileName, {
+                    type: 'application/pdf'
+                });
+
+                let data = new FormData();
+                data.append("file", file);
+
+                $.ajax({
+                    method: 'POST',
+                    url: "AdmisionController/movePDF",
+                    data: data,
+                    processData: false,
+                    contentType: false
+                }).success(function (data, textStatus, jqXHR) {
+                    data = JSON.parse(data);
+                }).error(function (jqXHR, textStatus, errorThrown) {
+                    console.log(errorThrown);
+                });
+
+            });
+
+            // var worker = html2pdf();
+            // worker.set({
+            //         margin: 1,
+            //         filename: nameDoc,
+            //         image: {
+            //             type: 'jpeg',
+            //             quality: 0.98
+            //         },
+            //         html2canvas: {
+            //             scale: 3, // A mayor escala, mejores gráficos, pero más peso
+            //             letterRendering: true,
+            //         },
+            //         jsPDF: {
+            //             unit: "in",
+            //             format: "a3",
+            //             //format: "a4",
+            //             orientation: 'portrait' // landscape o portrait
+            //         }
+            //     })
+            //     .from($elementoParaConvertir);
+
+            // // la clave esta en blob: formato de archivos
+            // var blob = worker.output('blob');
+            // var formData = new FormData();
+            // formData.append('pdf', blob);
+
+            // $.ajax({
+            //     type: 'POST',
+            //     //url: 'upload.php',
+            //     url: 'AdmisionController/movePDF',
+            //     data: formData,
+            //     processData: false,
+            //     contentType: false,
+            //     success: function (data) {
+            //         console.log('PDF enviado', data)
+            //     },
+            //     error: function (data) {
+            //         console.log("Error Ajax: ", data)
+            //     }
+            // });
+
+
+
+            // html2pdf()
+            //     .set({
+            //         margin: 1,
+            //         filename: nameDoc,
+            //         image: {
+            //             type: 'jpeg',
+            //             quality: 0.98
+            //         },
+            //         html2canvas: {
+            //             scale: 3, // A mayor escala, mejores gráficos, pero más peso
+            //             letterRendering: true,
+            //         },
+            //         jsPDF: {
+            //             unit: "in",
+            //             format: "a3",
+            //             //format: "a4",
+            //             orientation: 'portrait' // landscape o portrait
+            //         }
+            //     })
+            //     .from($elementoParaConvertir);
+
+
+
 
             setTimeout(() => {
                 $('#div_asociar_cita').show();
@@ -40,30 +127,43 @@ $(document).ready(function () {
 
         });
     }
-    generarPdfHC()
+    //generarPdfHC()
 
 
     function generarPdfHC2() {
         $('#btnGenerarPdfHC').click(function (e) {
             var doc = new jsPDF();
-            var elementHandler = {
-                '#ignorePDF': function (element, renderer) {
-                    return true;
-                }
-            };
-            var source = window.document.querySelector(".card-container");
+            //var source = window.document.querySelector(".card-container");    
+            var elementHTML = $('.card-container').html();
+
             doc.fromHTML(
-                source,
+                elementHTML,
                 15,
                 15, {
-                    'width': 180,
-                    'elementHandlers': elementHandler
+                    'width': 170
                 });
+            // la clave esta en blob: formato de archivos
+            var blob = doc.output('blob');
+            var formData = new FormData();
+            formData.append('file', blob);
 
-            doc.output("uploads/test.pdf");
+            $.ajax({
+                type: 'POST',
+                //url: 'upload.php',
+                url: 'AdmisionController/movePDF',
+                data: formData,
+                processData: false,
+                contentType: false,
+                success: function (data) {
+                    console.log('PDF enviado', data)
+                },
+                error: function (data) {
+                    console.log("Error Ajax: ", data)
+                }
+            });
         });
     }
-    //generarPdfHC2()
+    generarPdfHC2()
 
     $('#btnAsociarCita').click(function (e) {
         e.preventDefault();

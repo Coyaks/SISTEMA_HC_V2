@@ -52,6 +52,9 @@
 <body class="hold-transition sidebar-mini layout-fixed">
     <?php
     $session = session();
+    if(!isset($_SESSION['logeado'])){
+        return redirect()->to('/'); 
+    }
     ?>
     <div class="wrapper">
         <!-- Navbar -->
@@ -361,7 +364,6 @@
     <!-- AdminLTE App -->
     <script src="<?= base_url('/assets/adminlte') ?>/dist/js/adminlte.js"></script>
     <!-- AdminLTE dashboard demo (This is only for demo purposes) -->
-    <script src="<?= base_url('/assets/adminlte') ?>/dist/js/pages/dashboard.js"></script>
 
     <!-- CORE FUNCIONES JAVASCRIPT REUTILIZABLE -->
     <script src="<?= base_url('assets/js/core.js') ?>"></script>

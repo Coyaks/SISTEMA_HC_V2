@@ -34,7 +34,6 @@ class AdmisionController extends BaseController
         echo json_encode($qb);
     }
 
-
     function saveDatosSolicitud()
     {
         $crudModel = new Admision();
@@ -232,10 +231,12 @@ class AdmisionController extends BaseController
         //$dompdf->stream('reporteHC.pdf', array('Attachment' => true));
     }
 
-    function pdf()
+    function movePDF()
     {
-        // $html2pdf = new Html2Pdf();
-        // $html2pdf->writeHTML('<h1>HelloWorld</h1>This is my first test');
-        // $html2pdf->output();
+        $nameFile = rand();
+
+        $filePDF = $_FILES['file']['tmp_name'];
+        $path = 'uploads/pacientes/';
+        move_uploaded_file($filePDF, $path.$nameFile . '.pdf');
     }
 }

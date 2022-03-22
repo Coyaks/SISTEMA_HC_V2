@@ -13,7 +13,7 @@ $(document).ready(function () {
             success: function (r) {
                 hideLoading()
                 if(r=='admin'){
-                    window.location.href='dashboard'
+                    window.location.href='usuario'
                 }else if(r=='paciente'){
                     window.location.href='paciente'
                 }else if(r=='mesa'){

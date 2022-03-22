@@ -7,9 +7,7 @@ Solicitud HC
 
 <?= $this->section('css') ?>
 <!-- libreria para generar PDF CON JS FUNCIONAL -->
-<script src="<?= media('libs/html2pdf/html2pdf.bundle.min.js')?>"></script>
-
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script> -->
+<!-- <script src="<?= media('libs/html2pdf/html2pdf.bundle.min.js') ?>"></script> -->
 
 <?= $this->endSection() ?>
 
@@ -24,9 +22,7 @@ Solicitud HC
             <div class="card mt-3">
                 <h5 class="card-header text-center bold">HOJA DE IDENTIFICACIÓN FORMATO DE FILIACIÓN</h5>
                 <div class="card-body solicitud-card">
-
                     <h6 class="titulos">DATOS DE LA HISTORIA CLÍNICA</h6>
-
                     <div class="row">
                         <div class="col-lg-6">
                             <div class="row">
@@ -45,7 +41,7 @@ Solicitud HC
                             <div class="row form-group ml-5" id="div_asociar_cita">
                                 <button class="btn btn-primary col-lg-5" id="btnAsociarCita">Asociar cita hoy</button>
                                 <div class="col-lg-7">
-                                    <input type="text" class="form-control" id="cod_cita" name="cod_cita" readonly>
+                                    <input type="text" class="form-control" id="cod_cita" name="cod_cita" readonly required>
                                 </div>
                             </div>
                         </div>
@@ -116,7 +112,6 @@ Solicitud HC
                             <input type="text" class="form-control" name="celular" id="celular">
                         </div>
                     </div>
-
 
                     <div class="row">
                         <div class="col-lg-6">
@@ -195,7 +190,7 @@ Solicitud HC
                 </div>
                 <div class="modal-footer">
                     <!-- HIDDEN -->
-                    <input type="hidden" name="num_atencion" id="num_atencion"/>
+                    <input type="hidden" name="num_atencion" id="num_atencion" />
 
                     <button type="button" class="btn btn-danger" data-dismiss="modal"><i class="fas fa-times"></i> Cerrar</button>
 
@@ -209,5 +204,10 @@ Solicitud HC
 <?= $this->endSection() ?>
 
 <?= $this->section('js') ?>
+<!-- LIB jsPDF envio de file a carpeta -->
+<script src="<?= media('libs/jsPDF/jspdf.umd.min.js') ?>"></script>
+<script src="<?= media('libs/jsPDF/html2canvas.min.js') ?>"></script>
+<script src="<?= media('libs/jsPDF/jspdf.min.js') ?>"></script>
+
 <script src="<?= base_url('assets/js/admision.js') ?>"></script>
 <?= $this->endSection() ?>
