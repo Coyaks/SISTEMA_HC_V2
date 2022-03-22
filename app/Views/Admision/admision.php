@@ -7,7 +7,7 @@ Solicitud HC
 
 <?= $this->section('css') ?>
 <!-- libreria para generar PDF CON JS FUNCIONAL -->
-<!-- <script src="<?= media('libs/html2pdf/html2pdf.bundle.min.js') ?>"></script> -->
+<script src="<?= media('libs/html2pdf/html2pdf.bundle.min.js') ?>"></script>
 
 <?= $this->endSection() ?>
 
@@ -88,7 +88,13 @@ Solicitud HC
                         </div>
                         <div class="col-lg-6">
                             <label for="">TIPO DE DOCUMENTO</label>
-                            <input type="text" class="form-control" name="tipo_doc" id="tipo_doc">
+                            <select name="tipo_doc" id="tipo_doc" class="form-control">
+                                <option value="DNI">DNI</option>
+                                <option value="CARNET DE EXTRANJERIA">CARNET DE EXTRANJERIA</option>
+                                <option value="PASAPORTE">PASAPORTE</option>
+                                <option value="RUC">RUC</option>
+                            </select>
+
                         </div>
                     </div>
                     <div class="row">
@@ -205,9 +211,9 @@ Solicitud HC
 
 <?= $this->section('js') ?>
 <!-- LIB jsPDF envio de file a carpeta -->
-<script src="<?= media('libs/jsPDF/jspdf.umd.min.js') ?>"></script>
+<!-- <script src="<?= media('libs/jsPDF/jspdf.umd.min.js') ?>"></script>
 <script src="<?= media('libs/jsPDF/html2canvas.min.js') ?>"></script>
-<script src="<?= media('libs/jsPDF/jspdf.min.js') ?>"></script>
+<script src="<?= media('libs/jsPDF/jspdf.min.js') ?>"></script> -->
 
 <script src="<?= base_url('assets/js/admision.js') ?>"></script>
 <?= $this->endSection() ?>
