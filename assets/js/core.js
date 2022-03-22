@@ -168,6 +168,20 @@ function base_url(valor) {
     let url=window.location.origin
     return url+'/'+valor
 }
+
+function base_url(valor) {
+    //captura solo https + dominio principal
+    let url=window.location.origin
+    return url+'/'+valor
+}
+
 function carpeta_proy() {
     return "SISTEMA_HC/sistema_hc_v2/"
+}
+
+function base_url2(valor="") {
+    //captura solo https + dominio principal
+    let url="http://localhost/SISTEMA_HC/sistema_hc_v2/"
+    //return url+'/'+valor
+    return url+valor
 }

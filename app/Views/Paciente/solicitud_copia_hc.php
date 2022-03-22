@@ -49,7 +49,7 @@ Solicitud HC
                         <div class="row form-group">
                             <label for="" class="col-lg-3 col-form-label">Tipo de documento</label>
                             <div class="col-lg-9">
-                                <input type="text" class="form-control" name="tipo_doc" id="tipo_doc">
+                                <input type="text" class="form-control" name="tipo_doc" id="tipo_doc" placeholder="Ejemplo: DNI, RUC, CARNET DE EXTRANJERIA">
                             </div>
                         </div>
                     </div>

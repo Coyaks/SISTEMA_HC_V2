@@ -30,7 +30,7 @@ $(document).ready(function () {
             dataType: "JSON",
             success: function (res) {
                 res.forEach(r => {
-                    $('#id').val(r.id);
+                    //$('#id').val(r.id);
                     $('#nombre').val(r.nombres_comp);
                     $('#tipo_doc').val(r.tipo_doc);
                     $('#num_doc').val(r.num_doc);
@@ -38,6 +38,7 @@ $(document).ready(function () {
                     $('#direccion').val(r.direccion);
                     $('#distrito').val(r.distrito);
                     $('#email').val(r.email);
+                    
 
                     let apellidos = r.apellidos_comp
                     if (apellidos != '') {
@@ -65,6 +66,10 @@ $(document).ready(function () {
                     let estado_mesa=r[0].estado_mesa
                     let observacion=r[0].observacion
                     let estado_mesa_str=''
+                    //mostrar path HC
+                    let hc_path=base_url2('uploads/admision/')
+                    let hc=r[0].hc_path
+                    let hc_complete=hc_path+hc
                     
                     if(estado_mesa==-1){
                         estado_mesa_str='<span class="badge badge-warning">Pendiente</span>'
@@ -81,8 +86,8 @@ $(document).ready(function () {
                     <p>Solicitante: ${nombreCompleto}</p>
                     <p>Estado de solicitud: ${estado_mesa_str}</p>
                     <p>Observación: ${observacion}</p>
+                    <p>Historia Clinica <a href="${hc_complete}" target="_blank">Descargar</a></p>
                     `
-
                     $('#rta_consulta').html(rta_final);
 
                     /*

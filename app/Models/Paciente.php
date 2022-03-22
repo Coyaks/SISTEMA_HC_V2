@@ -18,7 +18,9 @@ class Paciente extends Model{
 		$id=$_SESSION['idUsuario'];
 		$sql="SELECT * FROM usuarios u JOIN
         solicitud_hc s ON
-        u.id=s.idUsuario where s.idUsuario=$id ORDER by s.created_at DESC limit 1";
+        u.id=s.idUsuario 
+        JOIN historia_clinica h 
+        ON h.idUsuario=u.id where s.idUsuario=$id ORDER by s.created_at DESC limit 1";
 
         $qb=$this->db->query($sql)->getResult();   
         //$qb->getResult();

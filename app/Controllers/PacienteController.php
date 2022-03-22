@@ -196,6 +196,7 @@ class PacienteController extends BaseController
         $crudModel->update($idMe,$datos_solicitud_update);
 
         //insertar en tabla solicitud de Hc
+        //insertar en tabla solicitud de Hc
         $datos_solicitud=[
             'email'=>$this->request->getVar('email'),
             'celular'       =>  $this->request->getVar('celular'),
@@ -206,8 +207,6 @@ class PacienteController extends BaseController
             'dni_path'    =>  $new_name_dni,
             'idUsuario'    =>  $_SESSION['idUsuario'],
             'estado_mesa'    =>  -1,
-            
-
         ];
         $qb=$this->db->table('solicitud_hc');   
         $qb->insert($datos_solicitud);

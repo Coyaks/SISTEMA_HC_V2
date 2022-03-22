@@ -141,6 +141,18 @@ class AdmisionController extends BaseController
         $dni_acomp = $this->request->getPost('dni_acomp');
         $direccion_acomp = $this->request->getPost('direccion_acomp');
 
+
+        $ruta='uploads/admision/';
+        
+        $admision_path=$_FILES['pdfAdmision'];
+
+        //Esta validacion es obligatorio
+        $new_name_admision='';
+        if($admision_path['name']!=''){
+            //Recién almaceno img en carpeta
+            $new_name_admision=upload_file_directorio($admision_path,$ruta);
+        }
+
         $qbHC = $this->db->table('historia_clinica')->insert([
             'num' => $num,
             'ieds' => $ieds,
@@ -162,6 +174,7 @@ class AdmisionController extends BaseController
             'nombre_acomp' => $nombre_acomp,
             'dni_acomp' => $dni_acomp,
             'dir_acomp' => $direccion_acomp,
+            'hc_path' => $new_name_admision,
         ]);
 
         $cod_cita = $this->request->getPost('cod_cita'); //cita
@@ -239,4 +252,13 @@ class AdmisionController extends BaseController
         $path = 'uploads/pacientes/';
         move_uploaded_file($filePDF, $path.$nameFile . '.pdf');
     }
+
+    function subirAdmisionPDF(){
+        //$ob=new Setting();
+        
+        
+
+        echo 'ok';
+    }
+
 }

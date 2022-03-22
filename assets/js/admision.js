@@ -179,8 +179,10 @@ $(document).ready(function () {
         $.ajax({
             type: 'POST',
             url: 'AdmisionController/saveHC',
-            data: $(this).serialize(),
-            data: $(this).serialize(),
+            //data: $(this).serialize(),
+            data: new FormData(this),
+            contentType: false,
+            processData: false,
             //dataType: 'JSON',
             success: function (r) {
                 if (r == 'ok') {
@@ -198,5 +200,28 @@ $(document).ready(function () {
         $('#num').val(numRandon);
     }
     autoNumHistoria()
+
+    function subirPdfAdmision() {
+        $('#formSubirPdfAdmision').submit(function (e) {
+            e.preventDefault();
+            $.ajax({
+                type: 'POST',
+                url: 'AdmisionController/subirAdmisionPDF',
+                data: new FormData(this),
+                contentType: false,
+                processData: false,
+                success: function (response) {
+                    console.log(response)
+                    if (response == 'ok') {
+                        Alert.success3('Se guardo los cambios')
+                        fetchLogoPath()
+                    } else {
+                        Alert.error('Se produjo un error')
+                    }
+                }
+            });
+        });
+    }
+    subirPdfAdmision()
 
 });
