@@ -4,6 +4,10 @@ $(document).ready(function () {
         $('#btnGenerarPdfHC').click(function (e) {
             let num = $('#num').val();
             let num_doc = $('#num_doc').val();
+            if(num_doc.length==0){
+                alert('Ingresa N° de documento')
+                return false
+            }
             let nameDoc = num + '_' + num_doc + '.pdf'
 
             $('#div_asociar_cita').hide();

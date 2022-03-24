@@ -21,6 +21,7 @@ class Paciente extends Model{
         u.id=s.idUsuario 
         JOIN historia_clinica h 
         ON h.idUsuario=u.id where s.idUsuario=$id ORDER by s.created_at DESC limit 1";
+        //aun no genero solicitud para buscar
 
         $qb=$this->db->query($sql)->getResult();   
         //$qb->getResult();

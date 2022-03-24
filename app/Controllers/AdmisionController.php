@@ -119,6 +119,8 @@ class AdmisionController extends BaseController
     function saveHC()
     {
         //capturar datos de front
+        
+     
         $num = $this->request->getPost('num');
         $ieds = $this->request->getPost('ieds');
 
@@ -141,9 +143,7 @@ class AdmisionController extends BaseController
         $dni_acomp = $this->request->getPost('dni_acomp');
         $direccion_acomp = $this->request->getPost('direccion_acomp');
 
-
         $ruta='uploads/admision/';
-        
         $admision_path=$_FILES['pdfAdmision'];
 
         //Esta validacion es obligatorio
@@ -152,7 +152,6 @@ class AdmisionController extends BaseController
             //Recién almaceno img en carpeta
             $new_name_admision=upload_file_directorio($admision_path,$ruta);
         }
-
         $qbHC = $this->db->table('historia_clinica')->insert([
             'num' => $num,
             'ieds' => $ieds,
@@ -176,9 +175,7 @@ class AdmisionController extends BaseController
             'dir_acomp' => $direccion_acomp,
             'hc_path' => $new_name_admision,
         ]);
-
         $cod_cita = $this->request->getPost('cod_cita'); //cita
-
         //traer ultima insercion en table HC
         $idHistoria = $this->db->table('historia_clinica')->select('id')->orderBy('id', 'DESC')->limit(1)->get()->getResultArray();
 
@@ -188,6 +185,135 @@ class AdmisionController extends BaseController
             'idHistorial' => $idHistoria[0]['id']
         ]);
 
+        //GENERACION DE PDF Y ALMACENARLO EN UPLOADS
+        //GENERACION DE PDF Y ALMACENARLO EN UPLOADS
+        $dompdf = new Dompdf();
+        //START: OJO: OPCIONES PARA PERMITIR IMAGENES EN PDF
+        $options = $dompdf->getOptions();
+        $options->set(array('isRemoteEnabled' => true));
+        $dompdf->setOptions($options);
+        //END: OJO: OPCIONES PARA PERMITIR IMAGENES EN PDF
+        ////////////////// SIEMPRE ESTUVO LA SOL -> NO ME DI CUENTA//////////////////////
+        
+        $sello_path=base_url().'/assets/img/sello.jpg';
+        $html="<table border='1' style='border-collapse: collapse; width: 100%;'>
+        <thead>
+            <th>DATOS DE LA HISTORIA CLÍNICA</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span style='display:block'>N° DE HISTORIA CLÍNICA: {$num}</span>
+                    <span style='display:block'>I.E.D.S: {$ieds}</span>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    DATOS DEL PACIENTE
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <span style='display:block'>NOMBRE COMPLETO: {$nombreCompleto}</span>
+                    <span style='display:block'>APELLIDO COMPLETO: {$apellidoCompleto}</span>
+                    <span style='display:block'>EDAD: {$edad}</span>
+                    <span style='display:block'>SEXO: {$sexo}</span>
+                    <span style='display:block'>DIRECCIÓN: {$direccion }</span>
+                    <span style='display:block'>DISTRITO: {$distrito}</span>
+                    <span style='display:block'>FECHA DE NACIMIENTO: {$fecha_nac}</span>
+                    <span style='display:block'>TIPO DE DOCUMENTO: {$tipo_doc}</span>
+                    <span style='display:block'>N° DE DOCUMENTO: {$num_doc}</span>
+                    <span style='display:block'>ESTADO CIVIL: {$estado_civil}</span>
+                    <span style='display:block'>OCUPACIÓN: {$ocupacion}</span>
+                    <span style='display:block'>N° DE CELULAR: {$celular}</span>
+                    <span style='display:block'>NOMBRE DE LA MADRE: {$nombre_madre}</span>
+                    <span style='display:block'>NOMBRE DEL PADRE: {$nombre_padre}</span>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    PERSONA RESPONSABLE O ACOMPAÑANTE
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <span style='display:block'>NOMBRE COMPLETO: {$nombre_acomp}</span>
+                    <span style='display:block'>DNI: {$dni_acomp}</span>
+                    <span style='display:block'>DIRECCIÓN: {$direccion_acomp}</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    ";
+
+        $htmlFedateado="<table border='1' style='border-collapse: collapse; width: 100%;'>
+        <thead>
+            <th>DATOS DE LA HISTORIA CLÍNICA</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span style='display:block'>N° DE HISTORIA CLÍNICA: {$num}</span>
+                    <span style='display:block'>I.E.D.S: {$ieds}</span>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    DATOS DEL PACIENTE
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <span style='display:block'>NOMBRE COMPLETO: {$nombreCompleto}</span>
+                    <span style='display:block'>APELLIDO COMPLETO: {$apellidoCompleto}</span>
+                    <span style='display:block'>EDAD: {$edad}</span>
+                    <span style='display:block'>SEXO: {$sexo}</span>
+                    <span style='display:block'>DIRECCIÓN: {$direccion }</span>
+                    <span style='display:block'>DISTRITO: {$distrito}</span>
+                    <span style='display:block'>FECHA DE NACIMIENTO: {$fecha_nac}</span>
+                    <span style='display:block'>TIPO DE DOCUMENTO: {$tipo_doc}</span>
+                    <span style='display:block'>N° DE DOCUMENTO: {$num_doc}</span>
+                    <span style='display:block'>ESTADO CIVIL: {$estado_civil}</span>
+                    <span style='display:block'>OCUPACIÓN: {$ocupacion}</span>
+                    <span style='display:block'>N° DE CELULAR: {$celular}</span>
+                    <span style='display:block'>NOMBRE DE LA MADRE: {$nombre_madre}</span>
+                    <span style='display:block'>NOMBRE DEL PADRE: {$nombre_padre}</span>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    PERSONA RESPONSABLE O ACOMPAÑANTE
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <span style='display:block'>NOMBRE COMPLETO: {$nombre_acomp}</span>
+                    <span style='display:block'>DNI: {$dni_acomp}</span>
+                    <span style='display:block'>DIRECCIÓN: {$direccion_acomp}</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <div style='text-align: right; margin-top:10px'>
+            <img src='{$sello_path}' style='width:100px'>
+    </div>
+    ";
+        $numFile=2;
+
+        $dompdf->loadHtml($html);
+            $dompdf->setPaper('A4', 'landscape');
+            $dompdf->render();
+            $output = $dompdf->output();
+            $nombre=rand();
+            file_put_contents("uploads/historia_clinica/{$nombre}.pdf", $output);
+
+        // for($i=0;$i<$numFile;$i++){
+
+        // }
 
         if ($qbHC == 1 && $qbCitas == 1) { //return 1 -> entra al if
             echo 'ok';
@@ -212,10 +338,6 @@ class AdmisionController extends BaseController
         // instantiate and use the dompdf class
         $dompdf = new Dompdf();
 
-        //ob_start();
-        //CONTENIDO
-        //require 'formCreacionHC.php';
-
         //START: OJO: OPCIONES PARA PERMITIR IMAGENES EN PDF
         $options = $dompdf->getOptions();
         $options->set(array('isRemoteEnabled' => true));
@@ -225,19 +347,66 @@ class AdmisionController extends BaseController
         //new
         //$html = file_get_contents(view('Admision/formCreacionHC')); 
         //$dompdf->loadHtml('<p>holaaaaaaaaa<p>');
-        $dompdf->loadHtml(view('Admision/admision'));
+        ////////////////// SIEMPRE ESTUVO LA SOL -> NO ME DI CUENTA//////////////////////
+        //$qb=$this->db->table('');
+        $nombre="Felix";
+        $html="<table border='1' style='border-collapse: collapse; width: 80%;'>
+        <thead>
+            <th>DATOS DE LA HISTORIA CLÍNICA</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    <span style='display:block'>N° DE HISTORIA CLÍNICA: {$nombre}</span>
+                    <span style='display:block'>I.E.D.S: </span>
+                </td>
+            </tr>
 
+
+            <tr>
+                <th>
+                    DATOS DEL PACIENTE
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <span style='display:block'>NOMBRE COMPLETO: </span>
+                    <span style='display:block'>APELLIDO COMPLETO: </span>
+                    <span style='display:block'>EDAD: </span>
+                    <span style='display:block'>SEXO:</span>
+                    <span style='display:block'>DIRECCIÓN:</span>
+                    <span style='display:block'>DISTRITO:</span>
+                    <span style='display:block'>FECHA DE NACIMIENTO:</span>
+                    <span style='display:block'>TIPO DE DOCUMENTO:</span>
+                    <span style='display:block'>N° DE DOCUMENTO:</span>
+                    <span style='display:block'>ESTADO CIVIL:</span>
+                    <span style='display:block'>N° DE CELULAR:</span>
+                    <span style='display:block'>NOMBRE DE LA MADRE:</span>
+                    <span style='display:block'>NOMBRE DEL PADRE:</span>
+                </td>
+            </tr>
+
+            <tr>
+                <th>
+                    DATOS DEL PACIENTE
+                </th>
+            </tr>
+            <tr>
+                <td>
+                    <span style='display:block'>NOMBRE COMPLETO:</span>
+                    <span style='display:block'>DNI:</span>
+                    <span style='display:block'>DIRECCIÓN:</span>
+                </td>
+            </tr>
+        </tbody>
+    </table>";
+
+        $dompdf->loadHtml($html);
         $dompdf->setPaper('A4', 'landscape');
-
-        // Render the HTML as PDF
         $dompdf->render();
-
-        //$output = $dompdf->output();
-
         $output = $dompdf->output();
-
-        // PODEMOS LA RUTA Y EL NOMBRE DEL PDF
-        file_put_contents('uploads/holitas2.pdf', $output);
+        $nombre=rand();
+        file_put_contents("uploads/{$nombre}.pdf", $output);
 
         // OJO: Salida del PDF generado al navegador
         //'Attachment'=> false ->no descargar  || true -> descargar

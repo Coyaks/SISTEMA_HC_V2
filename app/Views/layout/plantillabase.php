@@ -186,12 +186,12 @@
                                             <p>Puestos</p>
                                         </a>
                                     </li>
-                                    <li class="nav-item ml-4">
+                                    <!-- <li class="nav-item ml-4">
                                         <a href="<?= base_url('permisos') ?>" class="nav-link <?= (current_url() == base_url('permisos')) ? 'menu-item-active' : '' ?>">
                                             <i class="far fa-circle nav-icon"></i>
                                             <p>Permisos</p>
                                         </a>
-                                    </li>
+                                    </li> -->
                                 </ul>
                             </li>
                         <?php

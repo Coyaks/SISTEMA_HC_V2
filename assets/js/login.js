@@ -61,13 +61,18 @@ $(document).ready(function () {
             success: function (r) {
                 if(r.rta=='ok'){
                     $('.rta_back').html(r.message);
-                }else{
-                    Alert.error('Error al registrar')
-                }
 
-                setTimeout(function () {
-                    $('.modalRegister').modal('hide');     
-                },3000)
+                    setTimeout(function () {
+                        $('.modalRegister').modal('hide');     
+                    },3000)
+                }else{
+                    if(r.rta=='emailExists'){
+                        Alert.error('El email ya existe. Ingrese uno diferente.')
+                    }else{
+                        Alert.error('Error al registrar')
+                    }
+                    
+                }
 
             }
         });

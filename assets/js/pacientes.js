@@ -52,6 +52,7 @@ $(document).ready(function () {
     }
     fetchDatosPacienteLogeado()
 
+    // BTN BUSCAR CON DNI PARA VER PDFs
     function buscarPacienteCodigo(){
         $('.btnBuscarDniPaciente').click(function (e) { 
             e.preventDefault();
@@ -61,34 +62,42 @@ $(document).ready(function () {
                 //data: "data",
                 dataType: "json",
                 success: function (r) {
-                    console.log(r[0].apellidos)
-                    let nombreCompleto=r[0].nombre+' '+r[0].apellidos
-                    let estado_mesa=r[0].estado_mesa
-                    let observacion=r[0].observacion
-                    let estado_mesa_str=''
-                    //mostrar path HC
-                    let hc_path=base_url2('uploads/admision/')
-                    let hc=r[0].hc_path
-                    let hc_complete=hc_path+hc
-                    
-                    if(estado_mesa==-1){
-                        estado_mesa_str='<span class="badge badge-warning">Pendiente</span>'
-                    }else if(estado_mesa==0){
-                        estado_mesa_str='<span class="badge badge-danger">Desaprobado</span>'
-                    }else if(estado_mesa==1){
-                        estado_mesa_str='<span class="badge badge-success">Aprobado</span>'
-                    }
-                    if(observacion==''){
-                        observacion='Ninguno'
+                    if(r.rta!='error'){
+                        r=r.rta
+                        console.log(r[0].apellidos)
+                        let nombreCompleto=r[0].nombre+' '+r[0].apellidos
+                        let estado_mesa=r[0].estado_mesa
+                        let observacion=r[0].observacion
+                        let estado_mesa_str=''
+                        //mostrar path HC
+                        let hc_path=base_url2('uploads/admision/')
+                        let hc=r[0].hc_path
+                        let hc_complete=hc_path+hc
+                        
+                        let rta_pdfs=''
+                        if(estado_mesa==-1){
+                            estado_mesa_str='<span class="badge badge-warning">Pendiente</span>'
+                        }else if(estado_mesa==0){
+                            estado_mesa_str='<span class="badge badge-danger">Desaprobado</span>'
+                        }else if(estado_mesa==1){
+                            estado_mesa_str='<span class="badge badge-success">Aprobado</span>'
+                            rta_pdfs=`<p>Historia Clinica <a href="${hc_complete}" target="_blank">Descargar</a></p>`
+                        }
+                        if(observacion==''){
+                            observacion='Ninguno'
+                        }
+    
+                        let rta_final=`
+                        <p>Solicitante: ${nombreCompleto}</p>
+                        <p>Estado de solicitud: ${estado_mesa_str}</p>
+                        <p>Observación: ${observacion}</p>
+                        `
+
+                        $('#rta_consulta').html(rta_final+rta_pdfs)
+                    }else{
+                        Alert.error('Ud. aún no hizo la solicitud de copia de HC')
                     }
 
-                    let rta_final=`
-                    <p>Solicitante: ${nombreCompleto}</p>
-                    <p>Estado de solicitud: ${estado_mesa_str}</p>
-                    <p>Observación: ${observacion}</p>
-                    <p>Historia Clinica <a href="${hc_complete}" target="_blank">Descargar</a></p>
-                    `
-                    $('#rta_consulta').html(rta_final);
 
                     /*
                     -1 -> pendiente

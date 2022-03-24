@@ -15,7 +15,7 @@ Solicitud HC
 <div class="container-fluid">
     <div class="row mt-2 mx-2">
         <h6 class="m-0 text-uppercase style-title text-primary">CREAR HC Y FILIACIÓN</h6>
-        <button class="btn btn-danger ml-auto" id="btnGenerarPdfHC">Generar PDF</button>
+        <!-- <button class="btn btn-danger ml-auto" id="btnGenerarPdfHC">Generar PDF</button> -->
     </div>
     <form id="formSolicitudPaciente" enctype="multipart/form-data">
         <div class="card-container">

@@ -245,9 +245,22 @@ class PacienteController extends BaseController
     }
     function buscarPacienteCodigo(){
         $ob=new Paciente();
+
         $data=$ob->buscarPacienteCodigo();
 
-        echo json_encode($data);
+        $data="";
+        if(sizeof($ob->buscarPacienteCodigo())==0){//No creo solicitud
+            //$data='Ud. aún no hizo la solicitud de copia de HC';
+            $data='error';
+        }else{
+            $data=$ob->buscarPacienteCodigo();
+        }
+
+
+        $output=[
+            'rta'=>$data
+        ];
+        echo json_encode($output);
     }
     
 }
