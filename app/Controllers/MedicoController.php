@@ -50,8 +50,6 @@ class MedicoController extends BaseController
             <button type="button" name="edit" class="btn btn-warning btn-sm edit" data-id="'.$row['id'].'" title="Editar"><i class="fas fa-edit"></i></button>
             </div>';
 
-            
-
             $sub_array=[
                 'id'=>$row['id'],
                 'nombre'=>$row['nombres_comp'],
@@ -72,13 +70,6 @@ class MedicoController extends BaseController
         echo json_encode($output, JSON_UNESCAPED_UNICODE);
     }
 
-    function fetch_single_data(){
-        if ($this->request->getVar('id')) {
-            $crudModel = new Mesapartes();
-            $data = $crudModel->where('id', $this->request->getVar('id'))->first();
-            echo json_encode($data);
-        }
-    }
 
     function saveAnotaciones(){
         $anotaciones=$this->request->getPost('anotaciones');

@@ -152,15 +152,14 @@ Solicitud HC
             </div>
         </div>
 
-        <div class="row">
+        <!-- <div class="row">
             <div class="col-lg-4 text-right">
                 <label for="" class="col-form-label">Subir Documento</label>
             </div>
             <div class="col-lg-2">
                 <input type="file" id="pdfAdmision" name="pdfAdmision">
             </div>
-            
-        </div>
+        </div> -->
 
         <div class="row my-3">
             <div class="col-lg-3">

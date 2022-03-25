@@ -71,14 +71,6 @@ class EnfermeriaController extends BaseController
         echo json_encode($output, JSON_UNESCAPED_UNICODE);
     }
 
-    function fetch_single_data(){
-        if ($this->request->getVar('id')) {
-            $crudModel = new Mesapartes();
-            $data = $crudModel->where('id', $this->request->getVar('id'))->first();
-            echo json_encode($data);
-        }
-    }
-
     function saveAnotaciones(){
         $anotaciones=$this->request->getPost('anotaciones');
         $etapa2=$this->request->getPost('etapa2');

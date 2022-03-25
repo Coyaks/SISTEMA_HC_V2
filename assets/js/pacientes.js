@@ -70,18 +70,19 @@ $(document).ready(function () {
                         let observacion=r[0].observacion
                         let estado_mesa_str=''
                         //mostrar path HC
-                        let hc_path=base_url2('uploads/admision/')
-                        let hc=r[0].hc_path
+                        let hc_path=base_url2('uploads/historia_clinica/')
+                        let hc=r[0].hc_path_fedateado
                         let hc_complete=hc_path+hc
                         
-                        let rta_pdfs=''
+                        let rta_pdf_hc=''
+                        let rta_pdf_citas=''
                         if(estado_mesa==-1){
                             estado_mesa_str='<span class="badge badge-warning">Pendiente</span>'
                         }else if(estado_mesa==0){
                             estado_mesa_str='<span class="badge badge-danger">Desaprobado</span>'
                         }else if(estado_mesa==1){
                             estado_mesa_str='<span class="badge badge-success">Aprobado</span>'
-                            rta_pdfs=`<p>Historia Clinica <a href="${hc_complete}" target="_blank">Descargar</a></p>`
+                            rta_pdf_hc=`<p>Historia Clinica <a href="${hc_complete}" target="_blank">Descargar</a></p>`
                         }
                         if(observacion==''){
                             observacion='Ninguno'
@@ -93,7 +94,7 @@ $(document).ready(function () {
                         <p>Observación: ${observacion}</p>
                         `
 
-                        $('#rta_consulta').html(rta_final+rta_pdfs)
+                        $('#rta_consulta').html(rta_final+rta_pdf_hc)
                     }else{
                         Alert.error('Ud. aún no hizo la solicitud de copia de HC')
                     }

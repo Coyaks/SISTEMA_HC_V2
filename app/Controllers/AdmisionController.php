@@ -119,8 +119,6 @@ class AdmisionController extends BaseController
     function saveHC()
     {
         //capturar datos de front
-        
-     
         $num = $this->request->getPost('num');
         $ieds = $this->request->getPost('ieds');
 
@@ -143,15 +141,17 @@ class AdmisionController extends BaseController
         $dni_acomp = $this->request->getPost('dni_acomp');
         $direccion_acomp = $this->request->getPost('direccion_acomp');
 
-        $ruta='uploads/admision/';
-        $admision_path=$_FILES['pdfAdmision'];
+        //$ruta='uploads/admision/';
+        //$admision_path=$_FILES['pdfAdmision'];
 
         //Esta validacion es obligatorio
         $new_name_admision='';
-        if($admision_path['name']!=''){
-            //Recién almaceno img en carpeta
-            $new_name_admision=upload_file_directorio($admision_path,$ruta);
-        }
+        // if($admision_path['name']!=''){
+        //     //Recién almaceno img en carpeta
+        //     $new_name_admision=upload_file_directorio($admision_path,$ruta);
+        // }
+        $nombreHc=$num_doc.'.pdf';
+        $nombreHcFedateado=$num_doc.'_fedateado.pdf';
         $qbHC = $this->db->table('historia_clinica')->insert([
             'num' => $num,
             'ieds' => $ieds,
@@ -173,7 +173,8 @@ class AdmisionController extends BaseController
             'nombre_acomp' => $nombre_acomp,
             'dni_acomp' => $dni_acomp,
             'dir_acomp' => $direccion_acomp,
-            'hc_path' => $new_name_admision,
+            'hc_path' => $nombreHc,
+            'hc_path_fedateado' => $nombreHcFedateado
         ]);
         $cod_cita = $this->request->getPost('cod_cita'); //cita
         //traer ultima insercion en table HC
@@ -184,16 +185,6 @@ class AdmisionController extends BaseController
             'idEspecialidad' => $especialidad,
             'idHistorial' => $idHistoria[0]['id']
         ]);
-
-        //GENERACION DE PDF Y ALMACENARLO EN UPLOADS
-        //GENERACION DE PDF Y ALMACENARLO EN UPLOADS
-        $dompdf = new Dompdf();
-        //START: OJO: OPCIONES PARA PERMITIR IMAGENES EN PDF
-        $options = $dompdf->getOptions();
-        $options->set(array('isRemoteEnabled' => true));
-        $dompdf->setOptions($options);
-        //END: OJO: OPCIONES PARA PERMITIR IMAGENES EN PDF
-        ////////////////// SIEMPRE ESTUVO LA SOL -> NO ME DI CUENTA//////////////////////
         
         $sello_path=base_url().'/assets/img/sello.jpg';
         $html="<table border='1' style='border-collapse: collapse; width: 100%;'>
@@ -302,18 +293,11 @@ class AdmisionController extends BaseController
             <img src='{$sello_path}' style='width:100px'>
     </div>
     ";
-        $numFile=2;
+        
+    $path='uploads/historia_clinica/';
+    $this->generadorPDF($html,$path,$nombreHc);
 
-        $dompdf->loadHtml($html);
-            $dompdf->setPaper('A4', 'landscape');
-            $dompdf->render();
-            $output = $dompdf->output();
-            $nombre=rand();
-            file_put_contents("uploads/historia_clinica/{$nombre}.pdf", $output);
-
-        // for($i=0;$i<$numFile;$i++){
-
-        // }
+    $this->generadorPDF($htmlFedateado,$path,$nombreHcFedateado);
 
         if ($qbHC == 1 && $qbCitas == 1) { //return 1 -> entra al if
             echo 'ok';
@@ -322,19 +306,6 @@ class AdmisionController extends BaseController
 
     function generacionReporteHC()
     {
-        //$num=$this->request->getPost('num')
-        // $dompdf = new Dompdf();
-        // $dompdf->loadHtml('hello world');
-
-        // // (Optional) Setup the paper size and orientation
-        // $dompdf->setPaper('A4', 'landscape');
-
-        // // Render the HTML as PDF
-        // $dompdf->render();
-
-        // // Output the generated PDF to Browser
-        // $dompdf->stream('reporteHC.pdf', array('Attachment' => true));
-        // exit;
         // instantiate and use the dompdf class
         $dompdf = new Dompdf();
 
@@ -399,7 +370,7 @@ class AdmisionController extends BaseController
                 </td>
             </tr>
         </tbody>
-    </table>";
+        </table>";
 
         $dompdf->loadHtml($html);
         $dompdf->setPaper('A4', 'landscape');
@@ -411,6 +382,21 @@ class AdmisionController extends BaseController
         // OJO: Salida del PDF generado al navegador
         //'Attachment'=> false ->no descargar  || true -> descargar
         //$dompdf->stream('reporteHC.pdf', array('Attachment' => true));
+    }
+
+    function generadorPDF($html,$path,$nameFile){
+        $dompdf = new Dompdf();
+        //START: OJO: OPCIONES PARA PERMITIR IMAGENES EN PDF
+        $options = $dompdf->getOptions();
+        $options->set(array('isRemoteEnabled' => true));
+        $dompdf->setOptions($options);
+        //END: OJO: OPCIONES PARA PERMITIR IMAGENES EN PDF
+        $dompdf->loadHtml($html);
+        $dompdf->setPaper('A4', 'landscape');
+        $dompdf->render();
+        $output = $dompdf->output();
+        //file_put_contents("{$path}{$nameFile}.pdf", $output);
+        file_put_contents("{$path}{$nameFile}", $output);
     }
 
     function movePDF()

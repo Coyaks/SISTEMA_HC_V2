@@ -53,7 +53,7 @@ $(document).ready(function () {
     // UPDATE
     $(document).on('click', '.edit', function () {
         var id = $(this).data('id');
-        $('#modalMesapartes').modal('show')
+        $('#modalFedateo').modal('show')
         $('#hidden_id').val(id);
         
     });
@@ -69,17 +69,18 @@ $(document).ready(function () {
         }
     });
 
-    $('#formMesapartes').submit(function (e) { 
+    //FORM FEDATEO
+    $('#formFedateo').submit(function (e) { 
         e.preventDefault();
 
         $.ajax({
-            url: "MesaController/updateMesa",
+            url: "FedateoController/updateFedateo",
             method: "POST",
             data: $(this).serialize(),
             //dataType: "JSON",
             success: function (data) {
                 if (data=='ok') {
-                    $('#modalMesapartes').modal('hide');
+                    $('#modalFedateo').modal('hide');
                     dataTables.ajax.reload();
                     Alert.success3('Guardado correctamente!')
                 } else {

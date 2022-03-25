@@ -40,10 +40,10 @@ Fedateo
 </div>
 
 <!-- Modal Usuario-->
-<div class="modal fade" id="modalMesapartes" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<div class="modal fade" id="modalFedateo" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog modal-lg">
         <!-- inicio de form -->
-        <form id="formMesapartes">
+        <form id="formFedateo">
             <div class="modal-content">
                 <div class="modal-header">
                     <h5 class="modal-title" id="exampleModalLabel"></h5>
@@ -55,7 +55,7 @@ Fedateo
                         <div class="col-lg-12">
                             <div class="form-group">
                                 <label for="">Estado <span class="text-danger">*</span></label>
-                                <select name="estado_mesa" id="estado_mesa" class="form-control">
+                                <select name="estado_fedateo" id="estado_fedateo" class="form-control">
                                     <option value="1">aprobar</option>
                                 </select>
                             </div>
