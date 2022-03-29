@@ -146,14 +146,14 @@
                         <?php
                         if ($_SESSION['idRol'] == 1) {
                         ?>
-                            <li class="nav-item active">
+                            <!-- <li class="nav-item active">
                                 <a href="<?= base_url('dashboard') ?>" class="nav-link">
                                     <i class="nav-icon fas fa-tachometer-alt"></i>
                                     <p>
                                         Dashboard
                                     </p>
                                 </a>
-                            </li>
+                            </li> -->
                         <?php
                         }
                         ?>
@@ -169,7 +169,7 @@
                                     <p>
                                         Administración
                                         <i class="fas fa-angle-left right"></i>
-                                        <span class="badge badge-info right">3</span>
+                                        <span class="badge badge-info right">2</span>
                                     </p>
                                 </a>
                                 <ul class="nav nav-treeview">
@@ -367,6 +367,10 @@
 
     <!-- CORE FUNCIONES JAVASCRIPT REUTILIZABLE -->
     <script src="<?= base_url('assets/js/core.js') ?>"></script>
+
+    <script>
+        const base_url='<?= base_url()?>';
+    </script>
 
     <!-- === Material Design Web JS === -->
     <script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>

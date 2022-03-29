@@ -74,10 +74,10 @@ Solicitud HC
                         <label for="">Celular</label>
                         <input type="text" class="form-control" name="celular" id="celular">
                     </div>
-                    <div class="col-lg-3">
+                    <!-- <div class="col-lg-3">
                         <label for="">Fijo</label>
                         <input type="text" class="form-control" name="fijo" id="fijo">
-                    </div>
+                    </div> -->
                 </div>
     
                 <div class="row mb-3">

@@ -62,6 +62,13 @@ Médico
                             </div>
                         </div>
                     </div>
+                    <!-- inputs hidden -->
+                    <input type="hidden" id="nombrePaciente" name="nombrePaciente">
+                    <input type="hidden" id="apellidosPaciente" name="apellidosPaciente">
+                    <input type="hidden" id="cod_hc" name="cod_hc">
+                    <input type="hidden" id="anotacionesEnfermera" name="anotacionesEnfermera">
+                    <input type="hidden" id="anotacionesMedico" name="anotacionesMedico">
+                    <input type="hidden" id="fechaHora" name="fechaHora">
 
                     <div class="row">
                         <div class="col-lg-12">

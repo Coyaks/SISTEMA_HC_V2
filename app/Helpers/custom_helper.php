@@ -10,7 +10,7 @@ function getDatetimeDB()
 {
     // Set the new timezone
     date_default_timezone_set('America/Lima');
-    $date = date('Y-m-d h:i:s');
+    $date = date('Y-m-d h:i:s'); //2022-02-25 10:20:00
     return $date;
 }
 

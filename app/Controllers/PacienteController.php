@@ -182,13 +182,8 @@ class PacienteController extends BaseController
         $num_doc=$this->request->getVar('num_doc');
 
         $datos_solicitud_update=[
-            //'nombre'      =>  $this->request->getVar('nombre'),
-           // 'apellidos'      =>  $apellidoCompleto,
-            //'tipo_doc'      =>  $this->request->getVar('tipo_doc'),
-            //'num_doc'      =>  $this->request->getVar('num_doc'),
-            //'email'       =>  $this->request->getVar('email'),
             'celular'       =>  $this->request->getVar('celular'),
-            'fijo'       =>  $this->request->getVar('fijo'),
+            // 'fijo'       =>  $this->request->getVar('fijo'),
             'direccion'       =>  $this->request->getVar('direccion'),
             'distrito'       =>  $this->request->getVar('distrito')
         ];
@@ -219,21 +214,6 @@ class PacienteController extends BaseController
         echo json_encode($output);
     }
 
-    // function fetchDatosPaciente(){
-    //     $userMe=$_SESSION['idUsuario'];
-    //     $qb=$this->db->table('usuarios');
-    //     $qb->where('id',$userMe);
-    //     $data=$qb->get()->getResultArray();
-    //     echo json_encode($data);
-    // }
-
-    // function fetchDatosPaciente(){
-    //     $userMe=$_SESSION['idUsuario'];
-    //     $qb=$this->db->table('historia_clinica');
-    //     $qb->where('idUsuario',$userMe);
-    //     $data=$qb->get()->getResultArray();
-    //     echo json_encode($data);
-    // }
     function fetchDatosPaciente(){
         $userMe=$_SESSION['idUsuario'];
         $qb=$this->db->table('historia_clinica h');

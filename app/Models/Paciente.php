@@ -20,7 +20,7 @@ class Paciente extends Model{
         solicitud_hc s ON
         u.id=s.idUsuario 
         JOIN historia_clinica h 
-        ON h.idUsuario=u.id where s.idUsuario=$id ORDER by s.created_at DESC limit 1";
+        ON h.idUsuario=u.id JOIN citas c ON c.idHistorial=h.id where s.idUsuario=$id ORDER by s.created_at DESC limit 1";
         //aun no genero solicitud para buscar
 
         $qb=$this->db->query($sql)->getResult();   

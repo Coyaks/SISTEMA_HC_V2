@@ -150,7 +150,9 @@ class FedateoController extends BaseController
             'estado_fedateo'=>$estado_fedateo,
         ]);
 
-        echo 'ok';
+        if($qb){
+            echo 'ok';
+        }
         
     }
     

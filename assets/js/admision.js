@@ -201,7 +201,9 @@ $(document).ready(function () {
 
     function autoNumHistoria() {
         let numRandon = Math.floor(Math.random() * 8999999 + 1000000)
+        let numRandon2 = Math.floor(Math.random() * 8999999 + 1000000)
         $('#num').val(numRandon);
+        $('#ieds').val(numRandon2);
     }
     autoNumHistoria()
 

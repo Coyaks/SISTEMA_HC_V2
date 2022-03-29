@@ -62,8 +62,39 @@ $(document).ready(function () {
     // UPDATE
     $(document).on('click', '.edit', function () {
         var id = $(this).data('id');
+
+        //truco juqery
+        fila = $(this).closest("tr");
+        nombrePaciente = fila.find("td:eq(1)").text();
+        apellidosPaciente = fila.find("td:eq(2)").text();
+        cod_hc = fila.find("td:eq(4)").text();
+        anotacionesEnfermera = fila.find("td:eq(5)").text();
+        anotacionesMedico = fila.find("td:eq(6)").text();
+        fechaHora = fila.find("td:eq(7)").text();
+
+        //asignar
+        $('#nombrePaciente').val(nombrePaciente);
+        $('#apellidosPaciente').val(apellidosPaciente);
+        $('#cod_hc').val(cod_hc);
+        $('#anotacionesEnfermera').val(anotacionesEnfermera);
+        $('#anotacionesMedico').val(anotacionesMedico);
+        $('#fechaHora').val(fechaHora);
+
         $('#modalMedico').modal('show')
         $('#hidden_id').val(id);
+
+        $.ajax({
+            type: 'POST',
+            url: 'MedicoController/fetch_single_data',
+            data: {
+                id:id
+            },
+            dataType: 'JSON',
+            success: function (r) {
+                console.log('anotaciones medico: ',r[0].anotacion_medico)
+                $('#anotaciones').val(r[0].anotacion_medico);
+            }
+        });
         
     });
 
@@ -73,6 +104,15 @@ $(document).ready(function () {
         let anotaciones=$('#anotaciones').val();
         let hidden_id=$('#hidden_id').val();
         console.log('aaa: ',$('#etapa2').is(':checked'))
+
+        //CAPTURO DATOS DE PACIENTE PARA PDF
+        let nombrePaciente=$('#nombrePaciente').val();
+        let apellidosPaciente =$('#apellidosPaciente').val();
+        let cod_hc=$('#cod_hc').val();
+        let anotacionesEnfermera=$('#anotacionesEnfermera').val();
+        let anotacionesMedico=$('#anotacionesMedico').val();
+        let fechaHora=$('#fechaHora').val();
+        
         
         let etapa2=0;
 
@@ -85,7 +125,14 @@ $(document).ready(function () {
             data: {
                 anotaciones:anotaciones,
                 etapa2:etapa2,
-                hidden_id:hidden_id
+                hidden_id:hidden_id,
+                
+                nombrePaciente:nombrePaciente,
+                apellidosPaciente:apellidosPaciente,
+                cod_hc:cod_hc,
+                anotacionesEnfermera:anotacionesEnfermera,
+                anotacionesMedico:anotacionesMedico,
+                fechaHora:fechaHora
             },
             dataType: "JSON",
             success: function (data) {

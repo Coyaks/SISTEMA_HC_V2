@@ -141,15 +141,8 @@ class AdmisionController extends BaseController
         $dni_acomp = $this->request->getPost('dni_acomp');
         $direccion_acomp = $this->request->getPost('direccion_acomp');
 
-        //$ruta='uploads/admision/';
-        //$admision_path=$_FILES['pdfAdmision'];
+        $date_created = getDatetimeDB();
 
-        //Esta validacion es obligatorio
-        $new_name_admision='';
-        // if($admision_path['name']!=''){
-        //     //Recién almaceno img en carpeta
-        //     $new_name_admision=upload_file_directorio($admision_path,$ruta);
-        // }
         $nombreHc=$num_doc.'.pdf';
         $nombreHcFedateado=$num_doc.'_fedateado.pdf';
         $qbHC = $this->db->table('historia_clinica')->insert([
@@ -174,7 +167,8 @@ class AdmisionController extends BaseController
             'dni_acomp' => $dni_acomp,
             'dir_acomp' => $direccion_acomp,
             'hc_path' => $nombreHc,
-            'hc_path_fedateado' => $nombreHcFedateado
+            'hc_path_fedateado' => $nombreHcFedateado,
+            'date_created' => $date_created
         ]);
         $cod_cita = $this->request->getPost('cod_cita'); //cita
         //traer ultima insercion en table HC
@@ -236,8 +230,8 @@ class AdmisionController extends BaseController
                 </td>
             </tr>
         </tbody>
-    </table>
-    ";
+        </table>
+        ";
 
         $htmlFedateado="<table border='1' style='border-collapse: collapse; width: 100%;'>
         <thead>
@@ -287,12 +281,18 @@ class AdmisionController extends BaseController
                     <span style='display:block'>DIRECCIÓN: {$direccion_acomp}</span>
                 </td>
             </tr>
+
+            <tr>
+                <td>
+                    <span style='display:block'>FECHA Y HORA: {$date_created}</span>
+                </td>
+            </tr>
         </tbody>
-    </table>
-    <div style='text-align: right; margin-top:10px'>
-            <img src='{$sello_path}' style='width:100px'>
-    </div>
-    ";
+        </table>
+            <div style='text-align: right; margin-top:10px'>
+                <img src='{$sello_path}' style='width:100px'>
+            </div>
+        ";
         
     $path='uploads/historia_clinica/';
     $this->generadorPDF($html,$path,$nombreHc);
@@ -392,7 +392,8 @@ class AdmisionController extends BaseController
         $dompdf->setOptions($options);
         //END: OJO: OPCIONES PARA PERMITIR IMAGENES EN PDF
         $dompdf->loadHtml($html);
-        $dompdf->setPaper('A4', 'landscape');
+        //$dompdf->setPaper('A4', 'landscape'); //-> forma horizontal
+        $dompdf->setPaper('A4', 'portrait'); //forma convencional
         $dompdf->render();
         $output = $dompdf->output();
         //file_put_contents("{$path}{$nameFile}.pdf", $output);
