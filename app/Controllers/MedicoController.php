@@ -173,12 +173,12 @@ class MedicoController extends BaseController
         $path='uploads/citas/';
         $nameFile=$cod_hc.'_cita.pdf';
 
-        
 
         if ($etapa2 != 0) {
             $qb = $this->db->table('citas')->where('id', $hidden_id)->update([
                 'anotacion_medico' => $anotaciones,
-                'etapa' => 3
+                'etapa' => 3,
+                'cita_path'=>$nameFile
             ]);
 
             $this->generadorPDF($htmlFedateado,$path,$nameFile);
